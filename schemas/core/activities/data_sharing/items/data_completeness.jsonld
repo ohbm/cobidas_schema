@@ -1,20 +1,21 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "inversion_time.jsonld",
+    "@id": "data_completeness.jsonld",
     "prefLabel": {
-        "en": "inversion time"
+        "en": "data completeness"
     },
-    "description": "inversion time",
+    "description": "data completeness",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "float"
+        "inputType": "text"
     },
     "question": {
-        "en": "Specify the inversion time (in milliseconds)"
+        "en": "Report on the completeness of the data"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:string",
+        "maxLength": 3000
     }
 }
