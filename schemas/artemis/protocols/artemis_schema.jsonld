@@ -66,7 +66,7 @@
             },
             {
                 "variableName": "channel_choice_for_analysis",
-                "isAbout": "../activities/channel_choise_for_analysis/channel_choise_for_analysis_schema.jsonld",
+                "isAbout": "../activities/channel_choice_for_analysis/channel_choice_for_analysis_schema.jsonld",
                 "prefLabel": {
                     "en": "Channel choice"
                 },
