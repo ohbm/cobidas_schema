@@ -28,6 +28,7 @@
             "items/FlipAngle.jsonld",
             "items/voxel_dimension.jsonld",
             "items/acquisition_time.jsonld",
+            "items/time_per_volume.jsonld",
             "items/InversionTime.jsonld",
             "items/field_of_view.jsonld",
             "items/in-plane_matrix_size.jsonld",
@@ -49,7 +50,8 @@
             "items/shimming.jsonld",
             "items/slice_timing.jsonld",
             "items/location_of_the_first_slice.jsonld",
-            "items/brain_coverage.jsonld"
+            "items/brain_coverage.jsonld",
+            "items/brain_coverage_millimeters.jsonld"
         ],
         "addProperties": [
             {
@@ -172,6 +174,15 @@
             {
                 "variableName": "acquisition_time",
                 "isAbout": "items/acquisition_time.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "time_per_volume",
+                "isAbout": "items/time_per_volume.jsonld",
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -371,6 +382,15 @@
                 "variableName": "brain_coverage",
                 "isAbout": "items/brain_coverage.jsonld",
                 "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "brain_coverage_millimeters",
+                "isAbout": "items/brain_coverage_millimeters.jsonld",
+                "isVis": "brain_coverage == 3",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"

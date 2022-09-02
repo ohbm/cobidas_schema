@@ -12,12 +12,12 @@
         "inputType": "select"
     },
     "question": {
-        "en": "Description of parallel imaging method"
+        "en": "1.29 - Description of parallel imaging method"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 2,
+        "maxValue": 1,
         "choices": [
             {
                 "name": {
@@ -30,12 +30,6 @@
                     "en": "SENSE"
                 },
                 "value": 1
-            },
-            {
-                "name": {
-                    "en": "other"
-                },
-                "value": 2
             }
         ],
         "multipleChoice": false

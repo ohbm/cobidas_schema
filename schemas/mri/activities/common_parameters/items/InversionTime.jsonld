@@ -12,9 +12,17 @@
         "inputType": "float"
     },
     "question": {
-        "en": "Specify the inversion time (in milliseconds)"
+        "en": "1.16 - Specify the inversion time "
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "milliseconds"
+                },
+                "value": "milliseconds"
+            }
+        ]
     }
 }

@@ -12,9 +12,17 @@
         "inputType": "float"
     },
     "question": {
-        "en": "Specify the echo time (in milliseconds)"
+        "en": "1.10 - Specify the echo time"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "milliseconds"
+                },
+                "value": "milliseconds"
+            }
+        ]
     }
 }

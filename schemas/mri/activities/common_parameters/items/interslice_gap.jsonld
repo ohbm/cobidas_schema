@@ -12,9 +12,17 @@
         "inputType": "float"
     },
     "question": {
-        "en": "Specify the interslice gap (in millimeters)"
+        "en": "1.21 - Specify the interslice gap "
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "millimeters"
+                },
+                "value": "millimeters"
+            }
+        ]
     }
 }

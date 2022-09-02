@@ -12,9 +12,17 @@
         "inputType": "float"
     },
     "question": {
-        "en": "Specify the repetition time (in milliseconds)"
+        "en": "1.11 - Specify the repetition time "
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "milliseconds"
+                },
+                "value": "milliseconds"
+            }
+        ]
     }
 }

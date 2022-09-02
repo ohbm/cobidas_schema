@@ -9,13 +9,29 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "radio"
     },
     "question": {
-        "en": "Mention any other parameters about parallel imaging like matrix coil mode, and coil combining method (if non\u00adstandard)"
+        "en": "1.31 - Mention any other parameters about parallel imaging like matrix coil mode, and coil combining method (if non\u00adstandard)"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 3000
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 1,
+        "choices": [
+            {
+                "name": {
+                    "en": "Matrix coil mode"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "coil combining method (if non\u00adstandard)"
+                },
+                "value": 1
+            }
+        ],
+        "multipleChoice": false
     }
 }

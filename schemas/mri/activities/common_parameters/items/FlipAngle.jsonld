@@ -12,9 +12,17 @@
         "inputType": "float"
     },
     "question": {
-        "en": "Specify the flip angle (in degrees)"
+        "en": "1.12 - Specify the flip angle"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "degrees"
+                },
+                "value": "degrees"
+            }
+        ]
     }
 }

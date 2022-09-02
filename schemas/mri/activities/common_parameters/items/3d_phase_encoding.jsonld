@@ -9,13 +9,13 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "question": {
-        "en": "Specify the 3D phase encoding direction"
+        "en": "1.26 - Specify the 3D phase encoding direction<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For 3D, specify \u201cpartition encode\u201d (aka slice) direction</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 3000
+        "maxLength": 300
     }
 }

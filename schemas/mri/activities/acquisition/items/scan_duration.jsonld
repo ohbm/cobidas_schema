@@ -12,9 +12,17 @@
         "inputType": "float"
     },
     "question": {
-        "en": "What was the scan duration (in seconds)?"
+        "en": "1.29 - What was the scan duration?"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "seconds"
+                },
+                "value": "seconds"
+            }
+        ]
     }
 }

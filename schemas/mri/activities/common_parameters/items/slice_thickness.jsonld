@@ -12,9 +12,17 @@
         "inputType": "float"
     },
     "question": {
-        "en": "Specify the slice thickness (in millimeters)"
+        "en": "1.20 - Specify the slice thickness "
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "millimeters"
+                },
+                "value": "millimeters"
+            }
+        ]
     }
 }

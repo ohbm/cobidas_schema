@@ -9,13 +9,13 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "question": {
-        "en": "Was any preprocessing done on the scanner side?"
+        "en": "1.23 - Was any preprocessing done on the scanner side?<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Reconstruction matrix size differing from acquisition matrix size</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 3000
+        "maxLength": 300
     }
 }

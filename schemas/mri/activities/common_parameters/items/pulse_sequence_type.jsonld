@@ -12,12 +12,12 @@
         "inputType": "select"
     },
     "question": {
-        "en": "Description of the pulse sequence used"
+        "en": "1.5 - Description of the pulse sequence used"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "minValue": 0,
-        "maxValue": 6,
+        "maxValue": 5,
         "choices": [
             {
                 "name": {
@@ -54,12 +54,6 @@
                     "en": "FLASH"
                 },
                 "value": 5
-            },
-            {
-                "name": {
-                    "en": "other"
-                },
-                "value": 6
             }
         ],
         "multipleChoice": false

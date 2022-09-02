@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "Specify the 3D matrix size"
+        "en": "1.22 - Specify the 3D matrix size"
     },
     "responseOptions": {
         "valueType": "xsd:float"

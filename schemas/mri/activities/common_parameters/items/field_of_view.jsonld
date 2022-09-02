@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "Specify the field of view"
+        "en": "1.17 - Specify the field of view"
     },
     "responseOptions": {
         "valueType": "xsd:float"

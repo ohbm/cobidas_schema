@@ -12,7 +12,7 @@
         "inputType": "number"
     },
     "question": {
-        "en": "Number of shots for multishot imaging"
+        "en": "1.8 - Number of shots for multishot imaging"
     },
     "responseOptions": {
         "valueType": "xsd:integer"

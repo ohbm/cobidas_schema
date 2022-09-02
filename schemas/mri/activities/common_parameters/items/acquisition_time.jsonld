@@ -12,9 +12,17 @@
         "inputType": "float"
     },
     "question": {
-        "en": "Specify the acquisition time (in milliseconds)"
+        "en": "1.14 - Specify the acquisition time "
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "milliseconds"
+                },
+                "value": "milliseconds"
+            }
+        ]
     }
 }

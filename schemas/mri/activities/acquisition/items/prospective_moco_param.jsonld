@@ -9,13 +9,13 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "question": {
-        "en": "Describe the prospective motion correction (details of any optical tracking, how motion parameters are used, ..."
+        "en": "1.25 - Describe the prospective motion correction.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Details of any optical tracking, how motion parameters are used...</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 3000
+        "maxLength": 300
     }
 }
