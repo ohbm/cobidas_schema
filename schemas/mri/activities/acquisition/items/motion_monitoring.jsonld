@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.57 - For functional or diffusion acquisitions, any visual or quantitative checks for severe motion. For structural images, checks on motion or general image quality"
+        "en": "1.58 - For functional or diffusion acquisitions, any visual or quantitative checks for severe motion. For structural images, checks on motion or general image quality"
     },
     "responseOptions": {
         "valueType": "xsd:string",

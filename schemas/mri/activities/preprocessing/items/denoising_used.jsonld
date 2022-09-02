@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.98 - Was any kind of denoising performed or were any nuisance covariate included in the subject level model?"
+        "en": "1.99 - Was any kind of denoising performed or were any nuisance covariate included in the subject level model?"
     },
     "responseOptions": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/response_options/boolean.jsonld"
 }

@@ -12,7 +12,7 @@
         "inputType": "text"
     },
     "question": {
-        "en": "1.18 - Specify the in-plane matrix size"
+        "en": "1.19 - Specify the in-plane matrix size"
     },
     "responseOptions": {
         "valueType": "xsd:string",

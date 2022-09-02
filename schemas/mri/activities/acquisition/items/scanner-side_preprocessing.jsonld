@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.23 - Was any preprocessing done on the scanner side?<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Reconstruction matrix size differing from acquisition matrix size</details></div>"
+        "en": "1.24 - Was any preprocessing done on the scanner side?<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Reconstruction matrix size differing from acquisition matrix size</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",

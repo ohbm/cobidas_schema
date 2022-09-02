@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.37 - Location of the labelling plane"
+        "en": "1.38 - ASL imaging:<br>Location of the labelling plane"
     },
     "responseOptions": {
         "valueType": "xsd:string",

@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "moco_parameters.jsonld",
+    "prefLabel": {
+        "en": "moco parameters"
+    },
+    "description": "moco parameters",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.33 - Any specific parameters for the motion correction that should be mentioned"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "choices": [
+            {
+                "name": {
+                    "en": "use of slice\u00ad-to-\u00advolume registration methods"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "moco integrated with slice time correction"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "image transformations were combined to allow a single interpolation"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true
+    }
+}

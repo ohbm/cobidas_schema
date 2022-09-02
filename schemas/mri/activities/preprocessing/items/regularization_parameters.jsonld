@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.89 - Parameter(s) used to set degree of regularization"
+        "en": "1.90 - Parameter(s) used to set degree of regularization"
     },
     "responseOptions": {
         "valueType": "xsd:string",

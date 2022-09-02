@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.42 - Stimulus characteristics<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, duration, frequency...</details></div>"
+        "en": "1.40 - Tactile stimuli: Stimulus characteristics<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, duration, frequency...</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",

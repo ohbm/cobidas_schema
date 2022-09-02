@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.85 - Specify any additional template transformation<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, if using a template in MNI space, but reporting coordinates in Talairach, clearly note and report method used (For example, Brett\u2019s mni2tal, Lancaster\u2019s icbm_spm2tal)</details></div>"
+        "en": "1.86 - Specify any additional template transformation<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, if using a template in MNI space, but reporting coordinates in Talairach, clearly note and report method used (For example, Brett\u2019s mni2tal, Lancaster\u2019s icbm_spm2tal)</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",

@@ -22,6 +22,12 @@
                     "en": "seconds"
                 },
                 "value": "seconds"
+            },
+            {
+                "prefLabel": {
+                    "en": "minutes"
+                },
+                "value": "minutes"
             }
         ]
     }

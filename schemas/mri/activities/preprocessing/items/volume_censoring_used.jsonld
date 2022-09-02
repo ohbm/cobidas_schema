@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.104 - Was volume censoring applied (a.k.a. \u201cscrubbing\u201d or \u201cde-spiking\u201d)?"
+        "en": "1.105 - Was volume censoring applied (a.k.a. \u201cscrubbing\u201d or \u201cde-spiking\u201d)?"
     },
     "responseOptions": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/response_options/boolean.jsonld"
 }

@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.84 - Name of target template image<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>The specific name of template image; note the domain of the template if not whole brain, i.e. cortical surface only, cerebellum only, CIFTI \u2018grayordinates\u2019 (cortical surface vertices + subcortical gray matter voxels)...</details></div>"
+        "en": "1.85 - Name of target template image<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>The specific name of template image; note the domain of the template if not whole brain, i.e. cortical surface only, cerebellum only, CIFTI \u2018grayordinates\u2019 (cortical surface vertices + subcortical gray matter voxels)...</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",

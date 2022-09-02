@@ -56,7 +56,7 @@
             {
                 "variableName": "number_of_groups",
                 "isAbout": "items/number_of_groups.jsonld",
-                "isVis": true,
+                "isVis": "group_comparison == 1",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"
@@ -101,7 +101,7 @@
             {
                 "variableName": "reason_for_exclusion",
                 "isAbout": "items/reason_for_exclusion.jsonld",
-                "isVis": "subjects_excluded == 1",
+                "isVis": "subjects_excluded > 0",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"
@@ -200,7 +200,7 @@
             {
                 "variableName": "handedness_method",
                 "isAbout": "items/handedness_method.jsonld",
-                "isVis": "handedness == 1",
+                "isVis": true,
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"
@@ -218,7 +218,7 @@
             {
                 "variableName": "exclusion_criteria_description",
                 "isAbout": "items/exclusion_criteria_description.jsonld",
-                "isVis": "exclusion_criteria == 1",
+                "isVis": "01",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"

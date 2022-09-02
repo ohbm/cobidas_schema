@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.44 - B1 amplitude"
+        "en": "1.45 - ASL imaging:<br>B1 amplitude"
     },
     "responseOptions": {
         "valueType": "xsd:float"

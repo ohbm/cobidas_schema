@@ -9,7 +9,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
-        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1P0BQcM0889YTBFSoY8-E0vfdp0psrl7vyHBAW0fSmqs/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>describe your behavrioal design</p>"
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1P0BQcM0889YTBFSoY8-E0vfdp0psrl7vyHBAW0fSmqs/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>describe your behavioral design</p>"
     },
     "ui": {
         "shuffle": false,
@@ -28,11 +28,9 @@
             "items/presentation_software_version.jsonld",
             "items/operating_system.jsonld",
             "items/url_to_code.jsonld",
-            "items/condition.jsonld",
             "items/instructions.jsonld",
             "items/stimuli.jsonld",
             "items/randomization.jsonld",
-            "items/deterministic.jsonld",
             "items/pseudo-random.jsonld",
             "items/run_order.jsonld",
             "items/counterbalance.jsonld",
@@ -59,6 +57,7 @@
             "items/somatosensory_location.jsonld",
             "items/somatosensoty_intensity.jsonld",
             "items/other_stimulation.jsonld",
+            "items/condition.jsonld",
             "items/practice_sessions.jsonld",
             "items/feedbacks.jsonld",
             "items/variables_recorded.jsonld"
@@ -191,15 +190,6 @@
                 ]
             },
             {
-                "variableName": "condition",
-                "isAbout": "items/condition.jsonld",
-                "isVis": true,
-                "requiredValue": false,
-                "allow": [
-                    "reproschema:Skipped"
-                ]
-            },
-            {
                 "variableName": "instructions",
                 "isAbout": "items/instructions.jsonld",
                 "isVis": true,
@@ -227,18 +217,9 @@
                 ]
             },
             {
-                "variableName": "deterministic",
-                "isAbout": "items/deterministic.jsonld",
-                "isVis": true,
-                "requiredValue": false,
-                "allow": [
-                    "reproschema:Skipped"
-                ]
-            },
-            {
                 "variableName": "pseudo-random",
                 "isAbout": "items/pseudo-random.jsonld",
-                "isVis": true,
+                "isVis": "randomization==2",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"
@@ -464,6 +445,15 @@
                 "variableName": "other_stimulation",
                 "isAbout": "items/other_stimulation.jsonld",
                 "isVis": "modality_used.includes(4)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "condition",
+                "isAbout": "items/condition.jsonld",
+                "isVis": true,
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"

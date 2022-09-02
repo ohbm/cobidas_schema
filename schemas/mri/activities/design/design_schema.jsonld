@@ -9,7 +9,7 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
-        "en": ""
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1Llmi8Y-XBiH6WEeFzTefSIJXNP_vRKn_vpXEhtbQEF8/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Describe your design</p>"
     },
     "ui": {
         "shuffle": false,
@@ -18,7 +18,14 @@
             "items/total_scanning_time.jsonld",
             "items/design_optimization_used.jsonld",
             "items/design_optimization_method.jsonld",
-            "items/scanner_synchronisation.jsonld"
+            "items/scanner_synchronisation.jsonld",
+            "items/power_analysis_used.jsonld",
+            "items/effect_size.jsonld",
+            "items/outcome.jsonld",
+            "items/source_of_predicted_effect_size.jsonld",
+            "items/significance_level.jsonld",
+            "items/target_power.jsonld",
+            "items/other_power_analysis_parameters.jsonld"
         ],
         "addProperties": [
             {
@@ -61,6 +68,69 @@
                 "variableName": "scanner_synchronisation",
                 "isAbout": "items/scanner_synchronisation.jsonld",
                 "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "power_analysis_used",
+                "isAbout": "items/power_analysis_used.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "effect_size",
+                "isAbout": "items/effect_size.jsonld",
+                "isVis": "power_analysis_used == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "outcome",
+                "isAbout": "items/outcome.jsonld",
+                "isVis": "power_analysis_used == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "source_of_predicted_effect_size",
+                "isAbout": "items/source_of_predicted_effect_size.jsonld",
+                "isVis": "power_analysis_used == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "significance_level",
+                "isAbout": "items/significance_level.jsonld",
+                "isVis": "power_analysis_used == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "target_power",
+                "isAbout": "items/target_power.jsonld",
+                "isVis": "power_analysis_used == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "other_power_analysis_parameters",
+                "isAbout": "items/other_power_analysis_parameters.jsonld",
+                "isVis": "power_analysis_used == 1",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"

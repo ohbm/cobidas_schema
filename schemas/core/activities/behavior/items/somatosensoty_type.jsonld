@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.41 - Stimulus type"
+        "en": "1.39 - Tactile stimuli: Stimulus type"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

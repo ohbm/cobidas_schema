@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.38 - Average labelling gradient"
+        "en": "1.39 - ASL imaging:<br>Average labelling gradient"
     },
     "responseOptions": {
         "valueType": "xsd:string",

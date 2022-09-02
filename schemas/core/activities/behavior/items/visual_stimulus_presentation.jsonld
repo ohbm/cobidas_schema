@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.27 - Specify the presentation hardware "
+        "en": "1.25 - Visual stimuli: Specify the presentation hardware "
     },
     "responseOptions": {
         "valueType": "xsd:integer",

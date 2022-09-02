@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.33 - Describe readout parameters (receiver bandwidth, readout duration, echo spacing)"
+        "en": "1.34 - Describe readout parameters (receiver bandwidth, readout duration, echo spacing)"
     },
     "responseOptions": {
         "valueType": "xsd:string",

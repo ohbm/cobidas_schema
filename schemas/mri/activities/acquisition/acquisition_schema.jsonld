@@ -20,11 +20,16 @@
             "items/experimenter_personnel.jsonld",
             "items/coil_receive.jsonld",
             "items/func_number_of_volumes.jsonld",
+            "items/func_sparse_sampling_delay.jsonld",
+            "items/dwi_number_of_directions.jsonld",
             "items/dwi_direction_optimization_used.jsonld",
             "items/dwi_direction_optimization_type.jsonld",
             "items/dwi_b_values.jsonld",
             "items/dwi_nb_of_b0_images.jsonld",
+            "items/dwi_number_of_averages.jsonld",
             "items/dwi_single_multi_shell.jsonld",
+            "items/dwi_echo_type.jsonld",
+            "items/dwi_gradient_mode.jsonld",
             "items/dwi_cardiac_gating.jsonld",
             "items/scanner-side_preprocessing.jsonld",
             "items/prospective_moco_used.jsonld",
@@ -33,6 +38,7 @@
             "items/signal_inhomogeneity_correction_param.jsonld",
             "items/distortion_correction_used.jsonld",
             "items/scan_duration.jsonld",
+            "items/other_nonstandard_procedures.jsonld",
             "items/perf_labelling_method.jsonld",
             "items/perf_background_suppression_pulses.jsonld",
             "items/perf_label_duration.jsonld",
@@ -116,6 +122,24 @@
                 ]
             },
             {
+                "variableName": "func_sparse_sampling_delay",
+                "isAbout": "items/func_sparse_sampling_delay.jsonld",
+                "isVis": "modality.includes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "dwi_number_of_directions",
+                "isAbout": "items/dwi_number_of_directions.jsonld",
+                "isVis": "modality.includes(3)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
                 "variableName": "dwi_direction_optimization_used",
                 "isAbout": "items/dwi_direction_optimization_used.jsonld",
                 "isVis": "modality.includes(3)",
@@ -152,8 +176,35 @@
                 ]
             },
             {
+                "variableName": "dwi_number_of_averages",
+                "isAbout": "items/dwi_number_of_averages.jsonld",
+                "isVis": "modality.includes(3)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
                 "variableName": "dwi_single_multi_shell",
                 "isAbout": "items/dwi_single_multi_shell.jsonld",
+                "isVis": "modality.includes(3)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "dwi_echo_type",
+                "isAbout": "items/dwi_echo_type.jsonld",
+                "isVis": "modality.includes(3)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "dwi_gradient_mode",
+                "isAbout": "items/dwi_gradient_mode.jsonld",
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -226,6 +277,15 @@
             {
                 "variableName": "scan_duration",
                 "isAbout": "items/scan_duration.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "other_nonstandard_procedures",
+                "isAbout": "items/other_nonstandard_procedures.jsonld",
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

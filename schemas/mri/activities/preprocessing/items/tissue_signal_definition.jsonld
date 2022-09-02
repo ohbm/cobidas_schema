@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.103 - Method to define signal in each tissue class"
+        "en": "1.104 - Method to define signal in each tissue class"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

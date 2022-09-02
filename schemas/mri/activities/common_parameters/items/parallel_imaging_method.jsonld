@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.29 - Description of parallel imaging method"
+        "en": "1.30 - Description of parallel imaging method"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

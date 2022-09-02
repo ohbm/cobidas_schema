@@ -1,0 +1,49 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "outcome.jsonld",
+    "prefLabel": {
+        "en": "outcome"
+    },
+    "description": "outcome",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "1.8 - The type of outcome used as the basis of power computations"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "choices": [
+            {
+                "name": {
+                    "en": "signal in a pre\u00adspecified ROI"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "signal in a whole image voxelwise"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "signal in a whole image cluster\u00adwise"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "signal in a whole image peak\u00adwise"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": false
+    }
+}

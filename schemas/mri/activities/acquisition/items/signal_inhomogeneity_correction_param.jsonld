@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.27 - Describe the signal inhomogeneity correction"
+        "en": "1.28 - Describe the signal inhomogeneity correction"
     },
     "responseOptions": {
         "valueType": "xsd:string",

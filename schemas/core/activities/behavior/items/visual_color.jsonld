@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.31 - Color"
+        "en": "1.29 - Visual stimuli: Color"
     },
     "responseOptions": {
         "valueType": "xsd:string",

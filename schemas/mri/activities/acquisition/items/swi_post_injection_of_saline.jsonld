@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.55 - post-injection of saline<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, 20 ml</details></div>"
+        "en": "1.56 - Susceptibility weighted imaging:<br>post-injection of saline<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, 20 ml</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:float"

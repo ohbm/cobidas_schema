@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.13 - Specify the voxel dimensions "
+        "en": "1.14 - Specify the voxel dimensions "
     },
     "responseOptions": {
         "valueType": "xsd:string",

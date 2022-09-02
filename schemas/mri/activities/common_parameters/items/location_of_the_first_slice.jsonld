@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.37 - Location of the first slice"
+        "en": "1.38 - Location of the first slice"
     },
     "responseOptions": {
         "valueType": "xsd:string",

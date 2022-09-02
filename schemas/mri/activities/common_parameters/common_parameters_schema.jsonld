@@ -22,6 +22,7 @@
             "items/pulse_sequence_details.jsonld",
             "items/imaging_type.jsonld",
             "items/number_of_shots.jsonld",
+            "items/partial_fourrier_used.jsonld",
             "items/partial_fourrier_scheme.jsonld",
             "items/EchoTime.jsonld",
             "items/RepetitionTime.jsonld",
@@ -127,9 +128,18 @@
                 ]
             },
             {
+                "variableName": "partial_fourrier_used",
+                "isAbout": "items/partial_fourrier_used.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
                 "variableName": "partial_fourrier_scheme",
                 "isAbout": "items/partial_fourrier_scheme.jsonld",
-                "isVis": true,
+                "isVis": "partial fourrier used == 1",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"

@@ -1,0 +1,73 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "tables_of_coordinates.jsonld",
+    "prefLabel": {
+        "en": "tables of coordinates"
+    },
+    "description": "tables of coordinates",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.12 - P\u00ad-value forming basis of inference"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 7,
+        "choices": [
+            {
+                "name": {
+                    "en": "voxel\u00ad-wise FWE corrected"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "voxel\u00ad-wise FDR corrected"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "voxel\u00ad-wise FWE uncorrected"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "cluster-wise FWE corrected"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "cluster-wise FDR corrected"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "cluster-wise FWE uncorrected"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "TFCE"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": true
+    }
+}

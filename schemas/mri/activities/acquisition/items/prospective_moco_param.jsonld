@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.25 - Describe the prospective motion correction.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Details of any optical tracking, how motion parameters are used...</details></div>"
+        "en": "1.26 - Describe the prospective motion correction.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Details of any optical tracking, how motion parameters are used...</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",

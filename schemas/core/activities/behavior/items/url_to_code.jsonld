@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.14 - Specify the URL of the experiment code if possible"
+        "en": "1.14 - Specify the URL of the experiment code."
     },
     "responseOptions": {
         "valueType": "xsd:string",

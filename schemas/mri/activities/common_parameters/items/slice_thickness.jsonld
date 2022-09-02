@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.20 - Specify the slice thickness "
+        "en": "1.21 - Specify the slice thickness "
     },
     "responseOptions": {
         "valueType": "xsd:float",

@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.43 - Control scan/pulse used"
+        "en": "1.44 - ASL imaging:<br>Control scan/pulse used"
     },
     "responseOptions": {
         "valueType": "xsd:string",

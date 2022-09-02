@@ -9,14 +9,16 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "preamble": {
-        "en": ""
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1PFS6KfDC25fFad9Vf2A1v05vKQt1lHHElT3EW1ZdT9M/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Describe your preprocessing</p>"
     },
     "ui": {
         "shuffle": false,
         "order": [
             "items/modality.jsonld",
+            "items/single_preprocessing_software.jsonld",
             "items/preprocessing_software.jsonld",
             "items/preprocessing_software_version.jsonld",
+            "items/software_citation.jsonld",
             "items/operation_performed.jsonld",
             "items/order_of_operation.jsonld",
             "items/t1_stabilization.jsonld",
@@ -44,6 +46,8 @@
             "items/moco_reference.jsonld",
             "items/moco_cost_function.jsonld",
             "items/moco_interpolation.jsonld",
+            "items/moco_parameters.jsonld",
+            "items/dwi_subject_custom_atlas.jsonld",
             "items/func_anat_coreg_software.jsonld",
             "items/func_anat_coreg_version.jsonld",
             "items/func_anat_coreg_method.jsonld",
@@ -105,6 +109,15 @@
                 ]
             },
             {
+                "variableName": "single_preprocessing_software",
+                "isAbout": "items/single_preprocessing_software.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
                 "variableName": "preprocessing_software",
                 "isAbout": "items/preprocessing_software.jsonld",
                 "isVis": "single_preprocessing_software == 1",
@@ -117,6 +130,15 @@
                 "variableName": "preprocessing_software_version",
                 "isAbout": "items/preprocessing_software_version.jsonld",
                 "isVis": "single_preprocessing_software == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "software_citation",
+                "isAbout": "items/software_citation.jsonld",
+                "isVis": true,
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"
@@ -360,6 +382,24 @@
                 "variableName": "moco_interpolation",
                 "isAbout": "items/moco_interpolation.jsonld",
                 "isVis": "operation_performed.includes(2)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "moco_parameters",
+                "isAbout": "items/moco_parameters.jsonld",
+                "isVis": "operation_performed.includes(2)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "dwi_subject_custom_atlas",
+                "isAbout": "items/dwi_subject_custom_atlas.jsonld",
+                "isVis": "dwi_reference_population == 1",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"

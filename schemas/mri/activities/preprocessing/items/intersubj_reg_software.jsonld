@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.75 - Software used for intersubject registration"
+        "en": "1.76 - Software used for intersubject registration"
     },
     "responseOptions": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/response_options/mri_softwares.jsonld"
 }

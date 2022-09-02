@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "significance_level.jsonld",
+    "prefLabel": {
+        "en": "significance level"
+    },
+    "description": "significance level",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.10 - Significance level<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>uncorrected alpha 0.05 for an ROI | FWE\u00adcorrected alpha 0.05</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "choices": [
+            {
+                "name": {
+                    "en": "uncorrected alpha 0.05 for an ROI"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "FWE\u00ad corrected alpha 0.05"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": false
+    }
+}

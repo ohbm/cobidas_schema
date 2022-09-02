@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.73 - Interpolation method used for the functional - anatomical coregistration"
+        "en": "1.74 - Interpolation method used for the functional - anatomical coregistration"
     },
     "responseOptions": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/response_options/interpolations.jsonld"
 }

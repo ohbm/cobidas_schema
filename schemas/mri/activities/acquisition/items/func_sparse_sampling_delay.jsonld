@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "func_sparse_sampling_delay.jsonld",
+    "prefLabel": {
+        "en": "func sparse sampling delay"
+    },
+    "description": "func sparse sampling delay",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "float"
+    },
+    "question": {
+        "en": "1.12 - Functional imaging:<br>Specify the sparse sampling delay if any."
+    },
+    "responseOptions": {
+        "valueType": "xsd:float"
+    }
+}

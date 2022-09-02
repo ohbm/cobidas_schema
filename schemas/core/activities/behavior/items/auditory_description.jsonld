@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.36 - Stimulus properties<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, frequency content, duration, onset/offset envelope...</details></div>"
+        "en": "1.34 - Audio stimuli: Stimulus properties<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, frequency content, duration, onset/offset envelope...</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",

@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.29 - Viewing distance"
+        "en": "1.27 - Visual stimuli: Viewing distance"
     },
     "responseOptions": {
         "valueType": "xsd:float",
@@ -22,6 +22,12 @@
                     "en": "meters"
                 },
                 "value": "meters"
+            },
+            {
+                "prefLabel": {
+                    "en": "cm"
+                },
+                "value": "cm"
             }
         ]
     }

@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.71 - Number of degrees of freedom for the functional - anatomical coregistration<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Type of transformation (rigid: 6 degrees of freedom, nonlinear)\u037e if nonlinear, type of transformation</details></div>"
+        "en": "1.72 - Number of degrees of freedom for the functional - anatomical coregistration<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Type of transformation (rigid: 6 degrees of freedom, nonlinear)\u037e if nonlinear, type of transformation</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:float"

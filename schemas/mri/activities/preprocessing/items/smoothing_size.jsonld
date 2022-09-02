@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.116 - The full-width at half-maximum of the smoothing kernel in millimeters"
+        "en": "1.117 - The full-width at half-maximum of the smoothing kernel in millimeters"
     },
     "responseOptions": {
         "valueType": "xsd:float"

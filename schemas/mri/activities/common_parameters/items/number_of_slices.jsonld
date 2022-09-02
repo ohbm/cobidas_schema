@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.19 - Specify the number of slices"
+        "en": "1.20 - Specify the number of slices"
     },
     "responseOptions": {
         "valueType": "xsd:float"

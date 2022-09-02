@@ -1,21 +1,20 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "deterministic.jsonld",
+    "@id": "dwi_number_of_directions.jsonld",
     "prefLabel": {
-        "en": "deterministic"
+        "en": "dwi number of directions"
     },
-    "description": "deterministic",
+    "description": "dwi number of directions",
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "ui": {
-        "inputType": "textarea"
+        "inputType": "number"
     },
     "question": {
-        "en": "1.19 - Specify inter-trial distritbution and blocklength"
+        "en": "1.14 - Diffusion weighted imaging:<br>Number of direction used."
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
+        "valueType": "xsd:integer"
     }
 }

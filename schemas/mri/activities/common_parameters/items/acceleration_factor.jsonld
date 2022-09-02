@@ -12,7 +12,7 @@
         "inputType": "number"
     },
     "question": {
-        "en": "1.30 - Pamaters of parallel imaging method (acceleration factor)"
+        "en": "1.31 - Pamaters of parallel imaging method (acceleration factor)"
     },
     "responseOptions": {
         "valueType": "xsd:integer"

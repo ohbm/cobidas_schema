@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.32 - Site of the stimulation"
+        "en": "1.30 - Visual stimuli: Site of the stimulation"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

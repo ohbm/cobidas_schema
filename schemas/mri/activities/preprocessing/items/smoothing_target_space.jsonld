@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.118 - Space in which smoothing is performed"
+        "en": "1.119 - Space in which smoothing is performed"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

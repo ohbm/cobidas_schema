@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.16 - Direction optimization type"
+        "en": "1.16 - Diffusion weighted imaging:<br>direction optimization type"
     },
     "responseOptions": {
         "valueType": "xsd:string",

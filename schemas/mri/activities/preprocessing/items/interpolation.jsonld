@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.109 - Interpolation used for volume censoring"
+        "en": "1.110 - Interpolation used for volume censoring"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

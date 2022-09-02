@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dwi_subject_custom_atlas.jsonld",
+    "prefLabel": {
+        "en": "dwi subject custom atlas"
+    },
+    "description": "dwi subject custom atlas",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "question": {
+        "en": "1.54 - Diffusion weighted imaging:<br>Specify set of subjects used to create custom atlas"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}

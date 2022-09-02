@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.15 - Specify the acquisition time per volume"
+        "en": "1.16 - Specify the acquisition time per volume"
     },
     "responseOptions": {
         "valueType": "xsd:float",

@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.34 - Display device and method of projection<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>- refresh rate  - response time of the monitors.</details></div>"
+        "en": "1.32 - Visual stimuli: Display device and method of projection<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>- refresh rate  - response time of the monitors.</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:string",

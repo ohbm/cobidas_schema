@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.17 - List of b values"
+        "en": "1.17 - Diffusion weighted imaging:<br>list of b values"
     },
     "responseOptions": {
         "valueType": "xsd:string",

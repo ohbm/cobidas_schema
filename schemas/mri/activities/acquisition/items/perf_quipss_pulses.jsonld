@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.47 - Use of QUIPSS pulses and their timing"
+        "en": "1.48 - ASL imaging:<br>Use of QUIPSS pulses and their timing"
     },
     "responseOptions": {
         "valueType": "xsd:string",
