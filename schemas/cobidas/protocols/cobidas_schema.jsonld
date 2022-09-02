@@ -22,6 +22,7 @@
             "../../core/activities/behavior/behavior_schema.jsonld",
             "../../mri/activities/common_parameters/common_parameters_schema.jsonld",
             "../../mri/activities/acquisition/acquisition_schema.jsonld",
+            "../../activities/preprocessing/preprocessing_schema.jsonld",            
             "../../core/activities/data_sharing/data_sharing_schema.jsonld",
             "../../core/activities/reproducibility/reproducibility_schema.jsonld"
         ],
@@ -97,7 +98,19 @@
                 "allow": [
                     "reproschema:Skipped"
                 ]
-            }
+            },
+            {
+                "variableName": "preprocessing",
+                "isAbout": "../../activities/preprocessing/preprocessing_schema.jsonld",
+                "prefLabel": {
+                    "en": "Preprocessing"
+                },
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            }            
         ],
         "allow": [
             "reproschema:AutoAdvance",
