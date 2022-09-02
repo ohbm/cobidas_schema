@@ -6,7 +6,7 @@
       the different components of the COBIDAS protocol.
     </p>
     <p>
-      This checklist is still work in progress. The current prototype has been
+      This checklist has been
       built using the 88 metadata items list used by the
       <a href="https://neurovault.org/">Neurovault website</a> when uploading
       your neuroimaging results.
@@ -67,7 +67,7 @@
     <p>
       Follow the link if you want to know more about the
       <a
-        href="https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/why_this_project.md"
+        href="https://remi-gau.github.io/eCobidas/10-motivations/"
         >motivations behind this project</a
       >.
     </p>
@@ -80,12 +80,10 @@
         href="https://www.humanbrainmapping.org/cobidas/"
         >COBIDAS</a
       >) of the
-      <a href="https://www.humanbrainmapping.org"
-        >Organization for Human Brain Mapping.</a
-      >
+      <a href="https://www.humanbrainmapping.org">Organization for Human Brain Mapping.</a>
     </p>
     <p>
-      Currently the sections and items in the checklist correspond to the list
+      The sections and items in this checklist correspond to the list
       of metadata used by
       <a href="https://neurovault.org/">neurovault website</a> when uploading
       your neuroimaging results.
@@ -99,39 +97,10 @@
     <h2>Want to help?</h2>
     <p>
       We are currently working on trying to expand the number of items used in
-      the checklist. All of this work is done in google spreadsheets.
+      the checklist. All of this work is done in google spreadsheets: 
+      the spreadsheet for each section is accessible by clicking on the <b>Source</b>
+      at the top of each page.
     </p>
-    <ul>
-      <li>
-        the MRI spreadsheet is accessible
-        <a
-          href="https://docs.google.com/spreadsheets/d/1dCXP0MTK3DjY09ZFd7FXgv0Ngx16_YJwVBiXOeQbTho/edit?usp=sharing"
-          >here</a
-        >
-      </li>
-      <li>
-        the M/EEG spreadsheet is accessible
-        <a
-          href="https://docs.google.com/spreadsheets/d/1OhkmbtgIWdFxSVjpu6A8PWoAuqev0jY-98GFQlwBCy0/edit?usp=sharing"
-          >here</a
-        >
-      </li>
-      <li>
-        the PET spreadsheet is accessible
-        <a
-          href="https://docs.google.com/spreadsheets/d/1HS-1KOP8nE7C3MHiyRmQ6hd823cBZnCRVq0UryXvDc8/edit?usp=sharing"
-          >here</a
-        >
-      </li>
-      <li>
-        for more information on the content and organization of these
-        spreadsheets, see the dedicated
-        <a
-          href="https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/spreadsheet_content.md"
-          >document.</a
-        >
-      </li>
-    </ul>
     <h2>Want to know more?</h2>
     <p>
       Most of the information concerning this project can be found on this
@@ -151,11 +120,7 @@
       <a
         href="https://mattermost.brainhack.org/brainhack/channels/cobidas_checklist"
       >
-        <img
-          src="https://raw.githubusercontent.com/ohbm/eCOBIDAS/master/images/mattermost.png"
-          width="100px"
-        />
-        channel.
+        <img src="https://raw.githubusercontent.com/ohbm/eCOBIDAS/master/images/mattermost.png" width="100px" /> channel.
       </a>
     </p>
     <p>
@@ -164,7 +129,7 @@
     </p>
     <p>
       We have a
-      <a href="https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/goals.md"
+      <a href="https://remi-gau.github.io/eCobidas/21-short-term/"
         >list</a
       >
       of short, middle, long term goals: if you are interested by any of those
@@ -176,7 +141,7 @@
     <p>
       The list of the people involved in this project can be found
       <a
-        href="https://github.com/Remi-Gau/COBIDAS_chckls/blob/master/contributions.md#whos-who-on-the-cobidas-checklist-team"
+        href="https://remi-gau.github.io/eCobidas/90-contributors/"
         >here</a
       >.
     </p>
