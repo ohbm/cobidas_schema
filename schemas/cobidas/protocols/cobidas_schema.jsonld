@@ -140,7 +140,7 @@
             },
             {
                 "variableName": "preprocessing",
-                "isAbout": "../../activities/preprocessing/preprocessing_schema.jsonld",
+                "isAbout": "../../mri/activities/preprocessing/preprocessing_schema.jsonld",
                 "prefLabel": {
                     "en": "Preprocessing"
                 },
