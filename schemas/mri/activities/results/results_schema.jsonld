@@ -1,0 +1,155 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "results_schema.jsonld",
+    "prefLabel": {
+        "en": "Results"
+    },
+    "description": "results",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": ""
+    },
+    "ui": {
+        "shuffle": false,
+        "order": [
+            "items/analysis_type.jsonld",
+            "items/effects_tested.jsonld",
+            "items/extracted_data.jsonld",
+            "items/units_of_reported_results.jsonld",
+            "items/link_unthresholded_maps.jsonld",
+            "items/link_thresholded_maps.jsonld",
+            "items/link_effect_size_maps.jsonld",
+            "items/spatial_features.jsonld",
+            "items/spatial_smoothness_of_noise.jsonld",
+            "items/resel_count.jsonld",
+            "items/ica_analyses.jsonld",
+            "items/graph_analyses.jsonld",
+            "items/optimised_evaluation_metrics.jsonld"
+        ],
+        "addProperties": [
+            {
+                "variableName": "analysis_type",
+                "isAbout": "items/analysis_type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "effects_tested",
+                "isAbout": "items/effects_tested.jsonld",
+                "isVis": "analysis_type.includes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "extracted_data",
+                "isAbout": "items/extracted_data.jsonld",
+                "isVis": "analysis_type.includes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "units_of_reported_results",
+                "isAbout": "items/units_of_reported_results.jsonld",
+                "isVis": "analysis_type.includes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "link_unthresholded_maps",
+                "isAbout": "items/link_unthresholded_maps.jsonld",
+                "isVis": "analysis_type.includes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "link_thresholded_maps",
+                "isAbout": "items/link_thresholded_maps.jsonld",
+                "isVis": "analysis_type.includes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "link_effect_size_maps",
+                "isAbout": "items/link_effect_size_maps.jsonld",
+                "isVis": "analysis_type.includes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "spatial_features",
+                "isAbout": "items/spatial_features.jsonld",
+                "isVis": "analysis_type.includes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "spatial_smoothness_of_noise",
+                "isAbout": "items/spatial_smoothness_of_noise.jsonld",
+                "isVis": "analysis_type.includes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "resel_count",
+                "isAbout": "items/resel_count.jsonld",
+                "isVis": "analysis_type.includes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "ica_analyses",
+                "isAbout": "items/ica_analyses.jsonld",
+                "isVis": "analysis_type.includes(2)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "graph_analyses",
+                "isAbout": "items/graph_analyses.jsonld",
+                "isVis": "analysis_type.includes(2)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "optimised_evaluation_metrics",
+                "isAbout": "items/optimised_evaluation_metrics.jsonld",
+                "isVis": "analysis_type.includes(3)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}

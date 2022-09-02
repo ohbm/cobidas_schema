@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "analysis_type.jsonld",
+    "prefLabel": {
+        "en": "analysis type"
+    },
+    "description": "analysis type",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.1 - Type of analysis performed"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "choices": [
+            {
+                "name": {
+                    "en": "mass univariate"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "connectivity"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "multivariate"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": true
+    }
+}

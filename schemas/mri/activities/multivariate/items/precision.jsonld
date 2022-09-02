@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "precision.jsonld",
+    "prefLabel": {
+        "en": "precision"
+    },
+    "description": "precision",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "question": {
+        "en": "1.28 - Report precision<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>(1 \u2212 false discovery rate)</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}

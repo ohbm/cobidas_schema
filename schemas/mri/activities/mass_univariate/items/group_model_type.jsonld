@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "group_model_type.jsonld",
+    "prefLabel": {
+        "en": "group model type"
+    },
+    "description": "group model type",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.26 - What type of mass univariate model was ued at the group level?<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>e.g fixed effect, random effect, mixed effect</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "choices": [
+            {
+                "name": {
+                    "en": "fixed effect"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "random effect"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "mixed effect"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": false
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "hpf_type.jsonld",
+    "prefLabel": {
+        "en": "hpf type"
+    },
+    "description": "hpf type",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.15 - What method was used for high pass filtering?"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 2,
+        "choices": [
+            {
+                "name": {
+                    "en": "SPM: DCT basis"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "FSL: ???"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "AFNI: ???"
+                },
+                "value": 2
+            }
+        ],
+        "multipleChoice": false
+    }
+}

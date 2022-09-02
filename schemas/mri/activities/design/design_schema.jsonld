@@ -1,0 +1,75 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "design_schema.jsonld",
+    "prefLabel": {
+        "en": "Design"
+    },
+    "description": "design",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": ""
+    },
+    "ui": {
+        "shuffle": false,
+        "order": [
+            "items/rest_or_task.jsonld",
+            "items/total_scanning_time.jsonld",
+            "items/design_optimization_used.jsonld",
+            "items/design_optimization_method.jsonld",
+            "items/scanner_synchronisation.jsonld"
+        ],
+        "addProperties": [
+            {
+                "variableName": "rest_or_task",
+                "isAbout": "items/rest_or_task.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "total_scanning_time",
+                "isAbout": "items/total_scanning_time.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "design_optimization_used",
+                "isAbout": "items/design_optimization_used.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "design_optimization_method",
+                "isAbout": "items/design_optimization_method.jsonld",
+                "isVis": "design_optimization_used == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "scanner_synchronisation",
+                "isAbout": "items/scanner_synchronisation.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}

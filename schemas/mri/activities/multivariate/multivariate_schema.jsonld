@@ -1,0 +1,385 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "multivariate_schema.jsonld",
+    "prefLabel": {
+        "en": "Multivariate"
+    },
+    "description": "multivariate",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": ""
+    },
+    "ui": {
+        "shuffle": false,
+        "order": [
+            "items/variable_type.jsonld",
+            "items/class_proportions.jsonld",
+            "items/variable_dimension.jsonld",
+            "items/feature_transformation_used.jsonld",
+            "items/feature_transformation_methods.jsonld",
+            "items/feature_selection_used.jsonld",
+            "items/feature_selection_methods.jsonld",
+            "items/dimension_reduction_used.jsonld",
+            "items/dimension_reduction_methods.jsonld",
+            "items/effective_variable_dimension.jsonld",
+            "items/population_stratification.jsonld",
+            "items/analysis_type.jsonld",
+            "items/traditional_model_type.jsonld",
+            "items/covariance_structure.jsonld",
+            "items/statistics.jsonld",
+            "items/predictive_model_type.jsonld",
+            "items/kernel_parameters.jsonld",
+            "items/figure_of_merit.jsonld",
+            "items/fitting_method.jsonld",
+            "items/parameters_setting.jsonld",
+            "items/convergence_method.jsonld",
+            "items/uniform_pipeline.jsonld",
+            "items/hyper_parameter_setting.jsonld",
+            "items/cross_validation.jsonld",
+            "items/response_type.jsonld",
+            "items/accuracy.jsonld",
+            "items/precision.jsonld",
+            "items/recall.jsonld",
+            "items/false_positive_rate.jsonld",
+            "items/F1.jsonld",
+            "items/roc_auc.jsonld",
+            "items/confusion_matrix.jsonld",
+            "items/r_squared.jsonld",
+            "items/kendal_tau.jsonld",
+            "items/p_value.jsonld",
+            "items/fit_interpretation.jsonld"
+        ],
+        "addProperties": [
+            {
+                "variableName": "variable_type",
+                "isAbout": "items/variable_type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "class_proportions",
+                "isAbout": "items/class_proportions.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "variable_dimension",
+                "isAbout": "items/variable_dimension.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "feature_transformation_used",
+                "isAbout": "items/feature_transformation_used.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "feature_transformation_methods",
+                "isAbout": "items/feature_transformation_methods.jsonld",
+                "isVis": "feature_transformation_used ==1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "feature_selection_used",
+                "isAbout": "items/feature_selection_used.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "feature_selection_methods",
+                "isAbout": "items/feature_selection_methods.jsonld",
+                "isVis": "feature_selection_used == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "dimension_reduction_used",
+                "isAbout": "items/dimension_reduction_used.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "dimension_reduction_methods",
+                "isAbout": "items/dimension_reduction_methods.jsonld",
+                "isVis": "dimension_reduction_used ==1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "effective_variable_dimension",
+                "isAbout": "items/effective_variable_dimension.jsonld",
+                "isVis": "feature_selection_used == 1 || dimension_reduction_used ==1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "population_stratification",
+                "isAbout": "items/population_stratification.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "analysis_type",
+                "isAbout": "items/analysis_type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "traditional_model_type",
+                "isAbout": "items/traditional_model_type.jsonld",
+                "isVis": "analysis_type == 0",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "covariance_structure",
+                "isAbout": "items/covariance_structure.jsonld",
+                "isVis": "analysis_type == 0",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "statistics",
+                "isAbout": "items/statistics.jsonld",
+                "isVis": "analysis_type == 0",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "predictive_model_type",
+                "isAbout": "items/predictive_model_type.jsonld",
+                "isVis": "analysis_type == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "kernel_parameters",
+                "isAbout": "items/kernel_parameters.jsonld",
+                "isVis": "analysis_type == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "figure_of_merit",
+                "isAbout": "items/figure_of_merit.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "fitting_method",
+                "isAbout": "items/fitting_method.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "parameters_setting",
+                "isAbout": "items/parameters_setting.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "convergence_method",
+                "isAbout": "items/convergence_method.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "uniform_pipeline",
+                "isAbout": "items/uniform_pipeline.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "hyper_parameter_setting",
+                "isAbout": "items/hyper_parameter_setting.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "cross_validation",
+                "isAbout": "items/cross_validation.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "response_type",
+                "isAbout": "items/response_type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "accuracy",
+                "isAbout": "items/accuracy.jsonld",
+                "isVis": "number_response_classes == 2",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "precision",
+                "isAbout": "items/precision.jsonld",
+                "isVis": "number_response_classes == 2",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "recall",
+                "isAbout": "items/recall.jsonld",
+                "isVis": "number_response_classes == 2",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "false_positive_rate",
+                "isAbout": "items/false_positive_rate.jsonld",
+                "isVis": "number_response_classes == 2",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "F1",
+                "isAbout": "items/F1.jsonld",
+                "isVis": "number_response_classes == 2",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "roc_auc",
+                "isAbout": "items/roc_auc.jsonld",
+                "isVis": "number_response_classes == 2",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "confusion_matrix",
+                "isAbout": "items/confusion_matrix.jsonld",
+                "isVis": "number_response_classes > 2",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "r_squared",
+                "isAbout": "items/r_squared.jsonld",
+                "isVis": "response_type == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "kendal_tau",
+                "isAbout": "items/kendal_tau.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "p_value",
+                "isAbout": "items/p_value.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "fit_interpretation",
+                "isAbout": "items/fit_interpretation.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "predictive_model_type.jsonld",
+    "prefLabel": {
+        "en": "predictive model type"
+    },
+    "description": "predictive model type",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.16 - Model type"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "choices": [
+            {
+                "name": {
+                    "en": "Linear discriminant analysis"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "support vector machines"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "logistic regression"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": false
+    }
+}

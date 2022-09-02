@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "ica_analyses.jsonld",
+    "prefLabel": {
+        "en": "ica analyses"
+    },
+    "description": "ica analyses",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "question": {
+        "en": "1.25 - For connectivty ICA based methods, report the total number of components (especially when estimated from the data and not fixed). Report the number of these analyzed and the reason for their selection"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}

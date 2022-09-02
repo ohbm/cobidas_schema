@@ -1,0 +1,49 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "group_level_estimation_type.jsonld",
+    "prefLabel": {
+        "en": "group level estimation type"
+    },
+    "description": "group level estimation type",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.27 - Estimation method used for group level model<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Ordinary least squares (OLS, aka unweighted summary statistics approach\u037e SPM default, FSL FEAT\u2019s \u201cSimple OLS\u201d); Weighted least squares (i.e. FSL FEAT\u2019s \u201cFLAME 1\u201d), using voxel\u00adwise estimate of between subject variance; Global weighted least squares (i.e. SPM\u2019s MFX)</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "choices": [
+            {
+                "name": {
+                    "en": "OLS"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "generalized least squares"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "weighted least squares"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Global weighted least squares"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": false
+    }
+}

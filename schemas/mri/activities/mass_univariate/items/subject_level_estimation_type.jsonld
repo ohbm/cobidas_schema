@@ -1,0 +1,49 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "subject_level_estimation_type.jsonld",
+    "prefLabel": {
+        "en": "subject level estimation type"
+    },
+    "description": "subject level estimation type",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.18 - Estimation method used for subject level model<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>using voxel\u00adwise estimate of between subject variance</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 3,
+        "choices": [
+            {
+                "name": {
+                    "en": "OLS (for example SPM default or FSL FEAT\u2019s \u201cSimple OLS\u201d)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "generalized least squares"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "weighted least squares (for example: FSL FEAT\u2019s \u201cFLAME 1\u201d)"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Global weighted least squares (for example: SPM\u2019s MFX)"
+                },
+                "value": 3
+            }
+        ],
+        "multipleChoice": false
+    }
+}

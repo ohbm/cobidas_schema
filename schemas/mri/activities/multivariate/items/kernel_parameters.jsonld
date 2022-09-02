@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "kernel_parameters.jsonld",
+    "prefLabel": {
+        "en": "kernel parameters"
+    },
+    "description": "kernel parameters",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "question": {
+        "en": "1.17 - For kernel-based methods (i.e. SVM) report type of kernel used, type and number of parameters needed to be estimated"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}

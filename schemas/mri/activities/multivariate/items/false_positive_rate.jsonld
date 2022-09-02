@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "false_positive_rate.jsonld",
+    "prefLabel": {
+        "en": "false positive rate"
+    },
+    "description": "false positive rate",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "question": {
+        "en": "1.30 - Report false positive rate<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>(1\u00ad - specificity)</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}

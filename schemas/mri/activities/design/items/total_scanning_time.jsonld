@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "total_scanning_time.jsonld",
+    "prefLabel": {
+        "en": "total scanning time"
+    },
+    "description": "total scanning time",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "float"
+    },
+    "question": {
+        "en": "1.2 - What was the total scanning time?<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Important to assess subject fatigue. If differing by subject, specify summary statistics (ean, range and/or standard deviation) </details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:float"
+    }
+}

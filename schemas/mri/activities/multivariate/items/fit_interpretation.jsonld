@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "fit_interpretation.jsonld",
+    "prefLabel": {
+        "en": "fit interpretation"
+    },
+    "description": "fit interpretation",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "question": {
+        "en": "1.37 - Procedure used to interpret the fit of the classifier, identifying the relative importance of the features (e.g. the weight vector in linear discriminant)."
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}

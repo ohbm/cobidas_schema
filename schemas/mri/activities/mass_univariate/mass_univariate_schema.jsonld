@@ -1,0 +1,385 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Activity",
+    "@id": "mass_univariate_schema.jsonld",
+    "prefLabel": {
+        "en": "Mass univariate"
+    },
+    "description": "mass univariate",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "preamble": {
+        "en": ""
+    },
+    "ui": {
+        "shuffle": false,
+        "order": [
+            "items/subject_level_model_type.jsonld",
+            "items/subject_level_software.jsonld",
+            "items/event_related_duration.jsonld",
+            "items/parametric_modulation.jsonld",
+            "items/base_line_model.jsonld",
+            "items/hemodynamic_response_function.jsonld",
+            "items/movement_regressors_included.jsonld",
+            "items/other_nuisance_regressors.jsonld",
+            "items/orthogonalization.jsonld",
+            "items/orthogonalization_description.jsonld",
+            "items/drift_model.jsonld",
+            "items/hpf_used.jsonld",
+            "items/hpf_type.jsonld",
+            "items/hpf_cutoff.jsonld",
+            "items/autocorrelation_model.jsonld",
+            "items/subject_level_estimation_type.jsonld",
+            "items/group_level_model_type.jsonld",
+            "items/group_level_software.jsonld",
+            "items/group_model_type.jsonld",
+            "items/group_level_estimation_type.jsonld",
+            "items/group_model_variance_structures.jsonld",
+            "items/repeated_measure.jsonld",
+            "items/repeated_measure_method.jsonld",
+            "items/contrast_definition.jsonld",
+            "items/definition_cog_atlas.jsonld",
+            "items/type.jsonld",
+            "items/source_of_anatomical_roi.jsonld",
+            "items/source_of_functional_roi.jsonld",
+            "items/statistic_type.jsonld",
+            "items/inference_level.jsonld",
+            "items/cluster_size.jsonld",
+            "items/cluster-forming_threshold.jsonld",
+            "items/neighborhood_size.jsonld",
+            "items/tfce_used.jsonld",
+            "items/use_of_non-default_tfce_parameters.jsonld",
+            "items/multiple_testing_correction_method.jsonld"
+        ],
+        "addProperties": [
+            {
+                "variableName": "subject_level_model_type",
+                "isAbout": "items/subject_level_model_type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "subject_level_software",
+                "isAbout": "items/subject_level_software.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "event_related_duration",
+                "isAbout": "items/event_related_duration.jsonld",
+                "isVis": "if_design_includes_events",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "parametric_modulation",
+                "isAbout": "items/parametric_modulation.jsonld",
+                "isVis": "if_design_includes_events",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "base_line_model",
+                "isAbout": "items/base_line_model.jsonld",
+                "isVis": "if_design_includes_blocks",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "hemodynamic_response_function",
+                "isAbout": "items/hemodynamic_response_function.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "movement_regressors_included",
+                "isAbout": "items/movement_regressors_included.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "other_nuisance_regressors",
+                "isAbout": "items/other_nuisance_regressors.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "orthogonalization",
+                "isAbout": "items/orthogonalization.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "orthogonalization_description",
+                "isAbout": "items/orthogonalization_description.jsonld",
+                "isVis": "orthogonalization  == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "drift_model",
+                "isAbout": "items/drift_model.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "hpf_used",
+                "isAbout": "items/hpf_used.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "hpf_type",
+                "isAbout": "items/hpf_type.jsonld",
+                "isVis": "hpf_used == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "hpf_cutoff",
+                "isAbout": "items/hpf_cutoff.jsonld",
+                "isVis": "hpf_used == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "autocorrelation_model",
+                "isAbout": "items/autocorrelation_model.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "subject_level_estimation_type",
+                "isAbout": "items/subject_level_estimation_type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "group_level_model_type",
+                "isAbout": "items/group_level_model_type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "group_level_software",
+                "isAbout": "items/group_level_software.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "group_model_type",
+                "isAbout": "items/group_model_type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "group_level_estimation_type",
+                "isAbout": "items/group_level_estimation_type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "group_model_variance_structures",
+                "isAbout": "items/group_model_variance_structures.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "repeated_measure",
+                "isAbout": "items/repeated_measure.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "repeated_measure_method",
+                "isAbout": "items/repeated_measure_method.jsonld",
+                "isVis": "repeated_measure == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "contrast_definition",
+                "isAbout": "items/contrast_definition.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "definition_cog_atlas",
+                "isAbout": "items/definition_cog_atlas.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "type",
+                "isAbout": "items/type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "source_of_anatomical_roi",
+                "isAbout": "items/source_of_anatomical_roi.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "source_of_functional_roi",
+                "isAbout": "items/source_of_functional_roi.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "statistic_type",
+                "isAbout": "items/statistic_type.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "inference_level",
+                "isAbout": "items/inference_level.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "cluster_size",
+                "isAbout": "items/cluster_size.jsonld",
+                "isVis": "inference_level.inlcudes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "cluster-forming_threshold",
+                "isAbout": "items/cluster-forming_threshold.jsonld",
+                "isVis": "inference_level.inlcudes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "neighborhood_size",
+                "isAbout": "items/neighborhood_size.jsonld",
+                "isVis": "inference_level.inlcudes(1)",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "tfce_used",
+                "isAbout": "items/tfce_used.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "use_of_non-default_tfce_parameters",
+                "isAbout": "items/use_of_non-default_tfce_parameters.jsonld",
+                "isVis": "tfce_used == 1",
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "multiple_testing_correction_method",
+                "isAbout": "items/multiple_testing_correction_method.jsonld",
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}

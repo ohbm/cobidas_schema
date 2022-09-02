@@ -19,14 +19,41 @@
         "shuffle": false,
         "order": [
             "../../core/activities/sample/sample_schema.jsonld",
+            "../../mri/activities/design/design_schema.jsonld",
             "../../core/activities/behavior/behavior_schema.jsonld",
             "../../mri/activities/common_parameters/common_parameters_schema.jsonld",
-            "../../mri/activities/acquisition/acquisition_schema.jsonld",         
-            "../../mri/activities/preprocessing/preprocessing_schema.jsonld",            
+            "../../mri/activities/acquisition/acquisition_schema.jsonld",
+            "../../mri/activities/preprocessing/preprocessing_schema.jsonld",
+            "../../mri/activities/multivariate/multivariate_schema.jsonld",
+            "../../mri/activities/results/results_schema.jsonld",
             "../../core/activities/data_sharing/data_sharing_schema.jsonld",
             "../../core/activities/reproducibility/reproducibility_schema.jsonld"
         ],
         "addProperties": [
+            {
+                "variableName": "results",
+                "isAbout": "../../mri/activities/results/results_schema.jsonld",
+                "prefLabel": {
+                    "en": "Results"
+                },
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "multivariate",
+                "isAbout": "../../mri/activities/multivariate/multivariate_schema.jsonld",
+                "prefLabel": {
+                    "en": "Multivariate"
+                },
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
             {
                 "variableName": "acquisition",
                 "isAbout": "../../mri/activities/acquisition/acquisition_schema.jsonld",
@@ -38,7 +65,19 @@
                 "allow": [
                     "reproschema:Skipped"
                 ]
-            },           
+            },
+            {
+                "variableName": "design",
+                "isAbout": "../../mri/activities/design/design_schema.jsonld",
+                "prefLabel": {
+                    "en": "Design"
+                },
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
             {
                 "variableName": "data_sharing",
                 "isAbout": "../../core/activities/data_sharing/data_sharing_schema.jsonld",
@@ -91,7 +130,7 @@
                 "variableName": "common_parameters",
                 "isAbout": "../../mri/activities/common_parameters/common_parameters_schema.jsonld",
                 "prefLabel": {
-                    "en": "common parameters"
+                    "en": "Common acquisition parameters"
                 },
                 "isVis": true,
                 "requiredValue": false,
@@ -110,7 +149,7 @@
                 "allow": [
                     "reproschema:Skipped"
                 ]
-            }            
+            }
         ],
         "allow": [
             "reproschema:AutoAdvance",

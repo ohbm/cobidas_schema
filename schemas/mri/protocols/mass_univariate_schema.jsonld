@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Protocol",
+    "@id": "mass_univariate_schema.jsonld",
+    "prefLabel": {
+        "en": "mass univariate"
+    },
+    "description": "mass univariate",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "landingPage": {
+        "@id": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/landing_pages/README_eCOBIDAS-en.md",
+        "inLanguage": "en"
+    },
+    "preamble": {
+        "en": ""
+    },
+    "ui": {
+        "shuffle": false,
+        "order": [
+            "../activities/mass_univariate/mass_univariate_schema.jsonld"
+        ],
+        "addProperties": [
+            {
+                "variableName": "mass_univariate",
+                "isAbout": "../activities/mass_univariate/mass_univariate_schema.jsonld",
+                "prefLabel": {
+                    "en": "Mass univariate"
+                },
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            }
+        ],
+        "allow": [
+            "reproschema:AutoAdvance",
+            "reproschema:AllowExport"
+        ]
+    }
+}

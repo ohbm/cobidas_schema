@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "population_stratification.jsonld",
+    "prefLabel": {
+        "en": "population stratification"
+    },
+    "description": "population stratification",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "question": {
+        "en": "1.11 - Information on how the target values relate to the population. Specify how this is taken into account in the predictive model<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example: male/female frequency or age distribution by group...</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}

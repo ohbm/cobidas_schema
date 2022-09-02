@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "roc_auc.jsonld",
+    "prefLabel": {
+        "en": "roc auc"
+    },
+    "description": "roc auc",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "question": {
+        "en": "1.32 - Report receiver operating characteristic curves and area under the curve.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>ROC can be summarised by area under the curve (AUC) and AUC for only high specificity (e.g. false positive rates no greater than 10%) are also useful.</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "maxLength": 300
+    }
+}

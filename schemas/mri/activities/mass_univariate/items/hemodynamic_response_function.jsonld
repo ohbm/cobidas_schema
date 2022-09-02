@@ -1,0 +1,85 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "hemodynamic_response_function.jsonld",
+    "prefLabel": {
+        "en": "hemodynamic response function"
+    },
+    "description": "hemodynamic response function",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.8 - Nature of HRF model"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 9,
+        "choices": [
+            {
+                "name": {
+                    "en": "spm"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "spm + derivative"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "spm + derivative + dispersion"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "glover"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "glover + derivative"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "glover + derivative + dispersion"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Finite Impulse Response"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "FLOBS"
+                },
+                "value": 7
+            },
+            {
+                "name": {
+                    "en": "Fourier set"
+                },
+                "value": 8
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 9
+            }
+        ],
+        "multipleChoice": false
+    }
+}

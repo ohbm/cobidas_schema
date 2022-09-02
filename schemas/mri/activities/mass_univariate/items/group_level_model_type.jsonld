@@ -1,0 +1,73 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "group_level_model_type.jsonld",
+    "prefLabel": {
+        "en": "group level model type"
+    },
+    "description": "group level model type",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.19 - Type of group model used<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>\u201cMass Univariate\u201d, \u201cMultivariate\u201d (e.g. ICA on whole brain data), \u201cMass Multivariate\u201d (e.g. MANOVA on diffusion or morphometry tensor data), \u201cLocal Multivariate\u201d (e.g. \u201csearchlight\u201d), \u201cMultivariate, inter-subjective predictive\u201d (e.g. classify individual trials in event\u00ad related fMRI), \u201cMultivariate inter-subject predictive\u201d (e.g. classify subjects as patient vs. control), \u201cRepresentational Similarity Analysis\u201d</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 7,
+        "choices": [
+            {
+                "name": {
+                    "en": "Mass Univariate"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Multivariate"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mass Multivariate"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Local Multivariate"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Multivariate"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "inter-subjective predictive"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "Multivariate inter-subject predictive"
+                },
+                "value": 6
+            },
+            {
+                "name": {
+                    "en": "Representational Similarity Analysis"
+                },
+                "value": 7
+            }
+        ],
+        "multipleChoice": false
+    }
+}

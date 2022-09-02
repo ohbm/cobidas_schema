@@ -1,0 +1,61 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "subject_level_model_type.jsonld",
+    "prefLabel": {
+        "en": "subject level model type"
+    },
+    "description": "subject level model type",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "1.1 - Type of subject model used<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>\u201cMass Univariate\u201d, \u201cMultivariate\u201d (e.g. ICA on whole brain data), \u201cMass Multivariate\u201d (e.g. MANOVA on diffusion or morphometry tensor data), \u201cLocal Multivariate\u201d (e.g. \u201csearchlight\u201d), \u201cRepresentational Similarity Analysis\u201d</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 5,
+        "choices": [
+            {
+                "name": {
+                    "en": "Mass Univariate"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "Multivariate"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "Mass Multivariate"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "Local Multivariate"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Multivariate"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "Representational Similarity Analysis"
+                },
+                "value": 5
+            }
+        ],
+        "multipleChoice": false
+    }
+}
