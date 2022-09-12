@@ -4,7 +4,7 @@
     "@id": "stimulus_presentation_softwares.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 36,
+    "maxValue": 37,
     "choices": [
         {
             "name": {
@@ -98,7 +98,7 @@
         },
         {
             "name": {
-                "en": "OpenSesam"
+                "en": "OpenSesame"
             },
             "value": 15
         },
@@ -227,6 +227,12 @@
                 "en": "Other"
             },
             "value": 36
+        },
+        {
+            "name": {
+                "en": "Python"
+            },
+            "value": 37
         }
     ]
 }

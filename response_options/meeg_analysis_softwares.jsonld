@@ -4,7 +4,7 @@
     "@id": "meeg_analysis_softwares.jsonld",
     "valueType": "xsd:integer",
     "minValue": 0,
-    "maxValue": 16,
+    "maxValue": 19,
     "choices": [
         {
             "name": {
@@ -107,6 +107,24 @@
                 "en": "Other"
             },
             "value": 16
+        },
+        {
+            "name": {
+                "en": "Letswave"
+            },
+            "value": 17
+        },
+        {
+            "name": {
+                "en": "MATLAB"
+            },
+            "value": 18
+        },
+        {
+            "name": {
+                "en": "Python"
+            },
+            "value": 19
         }
     ]
 }
