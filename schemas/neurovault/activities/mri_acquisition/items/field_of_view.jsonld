@@ -12,9 +12,17 @@
         "inputType": "float"
     },
     "question": {
-        "en": "3.6 - Imaging field of view in millimeters"
+        "en": "3.6 - Imaging field of view"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "Millimeters"
+                },
+                "value": "Millimeters"
+            }
+        ]
     }
 }

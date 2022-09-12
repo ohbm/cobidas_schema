@@ -110,7 +110,7 @@
             {
                 "variableName": "group_description",
                 "isAbout": "items/group_description.jsonld",
-                "isVis": true,
+                "isVis": "group_comparison == 1",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"
