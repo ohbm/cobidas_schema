@@ -3,7 +3,7 @@ from pathlib import Path
 from rich import print
 import json
 
-protocol = "pet"
+protocol = "eyetracking"
 
 colors = [
     "#a6cee3",
@@ -64,7 +64,7 @@ for i, activity in enumerate(activities_order):
             question = question.split("<div")[0]
         print(question)
 
-        with open(activity_label_file, "w") as output_f:
+        with open(activity_label_file, "a") as output_f:
             output_f.write(f'{{"name": "{question}", "color": "{activity_color}"}}\n')
         with open(protocol_label_file, "a") as output_f:
             output_f.write(f'{{"name": "{question}", "color": "{activity_color}"}}\n')
