@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "importance_of_auxiliary_assumptions.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "importance of auxiliary assumptions"
     },
     "description": "importance of auxiliary assumptions",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "question": {
-        "en": "The importance of auxiliary assumptions linking constructs and operational definitions"
+        "en": "1.1 - The importance of auxiliary assumptions linking constructs and operational definitions<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Assuming that fixations imply cognitive processing</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 1,
         "choices": [
             {
                 "name": {
@@ -32,6 +30,7 @@
                 "value": 1
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 1
     }
 }

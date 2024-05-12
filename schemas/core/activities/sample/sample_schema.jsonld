@@ -2,14 +2,14 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "sample_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Sample"
     },
     "description": "sample",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
-        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1pshzE4tXvj294-S-rRVlf9XpczFq2bkj2P3C7xGgzjs/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Describe your sample </p>"
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1pshzE4tXvj294-S-rRVlf9XpczFq2bkj2P3C7xGgzjs/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Describe your sample</p>"
     },
     "ui": {
         "shuffle": false,
@@ -47,6 +47,9 @@
             {
                 "variableName": "group_comparison",
                 "isAbout": "items/group_comparison.jsonld",
+                "prefLabel": {
+                    "en": "group comparison"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -56,6 +59,9 @@
             {
                 "variableName": "number_of_groups",
                 "isAbout": "items/number_of_groups.jsonld",
+                "prefLabel": {
+                    "en": "number of groups"
+                },
                 "isVis": "group_comparison == 1",
                 "requiredValue": false,
                 "allow": [
@@ -65,6 +71,9 @@
             {
                 "variableName": "number_of_subjects_planned",
                 "isAbout": "items/number_of_subjects_planned.jsonld",
+                "prefLabel": {
+                    "en": "number of subjects planned"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -74,6 +83,9 @@
             {
                 "variableName": "subjects_approached",
                 "isAbout": "items/subjects_approached.jsonld",
+                "prefLabel": {
+                    "en": "subjects approached"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -83,6 +95,9 @@
             {
                 "variableName": "subjects_consented",
                 "isAbout": "items/subjects_consented.jsonld",
+                "prefLabel": {
+                    "en": "subjects consented"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -92,6 +107,9 @@
             {
                 "variableName": "subjects_excluded",
                 "isAbout": "items/subjects_excluded.jsonld",
+                "prefLabel": {
+                    "en": "subjects excluded"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -101,6 +119,9 @@
             {
                 "variableName": "reason_for_exclusion",
                 "isAbout": "items/reason_for_exclusion.jsonld",
+                "prefLabel": {
+                    "en": "reason for exclusion"
+                },
                 "isVis": "subjects_excluded > 0",
                 "requiredValue": false,
                 "allow": [
@@ -110,6 +131,9 @@
             {
                 "variableName": "mean_age",
                 "isAbout": "items/mean_age.jsonld",
+                "prefLabel": {
+                    "en": "mean age"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -119,6 +143,9 @@
             {
                 "variableName": "age_standard_deviation",
                 "isAbout": "items/age_standard_deviation.jsonld",
+                "prefLabel": {
+                    "en": "age standard deviation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -128,6 +155,9 @@
             {
                 "variableName": "age_mininum",
                 "isAbout": "items/age_mininum.jsonld",
+                "prefLabel": {
+                    "en": "age mininum"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -137,6 +167,9 @@
             {
                 "variableName": "age_maximum",
                 "isAbout": "items/age_maximum.jsonld",
+                "prefLabel": {
+                    "en": "age maximum"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -146,6 +179,9 @@
             {
                 "variableName": "subjects_scanned",
                 "isAbout": "items/subjects_scanned.jsonld",
+                "prefLabel": {
+                    "en": "subjects scanned"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -155,6 +191,9 @@
             {
                 "variableName": "subjects_scanned_but_rejected",
                 "isAbout": "items/subjects_scanned_but_rejected.jsonld",
+                "prefLabel": {
+                    "en": "subjects scanned but rejected"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -164,6 +203,9 @@
             {
                 "variableName": "subjects_included_in_analysis",
                 "isAbout": "items/subjects_included_in_analysis.jsonld",
+                "prefLabel": {
+                    "en": "subjects included in analysis"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -173,6 +215,9 @@
             {
                 "variableName": "gender",
                 "isAbout": "items/gender.jsonld",
+                "prefLabel": {
+                    "en": "gender"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -182,6 +227,9 @@
             {
                 "variableName": "education",
                 "isAbout": "items/education.jsonld",
+                "prefLabel": {
+                    "en": "education"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -191,6 +239,9 @@
             {
                 "variableName": "handedness",
                 "isAbout": "items/handedness.jsonld",
+                "prefLabel": {
+                    "en": "handedness"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -200,6 +251,9 @@
             {
                 "variableName": "handedness_method",
                 "isAbout": "items/handedness_method.jsonld",
+                "prefLabel": {
+                    "en": "handedness method"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -209,6 +263,9 @@
             {
                 "variableName": "exclusion_criteria",
                 "isAbout": "items/exclusion_criteria.jsonld",
+                "prefLabel": {
+                    "en": "exclusion criteria"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -218,6 +275,9 @@
             {
                 "variableName": "exclusion_criteria_description",
                 "isAbout": "items/exclusion_criteria_description.jsonld",
+                "prefLabel": {
+                    "en": "exclusion criteria description"
+                },
                 "isVis": "01",
                 "requiredValue": false,
                 "allow": [
@@ -227,6 +287,9 @@
             {
                 "variableName": "clinical_criteria",
                 "isAbout": "items/clinical_criteria.jsonld",
+                "prefLabel": {
+                    "en": "clinical criteria"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -236,6 +299,9 @@
             {
                 "variableName": "clinical_instruments",
                 "isAbout": "items/clinical_instruments.jsonld",
+                "prefLabel": {
+                    "en": "clinical instruments"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -245,6 +311,9 @@
             {
                 "variableName": "matching_strategy",
                 "isAbout": "items/matching_strategy.jsonld",
+                "prefLabel": {
+                    "en": "matching strategy"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -254,6 +323,9 @@
             {
                 "variableName": "population_and_recruitment_strategy",
                 "isAbout": "items/population_and_recruitment_strategy.jsonld",
+                "prefLabel": {
+                    "en": "population and recruitment strategy"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -263,6 +335,9 @@
             {
                 "variableName": "ethical_approval",
                 "isAbout": "items/ethical_approval.jsonld",
+                "prefLabel": {
+                    "en": "ethical approval"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -272,6 +347,9 @@
             {
                 "variableName": "compensation",
                 "isAbout": "items/compensation.jsonld",
+                "prefLabel": {
+                    "en": "compensation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -281,6 +359,9 @@
             {
                 "variableName": "compensation_type",
                 "isAbout": "items/compensation_type.jsonld",
+                "prefLabel": {
+                    "en": "compensation type"
+                },
                 "isVis": "compensation == 1",
                 "requiredValue": false,
                 "allow": [
@@ -290,6 +371,9 @@
             {
                 "variableName": "other_demographics",
                 "isAbout": "items/other_demographics.jsonld",
+                "prefLabel": {
+                    "en": "other demographics"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

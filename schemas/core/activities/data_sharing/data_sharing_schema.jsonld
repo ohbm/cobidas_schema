@@ -2,14 +2,14 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "data_sharing_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Data Sharing"
     },
     "description": "data sharing",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
-        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1yoI37se8nfWKNdKBCd-VgK1zDTdf4JR--m8apZ9iPR8/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>data sharing aspects of your work </p>"
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1yoI37se8nfWKNdKBCd-VgK1zDTdf4JR--m8apZ9iPR8/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>data sharing aspects of your work</p>"
     },
     "ui": {
         "shuffle": false,
@@ -36,6 +36,9 @@
             {
                 "variableName": "Material_shared",
                 "isAbout": "items/Material_shared.jsonld",
+                "prefLabel": {
+                    "en": "Material shared"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -45,6 +48,9 @@
             {
                 "variableName": "data_completeness",
                 "isAbout": "items/data_completeness.jsonld",
+                "prefLabel": {
+                    "en": "data completeness"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -54,6 +60,9 @@
             {
                 "variableName": "URL_DOI",
                 "isAbout": "items/URL_DOI.jsonld",
+                "prefLabel": {
+                    "en": "URL DOI"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -63,6 +72,9 @@
             {
                 "variableName": "url_access_information",
                 "isAbout": "items/url_access_information.jsonld",
+                "prefLabel": {
+                    "en": "url, access information"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -72,6 +84,9 @@
             {
                 "variableName": "access_cost",
                 "isAbout": "items/access_cost.jsonld",
+                "prefLabel": {
+                    "en": "access cost"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -81,6 +96,9 @@
             {
                 "variableName": "ethics_compliance",
                 "isAbout": "items/ethics_compliance.jsonld",
+                "prefLabel": {
+                    "en": "ethics compliance"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -90,6 +108,9 @@
             {
                 "variableName": "constraints_on_use",
                 "isAbout": "items/constraints_on_use.jsonld",
+                "prefLabel": {
+                    "en": "constraints on use"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -99,6 +120,9 @@
             {
                 "variableName": "documentation_url",
                 "isAbout": "items/documentation_url.jsonld",
+                "prefLabel": {
+                    "en": "documentation url"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -108,6 +132,9 @@
             {
                 "variableName": "data_format",
                 "isAbout": "items/data_format.jsonld",
+                "prefLabel": {
+                    "en": "data format"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -117,6 +144,9 @@
             {
                 "variableName": "data_structure",
                 "isAbout": "items/data_structure.jsonld",
+                "prefLabel": {
+                    "en": "data structure"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -126,6 +156,9 @@
             {
                 "variableName": "ontologies",
                 "isAbout": "items/ontologies.jsonld",
+                "prefLabel": {
+                    "en": "ontologies"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -135,6 +168,9 @@
             {
                 "variableName": "visualization",
                 "isAbout": "items/visualization.jsonld",
+                "prefLabel": {
+                    "en": "visualization"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -144,6 +180,9 @@
             {
                 "variableName": "de-identification",
                 "isAbout": "items/de-identification.jsonld",
+                "prefLabel": {
+                    "en": "de-identification"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -153,6 +192,9 @@
             {
                 "variableName": "provenance_and_history",
                 "isAbout": "items/provenance_and_history.jsonld",
+                "prefLabel": {
+                    "en": "provenance and history"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -162,6 +204,9 @@
             {
                 "variableName": "interoperability",
                 "isAbout": "items/interoperability.jsonld",
+                "prefLabel": {
+                    "en": "interoperability"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -171,6 +216,9 @@
             {
                 "variableName": "querying",
                 "isAbout": "items/querying.jsonld",
+                "prefLabel": {
+                    "en": "querying"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -180,6 +228,9 @@
             {
                 "variableName": "versioning",
                 "isAbout": "items/versioning.jsonld",
+                "prefLabel": {
+                    "en": "versioning"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

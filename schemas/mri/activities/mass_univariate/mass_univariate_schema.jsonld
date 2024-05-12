@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "mass_univariate_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Mass univariate"
     },
     "description": "mass univariate",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -55,6 +55,9 @@
             {
                 "variableName": "subject_level_model_type",
                 "isAbout": "items/subject_level_model_type.jsonld",
+                "prefLabel": {
+                    "en": "subject level model type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -64,6 +67,9 @@
             {
                 "variableName": "subject_level_software",
                 "isAbout": "items/subject_level_software.jsonld",
+                "prefLabel": {
+                    "en": "subject level software"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -73,6 +79,9 @@
             {
                 "variableName": "event_related_duration",
                 "isAbout": "items/event_related_duration.jsonld",
+                "prefLabel": {
+                    "en": "event related duration"
+                },
                 "isVis": "if_design_includes_events",
                 "requiredValue": false,
                 "allow": [
@@ -82,6 +91,9 @@
             {
                 "variableName": "parametric_modulation",
                 "isAbout": "items/parametric_modulation.jsonld",
+                "prefLabel": {
+                    "en": "parametric modulation"
+                },
                 "isVis": "if_design_includes_events",
                 "requiredValue": false,
                 "allow": [
@@ -91,6 +103,9 @@
             {
                 "variableName": "base_line_model",
                 "isAbout": "items/base_line_model.jsonld",
+                "prefLabel": {
+                    "en": "base line model"
+                },
                 "isVis": "if_design_includes_blocks",
                 "requiredValue": false,
                 "allow": [
@@ -100,6 +115,9 @@
             {
                 "variableName": "hemodynamic_response_function",
                 "isAbout": "items/hemodynamic_response_function.jsonld",
+                "prefLabel": {
+                    "en": "hemodynamic response function"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -109,6 +127,9 @@
             {
                 "variableName": "movement_regressors_included",
                 "isAbout": "items/movement_regressors_included.jsonld",
+                "prefLabel": {
+                    "en": "movement regressors included"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -118,6 +139,9 @@
             {
                 "variableName": "other_nuisance_regressors",
                 "isAbout": "items/other_nuisance_regressors.jsonld",
+                "prefLabel": {
+                    "en": "other nuisance regressors"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -127,6 +151,9 @@
             {
                 "variableName": "orthogonalization",
                 "isAbout": "items/orthogonalization.jsonld",
+                "prefLabel": {
+                    "en": "orthogonalization"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -136,6 +163,9 @@
             {
                 "variableName": "orthogonalization_description",
                 "isAbout": "items/orthogonalization_description.jsonld",
+                "prefLabel": {
+                    "en": "orthogonalization description"
+                },
                 "isVis": "orthogonalization  == 1",
                 "requiredValue": false,
                 "allow": [
@@ -145,6 +175,9 @@
             {
                 "variableName": "drift_model",
                 "isAbout": "items/drift_model.jsonld",
+                "prefLabel": {
+                    "en": "drift model"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -154,6 +187,9 @@
             {
                 "variableName": "hpf_used",
                 "isAbout": "items/hpf_used.jsonld",
+                "prefLabel": {
+                    "en": "hpf used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -163,6 +199,9 @@
             {
                 "variableName": "hpf_type",
                 "isAbout": "items/hpf_type.jsonld",
+                "prefLabel": {
+                    "en": "hpf type"
+                },
                 "isVis": "hpf_used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -172,6 +211,9 @@
             {
                 "variableName": "hpf_cutoff",
                 "isAbout": "items/hpf_cutoff.jsonld",
+                "prefLabel": {
+                    "en": "hpf cutoff"
+                },
                 "isVis": "hpf_used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -181,6 +223,9 @@
             {
                 "variableName": "autocorrelation_model",
                 "isAbout": "items/autocorrelation_model.jsonld",
+                "prefLabel": {
+                    "en": "autocorrelation model"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -190,6 +235,9 @@
             {
                 "variableName": "subject_level_estimation_type",
                 "isAbout": "items/subject_level_estimation_type.jsonld",
+                "prefLabel": {
+                    "en": "subject level estimation type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -199,6 +247,9 @@
             {
                 "variableName": "group_level_model_type",
                 "isAbout": "items/group_level_model_type.jsonld",
+                "prefLabel": {
+                    "en": "group level model type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -208,6 +259,9 @@
             {
                 "variableName": "group_level_software",
                 "isAbout": "items/group_level_software.jsonld",
+                "prefLabel": {
+                    "en": "group level software"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -217,6 +271,9 @@
             {
                 "variableName": "group_model_type",
                 "isAbout": "items/group_model_type.jsonld",
+                "prefLabel": {
+                    "en": "group model type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -226,6 +283,9 @@
             {
                 "variableName": "group_level_estimation_type",
                 "isAbout": "items/group_level_estimation_type.jsonld",
+                "prefLabel": {
+                    "en": "group level estimation type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -235,6 +295,9 @@
             {
                 "variableName": "group_model_variance_structures",
                 "isAbout": "items/group_model_variance_structures.jsonld",
+                "prefLabel": {
+                    "en": "group model variance structures"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -244,6 +307,9 @@
             {
                 "variableName": "repeated_measure",
                 "isAbout": "items/repeated_measure.jsonld",
+                "prefLabel": {
+                    "en": "repeated measure"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -253,6 +319,9 @@
             {
                 "variableName": "repeated_measure_method",
                 "isAbout": "items/repeated_measure_method.jsonld",
+                "prefLabel": {
+                    "en": "repeated measure method"
+                },
                 "isVis": "repeated_measure == 1",
                 "requiredValue": false,
                 "allow": [
@@ -262,6 +331,9 @@
             {
                 "variableName": "contrast_definition",
                 "isAbout": "items/contrast_definition.jsonld",
+                "prefLabel": {
+                    "en": "contrast definition"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -271,6 +343,9 @@
             {
                 "variableName": "definition_cog_atlas",
                 "isAbout": "items/definition_cog_atlas.jsonld",
+                "prefLabel": {
+                    "en": "definition cog atlas"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -280,6 +355,9 @@
             {
                 "variableName": "type",
                 "isAbout": "items/type.jsonld",
+                "prefLabel": {
+                    "en": "type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -289,6 +367,9 @@
             {
                 "variableName": "source_of_anatomical_roi",
                 "isAbout": "items/source_of_anatomical_roi.jsonld",
+                "prefLabel": {
+                    "en": "source of anatomical roi"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -298,6 +379,9 @@
             {
                 "variableName": "source_of_functional_roi",
                 "isAbout": "items/source_of_functional_roi.jsonld",
+                "prefLabel": {
+                    "en": "source of functional roi"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -307,6 +391,9 @@
             {
                 "variableName": "statistic_type",
                 "isAbout": "items/statistic_type.jsonld",
+                "prefLabel": {
+                    "en": "statistic type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -316,6 +403,9 @@
             {
                 "variableName": "inference_level",
                 "isAbout": "items/inference_level.jsonld",
+                "prefLabel": {
+                    "en": "inference level"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -325,6 +415,9 @@
             {
                 "variableName": "cluster_size",
                 "isAbout": "items/cluster_size.jsonld",
+                "prefLabel": {
+                    "en": "cluster size"
+                },
                 "isVis": "inference_level.inlcudes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -334,6 +427,9 @@
             {
                 "variableName": "cluster-forming_threshold",
                 "isAbout": "items/cluster-forming_threshold.jsonld",
+                "prefLabel": {
+                    "en": "cluster-forming threshold"
+                },
                 "isVis": "inference_level.inlcudes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -343,6 +439,9 @@
             {
                 "variableName": "neighborhood_size",
                 "isAbout": "items/neighborhood_size.jsonld",
+                "prefLabel": {
+                    "en": "neighborhood size"
+                },
                 "isVis": "inference_level.inlcudes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -352,6 +451,9 @@
             {
                 "variableName": "tfce_used",
                 "isAbout": "items/tfce_used.jsonld",
+                "prefLabel": {
+                    "en": "tfce used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -361,6 +463,9 @@
             {
                 "variableName": "use_of_non-default_tfce_parameters",
                 "isAbout": "items/use_of_non-default_tfce_parameters.jsonld",
+                "prefLabel": {
+                    "en": "use of non-default tfce parameters"
+                },
                 "isVis": "tfce_used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -370,6 +475,9 @@
             {
                 "variableName": "multiple_testing_correction_method",
                 "isAbout": "items/multiple_testing_correction_method.jsonld",
+                "prefLabel": {
+                    "en": "multiple testing correction method"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

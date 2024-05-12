@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "introduction_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Introduction"
     },
     "description": "introduction",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -20,6 +20,9 @@
             {
                 "variableName": "importance_of_auxiliary_assumptions",
                 "isAbout": "items/importance_of_auxiliary_assumptions.jsonld",
+                "prefLabel": {
+                    "en": "importance of auxiliary assumptions"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

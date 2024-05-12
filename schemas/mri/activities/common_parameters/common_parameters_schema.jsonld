@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "common_parameters_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Common parameters"
     },
     "description": "common parameters",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": "<p><a href='https://docs.google.com/spreadsheets/d/16LhsvrEKOzkNsXGLGlYZsH9h4aZ1hyt_BORmxkndaiI/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Common MRI acquisition parameters</p>"
     },
@@ -58,6 +58,9 @@
             {
                 "variableName": "scanner_make",
                 "isAbout": "items/scanner_make.jsonld",
+                "prefLabel": {
+                    "en": "scanner make"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -67,6 +70,9 @@
             {
                 "variableName": "ManufacturersModelName",
                 "isAbout": "items/ManufacturersModelName.jsonld",
+                "prefLabel": {
+                    "en": "scanner model"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -76,6 +82,9 @@
             {
                 "variableName": "MagneticFieldStrength",
                 "isAbout": "items/MagneticFieldStrength.jsonld",
+                "prefLabel": {
+                    "en": "scanner field strength"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -85,6 +94,9 @@
             {
                 "variableName": "SoftwareVersions",
                 "isAbout": "items/SoftwareVersions.jsonld",
+                "prefLabel": {
+                    "en": "software version"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -94,6 +106,9 @@
             {
                 "variableName": "pulse_sequence_type",
                 "isAbout": "items/pulse_sequence_type.jsonld",
+                "prefLabel": {
+                    "en": "pulse sequence type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -103,6 +118,9 @@
             {
                 "variableName": "pulse_sequence_details",
                 "isAbout": "items/pulse_sequence_details.jsonld",
+                "prefLabel": {
+                    "en": "pulse sequence details"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -112,6 +130,9 @@
             {
                 "variableName": "imaging_type",
                 "isAbout": "items/imaging_type.jsonld",
+                "prefLabel": {
+                    "en": "imaging type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -121,6 +142,9 @@
             {
                 "variableName": "number_of_shots",
                 "isAbout": "items/number_of_shots.jsonld",
+                "prefLabel": {
+                    "en": "number of shots"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -130,6 +154,9 @@
             {
                 "variableName": "partial_fourrier_used",
                 "isAbout": "items/partial_fourrier_used.jsonld",
+                "prefLabel": {
+                    "en": "partial fourrier used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -139,6 +166,9 @@
             {
                 "variableName": "partial_fourrier_scheme",
                 "isAbout": "items/partial_fourrier_scheme.jsonld",
+                "prefLabel": {
+                    "en": "partial fourrier scheme"
+                },
                 "isVis": "partial fourrier used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -148,6 +178,9 @@
             {
                 "variableName": "EchoTime",
                 "isAbout": "items/EchoTime.jsonld",
+                "prefLabel": {
+                    "en": "echo time"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -157,6 +190,9 @@
             {
                 "variableName": "RepetitionTime",
                 "isAbout": "items/RepetitionTime.jsonld",
+                "prefLabel": {
+                    "en": "repetition time"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -166,6 +202,9 @@
             {
                 "variableName": "FlipAngle",
                 "isAbout": "items/FlipAngle.jsonld",
+                "prefLabel": {
+                    "en": "flip angle"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -175,6 +214,9 @@
             {
                 "variableName": "voxel_dimension",
                 "isAbout": "items/voxel_dimension.jsonld",
+                "prefLabel": {
+                    "en": "voxel dimension"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -184,6 +226,9 @@
             {
                 "variableName": "acquisition_time",
                 "isAbout": "items/acquisition_time.jsonld",
+                "prefLabel": {
+                    "en": "acquisition time"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -193,6 +238,9 @@
             {
                 "variableName": "time_per_volume",
                 "isAbout": "items/time_per_volume.jsonld",
+                "prefLabel": {
+                    "en": "time per volume"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -202,6 +250,9 @@
             {
                 "variableName": "InversionTime",
                 "isAbout": "items/InversionTime.jsonld",
+                "prefLabel": {
+                    "en": "inversion time"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -211,6 +262,9 @@
             {
                 "variableName": "field_of_view",
                 "isAbout": "items/field_of_view.jsonld",
+                "prefLabel": {
+                    "en": "field of view"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -220,6 +274,9 @@
             {
                 "variableName": "in-plane_matrix_size",
                 "isAbout": "items/in-plane_matrix_size.jsonld",
+                "prefLabel": {
+                    "en": "in-plane matrix size"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -229,6 +286,9 @@
             {
                 "variableName": "number_of_slices",
                 "isAbout": "items/number_of_slices.jsonld",
+                "prefLabel": {
+                    "en": "number of slices"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -238,6 +298,9 @@
             {
                 "variableName": "slice_thickness",
                 "isAbout": "items/slice_thickness.jsonld",
+                "prefLabel": {
+                    "en": "slice thickness"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -247,6 +310,9 @@
             {
                 "variableName": "interslice_gap",
                 "isAbout": "items/interslice_gap.jsonld",
+                "prefLabel": {
+                    "en": "interslice gap"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -256,6 +322,9 @@
             {
                 "variableName": "3d_matrix_size",
                 "isAbout": "items/3d_matrix_size.jsonld",
+                "prefLabel": {
+                    "en": "3d matrix size"
+                },
                 "isVis": "imaging_type == 2",
                 "requiredValue": false,
                 "allow": [
@@ -265,6 +334,9 @@
             {
                 "variableName": "slice_orientation",
                 "isAbout": "items/slice_orientation.jsonld",
+                "prefLabel": {
+                    "en": "slice orientation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -274,6 +346,9 @@
             {
                 "variableName": "slice_alignement",
                 "isAbout": "items/slice_alignement.jsonld",
+                "prefLabel": {
+                    "en": "slice alignement"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -283,6 +358,9 @@
             {
                 "variableName": "PhaseEncodingDirection",
                 "isAbout": "items/PhaseEncodingDirection.jsonld",
+                "prefLabel": {
+                    "en": "phase encoding"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -292,6 +370,9 @@
             {
                 "variableName": "3d_phase_encoding",
                 "isAbout": "items/3d_phase_encoding.jsonld",
+                "prefLabel": {
+                    "en": "3d phase encoding"
+                },
                 "isVis": "imaging_type == 2",
                 "requiredValue": false,
                 "allow": [
@@ -301,6 +382,9 @@
             {
                 "variableName": "phase_encoding_reversal",
                 "isAbout": "items/phase_encoding_reversal.jsonld",
+                "prefLabel": {
+                    "en": "phase encoding reversal"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -310,6 +394,9 @@
             {
                 "variableName": "parallel_imaging_used",
                 "isAbout": "items/parallel_imaging_used.jsonld",
+                "prefLabel": {
+                    "en": "parallel imaging used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -319,6 +406,9 @@
             {
                 "variableName": "parallel_imaging_method",
                 "isAbout": "items/parallel_imaging_method.jsonld",
+                "prefLabel": {
+                    "en": "parallel imaging method"
+                },
                 "isVis": "parallel_imaging_used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -328,6 +418,9 @@
             {
                 "variableName": "acceleration_factor",
                 "isAbout": "items/acceleration_factor.jsonld",
+                "prefLabel": {
+                    "en": "acceleration factor"
+                },
                 "isVis": "parallel_imaging_used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -337,6 +430,9 @@
             {
                 "variableName": "other_parallel_imaging_parameters",
                 "isAbout": "items/other_parallel_imaging_parameters.jsonld",
+                "prefLabel": {
+                    "en": "other parallel imaging parameters"
+                },
                 "isVis": "parallel_imaging_used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -346,6 +442,9 @@
             {
                 "variableName": "readout_parameters",
                 "isAbout": "items/readout_parameters.jsonld",
+                "prefLabel": {
+                    "en": "readout parameters"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -355,6 +454,9 @@
             {
                 "variableName": "fat_suppression",
                 "isAbout": "items/fat_suppression.jsonld",
+                "prefLabel": {
+                    "en": "fat suppression"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -364,6 +466,9 @@
             {
                 "variableName": "shimming",
                 "isAbout": "items/shimming.jsonld",
+                "prefLabel": {
+                    "en": "shimming"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -373,6 +478,9 @@
             {
                 "variableName": "slice_timing",
                 "isAbout": "items/slice_timing.jsonld",
+                "prefLabel": {
+                    "en": "slice timing"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -382,6 +490,9 @@
             {
                 "variableName": "location_of_the_first_slice",
                 "isAbout": "items/location_of_the_first_slice.jsonld",
+                "prefLabel": {
+                    "en": "location of the first slice"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -391,6 +502,9 @@
             {
                 "variableName": "brain_coverage",
                 "isAbout": "items/brain_coverage.jsonld",
+                "prefLabel": {
+                    "en": "brain coverage"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -400,6 +514,9 @@
             {
                 "variableName": "brain_coverage_millimeters",
                 "isAbout": "items/brain_coverage_millimeters.jsonld",
+                "prefLabel": {
+                    "en": "brain coverage millimeters"
+                },
                 "isVis": "brain_coverage == 3",
                 "requiredValue": false,
                 "allow": [

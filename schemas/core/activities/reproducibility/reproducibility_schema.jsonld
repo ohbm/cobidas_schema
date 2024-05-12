@@ -2,14 +2,14 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "reproducibility_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Reproducibility"
     },
     "description": "reproducibility",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
-        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1aucpZDoav8lb2QI4YlIppNBN0FwSikV-2diQmrJCI-4/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>reproducibility aspects of your work </p>"
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1aucpZDoav8lb2QI4YlIppNBN0FwSikV-2diQmrJCI-4/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>reproducibility aspects of your work</p>"
     },
     "ui": {
         "shuffle": false,
@@ -33,6 +33,9 @@
             {
                 "variableName": "tools_used",
                 "isAbout": "items/tools_used.jsonld",
+                "prefLabel": {
+                    "en": "tools used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -42,6 +45,9 @@
             {
                 "variableName": "infrastructure",
                 "isAbout": "items/infrastructure.jsonld",
+                "prefLabel": {
+                    "en": "infrastructure"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -51,6 +57,9 @@
             {
                 "variableName": "os_type",
                 "isAbout": "items/os_type.jsonld",
+                "prefLabel": {
+                    "en": "os type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -60,6 +69,9 @@
             {
                 "variableName": "os_version",
                 "isAbout": "items/os_version.jsonld",
+                "prefLabel": {
+                    "en": "os version"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -69,6 +81,9 @@
             {
                 "variableName": "workflow_used",
                 "isAbout": "items/workflow_used.jsonld",
+                "prefLabel": {
+                    "en": "workflow used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -78,6 +93,9 @@
             {
                 "variableName": "workflow_type",
                 "isAbout": "items/workflow_type.jsonld",
+                "prefLabel": {
+                    "en": "workflow type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -87,6 +105,9 @@
             {
                 "variableName": "workflow_version",
                 "isAbout": "items/workflow_version.jsonld",
+                "prefLabel": {
+                    "en": "workflow version"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -96,6 +117,9 @@
             {
                 "variableName": "workflow_identifier",
                 "isAbout": "items/workflow_identifier.jsonld",
+                "prefLabel": {
+                    "en": "workflow identifier"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -105,6 +129,9 @@
             {
                 "variableName": "provenance_trace",
                 "isAbout": "items/provenance_trace.jsonld",
+                "prefLabel": {
+                    "en": "provenance trace"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -114,6 +141,9 @@
             {
                 "variableName": "data_identifier",
                 "isAbout": "items/data_identifier.jsonld",
+                "prefLabel": {
+                    "en": "data identifier"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -123,6 +153,9 @@
             {
                 "variableName": "literate_programming",
                 "isAbout": "items/literate_programming.jsonld",
+                "prefLabel": {
+                    "en": "literate programming"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -132,6 +165,9 @@
             {
                 "variableName": "english_language_version",
                 "isAbout": "items/english_language_version.jsonld",
+                "prefLabel": {
+                    "en": "english language version"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -141,6 +177,9 @@
             {
                 "variableName": "tools_availability",
                 "isAbout": "items/tools_availability.jsonld",
+                "prefLabel": {
+                    "en": "tools availability"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -150,6 +189,9 @@
             {
                 "variableName": "virtual_appliances",
                 "isAbout": "items/virtual_appliances.jsonld",
+                "prefLabel": {
+                    "en": "virtual appliances"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

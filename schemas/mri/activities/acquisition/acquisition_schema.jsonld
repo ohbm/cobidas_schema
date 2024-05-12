@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "acquisition_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Acquisition"
     },
     "description": "acquisition",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": "<p><a href='https://docs.google.com/spreadsheets/d/1OvDa4c7Eg_zVNTX527j0riljSTY4WAVwXO-th93hRwc/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>use case specific acquisition parameters</p>"
     },
@@ -70,6 +70,9 @@
             {
                 "variableName": "modality",
                 "isAbout": "items/modality.jsonld",
+                "prefLabel": {
+                    "en": "modality"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -79,6 +82,9 @@
             {
                 "variableName": "mock_scanning_used",
                 "isAbout": "items/mock_scanning_used.jsonld",
+                "prefLabel": {
+                    "en": "mock scanning used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -88,6 +94,9 @@
             {
                 "variableName": "mock_scanning_description",
                 "isAbout": "items/mock_scanning_description.jsonld",
+                "prefLabel": {
+                    "en": "mock scanning description"
+                },
                 "isVis": "mock_scanning_used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -97,6 +106,9 @@
             {
                 "variableName": "experimenter_personnel",
                 "isAbout": "items/experimenter_personnel.jsonld",
+                "prefLabel": {
+                    "en": "experimenter personnel"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -106,6 +118,9 @@
             {
                 "variableName": "coil_receive",
                 "isAbout": "items/coil_receive.jsonld",
+                "prefLabel": {
+                    "en": "coil receive"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -115,6 +130,9 @@
             {
                 "variableName": "func_number_of_volumes",
                 "isAbout": "items/func_number_of_volumes.jsonld",
+                "prefLabel": {
+                    "en": "func number of volumes"
+                },
                 "isVis": "modality.includes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -124,6 +142,9 @@
             {
                 "variableName": "func_sparse_sampling_delay",
                 "isAbout": "items/func_sparse_sampling_delay.jsonld",
+                "prefLabel": {
+                    "en": "func sparse sampling delay"
+                },
                 "isVis": "modality.includes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -133,6 +154,9 @@
             {
                 "variableName": "dwi_number_of_directions",
                 "isAbout": "items/dwi_number_of_directions.jsonld",
+                "prefLabel": {
+                    "en": "dwi number of directions"
+                },
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -142,6 +166,9 @@
             {
                 "variableName": "dwi_direction_optimization_used",
                 "isAbout": "items/dwi_direction_optimization_used.jsonld",
+                "prefLabel": {
+                    "en": "dwi direction optimization used"
+                },
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -151,6 +178,9 @@
             {
                 "variableName": "dwi_direction_optimization_type",
                 "isAbout": "items/dwi_direction_optimization_type.jsonld",
+                "prefLabel": {
+                    "en": "dwi direction optimization type"
+                },
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -160,6 +190,9 @@
             {
                 "variableName": "dwi_b_values",
                 "isAbout": "items/dwi_b_values.jsonld",
+                "prefLabel": {
+                    "en": "dwi b values"
+                },
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -169,6 +202,9 @@
             {
                 "variableName": "dwi_nb_of_b0_images",
                 "isAbout": "items/dwi_nb_of_b0_images.jsonld",
+                "prefLabel": {
+                    "en": "dwi nb of b0 images"
+                },
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -178,6 +214,9 @@
             {
                 "variableName": "dwi_number_of_averages",
                 "isAbout": "items/dwi_number_of_averages.jsonld",
+                "prefLabel": {
+                    "en": "dwi number of averages"
+                },
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -187,6 +226,9 @@
             {
                 "variableName": "dwi_single_multi_shell",
                 "isAbout": "items/dwi_single_multi_shell.jsonld",
+                "prefLabel": {
+                    "en": "dwi single multi \u00adshell"
+                },
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -196,6 +238,9 @@
             {
                 "variableName": "dwi_echo_type",
                 "isAbout": "items/dwi_echo_type.jsonld",
+                "prefLabel": {
+                    "en": "dwi echo type"
+                },
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -205,6 +250,9 @@
             {
                 "variableName": "dwi_gradient_mode",
                 "isAbout": "items/dwi_gradient_mode.jsonld",
+                "prefLabel": {
+                    "en": "dwi gradient mode"
+                },
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -214,6 +262,9 @@
             {
                 "variableName": "dwi_cardiac_gating",
                 "isAbout": "items/dwi_cardiac_gating.jsonld",
+                "prefLabel": {
+                    "en": "dwi cardiac gating"
+                },
                 "isVis": "modality.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -223,6 +274,9 @@
             {
                 "variableName": "scanner-side_preprocessing",
                 "isAbout": "items/scanner-side_preprocessing.jsonld",
+                "prefLabel": {
+                    "en": "scanner-side preprocessing"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -232,6 +286,9 @@
             {
                 "variableName": "prospective_moco_used",
                 "isAbout": "items/prospective_moco_used.jsonld",
+                "prefLabel": {
+                    "en": "prospective moco used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -241,6 +298,9 @@
             {
                 "variableName": "prospective_moco_param",
                 "isAbout": "items/prospective_moco_param.jsonld",
+                "prefLabel": {
+                    "en": "prospective moco param"
+                },
                 "isVis": "prospective_moco_used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -250,6 +310,9 @@
             {
                 "variableName": "signal_inhomogeneity_correction_used",
                 "isAbout": "items/signal_inhomogeneity_correction_used.jsonld",
+                "prefLabel": {
+                    "en": "signal inhomogeneity correction used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -259,6 +322,9 @@
             {
                 "variableName": "signal_inhomogeneity_correction_param",
                 "isAbout": "items/signal_inhomogeneity_correction_param.jsonld",
+                "prefLabel": {
+                    "en": "signal inhomogeneity correction param"
+                },
                 "isVis": "signal_inhomogeneity_correction_used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -268,6 +334,9 @@
             {
                 "variableName": "distortion_correction_used",
                 "isAbout": "items/distortion_correction_used.jsonld",
+                "prefLabel": {
+                    "en": "distortion correction used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -277,6 +346,9 @@
             {
                 "variableName": "scan_duration",
                 "isAbout": "items/scan_duration.jsonld",
+                "prefLabel": {
+                    "en": "scan duration"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -286,6 +358,9 @@
             {
                 "variableName": "other_nonstandard_procedures",
                 "isAbout": "items/other_nonstandard_procedures.jsonld",
+                "prefLabel": {
+                    "en": "other non\u00adstandard procedures"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -295,6 +370,9 @@
             {
                 "variableName": "perf_labelling_method",
                 "isAbout": "items/perf_labelling_method.jsonld",
+                "prefLabel": {
+                    "en": "perf labelling method"
+                },
                 "isVis": "modality.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -304,6 +382,9 @@
             {
                 "variableName": "perf_background_suppression_pulses",
                 "isAbout": "items/perf_background_suppression_pulses.jsonld",
+                "prefLabel": {
+                    "en": "perf background suppression pulses"
+                },
                 "isVis": "modality.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -313,6 +394,9 @@
             {
                 "variableName": "perf_label_duration",
                 "isAbout": "items/perf_label_duration.jsonld",
+                "prefLabel": {
+                    "en": "perf label duration"
+                },
                 "isVis": "[1, 2].includes(perf_labelling_method)",
                 "requiredValue": false,
                 "allow": [
@@ -322,6 +406,9 @@
             {
                 "variableName": "perf_post_labeling_delay",
                 "isAbout": "items/perf_post_labeling_delay.jsonld",
+                "prefLabel": {
+                    "en": "perf post labeling delay"
+                },
                 "isVis": "[1, 2].includes(perf_labelling_method)",
                 "requiredValue": false,
                 "allow": [
@@ -331,6 +418,9 @@
             {
                 "variableName": "perf_location_of_the_labelling_plane",
                 "isAbout": "items/perf_location_of_the_labelling_plane.jsonld",
+                "prefLabel": {
+                    "en": "perf location of the labelling plane"
+                },
                 "isVis": "[1, 2].includes(perf_labelling_method)",
                 "requiredValue": false,
                 "allow": [
@@ -340,6 +430,9 @@
             {
                 "variableName": "perf_average_labelling_gradient",
                 "isAbout": "items/perf_average_labelling_gradient.jsonld",
+                "prefLabel": {
+                    "en": "perf average labelling gradient"
+                },
                 "isVis": "perf_labelling_method == 1",
                 "requiredValue": false,
                 "allow": [
@@ -349,6 +442,9 @@
             {
                 "variableName": "perf_slices_elective_labeling_gradient",
                 "isAbout": "items/perf_slices_elective_labeling_gradient.jsonld",
+                "prefLabel": {
+                    "en": "perf slice\u00ads elective labeling gradient"
+                },
                 "isVis": "perf_labelling_method == 1",
                 "requiredValue": false,
                 "allow": [
@@ -358,6 +454,9 @@
             {
                 "variableName": "perf_flip_angle_of_b1_pulses",
                 "isAbout": "items/perf_flip_angle_of_b1_pulses.jsonld",
+                "prefLabel": {
+                    "en": "perf flip angle of b1 pulses"
+                },
                 "isVis": "perf_labelling_method == 1",
                 "requiredValue": false,
                 "allow": [
@@ -367,6 +466,9 @@
             {
                 "variableName": "perf_assessment_of_inversion_efficiency",
                 "isAbout": "items/perf_assessment_of_inversion_efficiency.jsonld",
+                "prefLabel": {
+                    "en": "perf assessment of inversion efficiency"
+                },
                 "isVis": "perf_labelling_method == 1",
                 "requiredValue": false,
                 "allow": [
@@ -376,6 +478,9 @@
             {
                 "variableName": "perf_use_of_a_separate_labelling_coil",
                 "isAbout": "items/perf_use_of_a_separate_labelling_coil.jsonld",
+                "prefLabel": {
+                    "en": "perf use of a separate labelling coil"
+                },
                 "isVis": "perf_labelling_method == 0",
                 "requiredValue": false,
                 "allow": [
@@ -385,6 +490,9 @@
             {
                 "variableName": "perf_control_scan_used",
                 "isAbout": "items/perf_control_scan_used.jsonld",
+                "prefLabel": {
+                    "en": "perf control scan used"
+                },
                 "isVis": "perf_labelling_method == 0",
                 "requiredValue": false,
                 "allow": [
@@ -394,6 +502,9 @@
             {
                 "variableName": "perf_b1_amplitude",
                 "isAbout": "items/perf_b1_amplitude.jsonld",
+                "prefLabel": {
+                    "en": "perf b1 amplitude"
+                },
                 "isVis": "perf_labelling_method == 0",
                 "requiredValue": false,
                 "allow": [
@@ -403,6 +514,9 @@
             {
                 "variableName": "perf_pasl_ti",
                 "isAbout": "items/perf_pasl_ti.jsonld",
+                "prefLabel": {
+                    "en": "perf pasl ti"
+                },
                 "isVis": "perf_labelling_method == 2",
                 "requiredValue": false,
                 "allow": [
@@ -412,6 +526,9 @@
             {
                 "variableName": "perf_labelling_slab_thickness",
                 "isAbout": "items/perf_labelling_slab_thickness.jsonld",
+                "prefLabel": {
+                    "en": "perf labelling slab thickness"
+                },
                 "isVis": "perf_labelling_method == 2",
                 "requiredValue": false,
                 "allow": [
@@ -421,6 +538,9 @@
             {
                 "variableName": "perf_quipss_pulses",
                 "isAbout": "items/perf_quipss_pulses.jsonld",
+                "prefLabel": {
+                    "en": "perf quipss pulses"
+                },
                 "isVis": "perf_labelling_method == 2",
                 "requiredValue": false,
                 "allow": [
@@ -430,6 +550,9 @@
             {
                 "variableName": "perf_vsasl_ti",
                 "isAbout": "items/perf_vsasl_ti.jsonld",
+                "prefLabel": {
+                    "en": "perf vsasl ti"
+                },
                 "isVis": "perf_labelling_method == 3",
                 "requiredValue": false,
                 "allow": [
@@ -439,6 +562,9 @@
             {
                 "variableName": "perf_velocity_selection_cutoff",
                 "isAbout": "items/perf_velocity_selection_cutoff.jsonld",
+                "prefLabel": {
+                    "en": "perf velocity selection cutoff"
+                },
                 "isVis": "perf_labelling_method == 3",
                 "requiredValue": false,
                 "allow": [
@@ -448,6 +574,9 @@
             {
                 "variableName": "swi_nb_of_baseline_volumes",
                 "isAbout": "items/swi_nb_of_baseline_volumes.jsonld",
+                "prefLabel": {
+                    "en": "swi nb of baseline volumes"
+                },
                 "isVis": "modality.includes(4)",
                 "requiredValue": false,
                 "allow": [
@@ -457,6 +586,9 @@
             {
                 "variableName": "swi_contrast_agent_used",
                 "isAbout": "items/swi_contrast_agent_used.jsonld",
+                "prefLabel": {
+                    "en": "swi contrast agent used"
+                },
                 "isVis": "modality.includes(4)",
                 "requiredValue": false,
                 "allow": [
@@ -466,6 +598,9 @@
             {
                 "variableName": "ContrastBolusIngredient",
                 "isAbout": "items/ContrastBolusIngredient.jsonld",
+                "prefLabel": {
+                    "en": "swi contrast agent details"
+                },
                 "isVis": "contrast_agent_used==1",
                 "requiredValue": false,
                 "allow": [
@@ -475,6 +610,9 @@
             {
                 "variableName": "swi_bolus_amount_and_concentration",
                 "isAbout": "items/swi_bolus_amount_and_concentration.jsonld",
+                "prefLabel": {
+                    "en": "swi bolus amount and concentration"
+                },
                 "isVis": "contrast_agent_used==1",
                 "requiredValue": false,
                 "allow": [
@@ -484,6 +622,9 @@
             {
                 "variableName": "swi_injection_rate",
                 "isAbout": "items/swi_injection_rate.jsonld",
+                "prefLabel": {
+                    "en": "swi injection rate"
+                },
                 "isVis": "contrast_agent_used==1",
                 "requiredValue": false,
                 "allow": [
@@ -493,6 +634,9 @@
             {
                 "variableName": "swi_post_injection_of_saline",
                 "isAbout": "items/swi_post_injection_of_saline.jsonld",
+                "prefLabel": {
+                    "en": "swi post injection of saline"
+                },
                 "isVis": "contrast_agent_used==1",
                 "requiredValue": false,
                 "allow": [
@@ -502,6 +646,9 @@
             {
                 "variableName": "swi_injection_method",
                 "isAbout": "items/swi_injection_method.jsonld",
+                "prefLabel": {
+                    "en": "swi injection method"
+                },
                 "isVis": "contrast_agent_used==1",
                 "requiredValue": false,
                 "allow": [
@@ -511,6 +658,9 @@
             {
                 "variableName": "motion_monitoring",
                 "isAbout": "items/motion_monitoring.jsonld",
+                "prefLabel": {
+                    "en": "motion monitoring"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -520,6 +670,9 @@
             {
                 "variableName": "incidental_findings",
                 "isAbout": "items/incidental_findings.jsonld",
+                "prefLabel": {
+                    "en": "incidental findings"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

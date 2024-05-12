@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "results_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Results"
     },
     "description": "results",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -33,6 +33,9 @@
             {
                 "variableName": "analysis_type",
                 "isAbout": "items/analysis_type.jsonld",
+                "prefLabel": {
+                    "en": "analysis type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -42,6 +45,9 @@
             {
                 "variableName": "effects_tested",
                 "isAbout": "items/effects_tested.jsonld",
+                "prefLabel": {
+                    "en": "effects tested"
+                },
                 "isVis": "analysis_type.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -51,6 +57,9 @@
             {
                 "variableName": "extracted_data",
                 "isAbout": "items/extracted_data.jsonld",
+                "prefLabel": {
+                    "en": "extracted data"
+                },
                 "isVis": "analysis_type.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -60,6 +69,9 @@
             {
                 "variableName": "units_of_reported_results",
                 "isAbout": "items/units_of_reported_results.jsonld",
+                "prefLabel": {
+                    "en": "units of reported results"
+                },
                 "isVis": "analysis_type.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -69,6 +81,9 @@
             {
                 "variableName": "tables_of_coordinates",
                 "isAbout": "items/tables_of_coordinates.jsonld",
+                "prefLabel": {
+                    "en": "tables of coordinates"
+                },
                 "isVis": "analysis_type.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -78,6 +93,9 @@
             {
                 "variableName": "link_unthresholded_maps",
                 "isAbout": "items/link_unthresholded_maps.jsonld",
+                "prefLabel": {
+                    "en": "link unthresholded maps"
+                },
                 "isVis": "analysis_type.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -87,6 +105,9 @@
             {
                 "variableName": "link_thresholded_maps",
                 "isAbout": "items/link_thresholded_maps.jsonld",
+                "prefLabel": {
+                    "en": "link thresholded maps"
+                },
                 "isVis": "analysis_type.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -96,6 +117,9 @@
             {
                 "variableName": "link_effect_size_maps",
                 "isAbout": "items/link_effect_size_maps.jsonld",
+                "prefLabel": {
+                    "en": "link effect size maps"
+                },
                 "isVis": "analysis_type.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -105,6 +129,9 @@
             {
                 "variableName": "spatial_features",
                 "isAbout": "items/spatial_features.jsonld",
+                "prefLabel": {
+                    "en": "spatial features"
+                },
                 "isVis": "analysis_type.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -114,6 +141,9 @@
             {
                 "variableName": "spatial_smoothness_of_noise",
                 "isAbout": "items/spatial_smoothness_of_noise.jsonld",
+                "prefLabel": {
+                    "en": "spatial smoothness of noise"
+                },
                 "isVis": "analysis_type.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -123,6 +153,9 @@
             {
                 "variableName": "resel_count",
                 "isAbout": "items/resel_count.jsonld",
+                "prefLabel": {
+                    "en": "resel count"
+                },
                 "isVis": "analysis_type.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -132,6 +165,9 @@
             {
                 "variableName": "ica_analyses",
                 "isAbout": "items/ica_analyses.jsonld",
+                "prefLabel": {
+                    "en": "ica analyses"
+                },
                 "isVis": "analysis_type.includes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -141,6 +177,9 @@
             {
                 "variableName": "graph_analyses",
                 "isAbout": "items/graph_analyses.jsonld",
+                "prefLabel": {
+                    "en": "graph analyses"
+                },
                 "isVis": "analysis_type.includes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -150,6 +189,9 @@
             {
                 "variableName": "optimised_evaluation_metrics",
                 "isAbout": "items/optimised_evaluation_metrics.jsonld",
+                "prefLabel": {
+                    "en": "optimised evaluation metrics"
+                },
                 "isVis": "analysis_type.includes(2)",
                 "requiredValue": false,
                 "allow": [

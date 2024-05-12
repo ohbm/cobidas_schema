@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "condition.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "condition"
     },
     "description": "condition",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "textarea"
     },
     "question": {
         "en": "1.45 - Enumerate the conditions and fully describe and reference each.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Consider using a shorthand name, for example, AUDSTIM, VISSTIM, to refer to each condition. Naming should reflect the distinction between instruction periods and actual stimuli.</details></div>"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
     }
 }

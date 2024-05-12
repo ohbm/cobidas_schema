@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "other_nonstandard_procedures.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "other non\u00adstandard procedures"
     },
     "description": "other non\u00adstandard procedures",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "textarea"
     },
     "question": {
         "en": "1.31 - Describe any other non\u00adstandard procedures<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Turning off the cold head(s) (for example during EEG/fMRI or spectroscopy measurements)</details></div>"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
     }
 }

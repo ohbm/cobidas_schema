@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "movement_regressors_included.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "movement regressors included"
     },
     "description": "movement regressors included",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
@@ -16,8 +16,6 @@
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 4,
         "choices": [
             {
                 "name": {
@@ -50,6 +48,7 @@
                 "value": 4
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 4
     }
 }
