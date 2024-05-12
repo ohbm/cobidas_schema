@@ -1,5 +1,10 @@
+validate: validate_syntax validate_schema
+
+package.json:
+	npm install `cat npm-requirements.txt`
+
 # Validate jsonld
-validate_syntax:
+validate_syntax: package.json
 	grep -r  "@context" response_options | cut -d: -f1 | xargs -I fname jsonlint -q fname
 	grep -r  "@context" schemas | cut -d: -f1 | xargs -I fname jsonlint -q fname
 
