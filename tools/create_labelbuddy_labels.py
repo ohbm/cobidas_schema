@@ -1,7 +1,9 @@
 """Prepare labels for LabelBuddy based on the items of a Reproshema activity."""
-from pathlib import Path
-from rich import print
+
 import json
+from pathlib import Path
+
+from rich import print
 
 protocol = "eyetracking"
 
@@ -31,14 +33,14 @@ protocol_file = schema_folder / protocol / "protocols" / f"{protocol}_schema.jso
 protocol_label_file = label_folder / f"{protocol}_labels.jsonl"
 protocol_label_file.unlink(missing_ok=True)
 
-with open(protocol_file, "r") as f:
+with open(protocol_file) as f:
     protocol_json = json.load(f)
 
 activities_order = protocol_json["ui"]["order"]
 
 for i, activity in enumerate(activities_order):
 
-    activity_file = protocol_file.parent / activity 
+    activity_file = protocol_file.parent / activity
 
     activity_name = activity_file.stem.replace("_schema", "")
     print(f" Processing activity {activity_name}")
@@ -48,14 +50,14 @@ for i, activity in enumerate(activities_order):
     activity_label_file = label_folder / (f"{i}_{activity_name}_labels.jsonl")
     activity_label_file.unlink(missing_ok=True)
 
-    with open(activity_file, "r") as f:
+    with open(activity_file) as f:
         activity_json = json.load(f)
 
     items_order = activity_json["ui"]["order"]
 
     for item in items_order:
 
-        with open(activity_file.parent / item, "r") as f:
+        with open(activity_file.parent / item) as f:
             item_json = json.load(f)
 
         question = item_json["question"]["en"]

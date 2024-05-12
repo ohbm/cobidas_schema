@@ -2,7 +2,7 @@
   <h1>Guideline for Reporting Standards of Eye-tracking Research in Decision Sciences</h1>
   <p>This checklist is based on following work:</p>
   <p>
-    Fiedler, S., Schulte-Mecklenbeck, M., Renkewitz, F., & Orquin, J. L. (2020, September 11). 
+    Fiedler, S., Schulte-Mecklenbeck, M., Renkewitz, F., & Orquin, J. L. (2020, September 11).
     <a href="https://doi.org/10.31234/osf.io/f6qcy" target="_blank">
         <em>Guideline for Reporting Standards of Eye-tracking Research in Decision Sciences.</em>
     </a>

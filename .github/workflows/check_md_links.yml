@@ -1,17 +1,18 @@
+---
 name: Check Markdown links
 
 on:
-  push:
-    branches: 
-      - master
-      - main
-      - dev    
-  pull_request:
-    branches: '*'
+    push:
+        branches:
+        -   master
+        -   main
+        -   dev
+    pull_request:
+        branches: '*'
 
 jobs:
-  markdown-link-check:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+    markdown-link-check:
+        runs-on: ubuntu-latest
+        steps:
+        -   uses: actions/checkout@master
+        -   uses: gaurav-nelson/github-action-markdown-link-check@v1

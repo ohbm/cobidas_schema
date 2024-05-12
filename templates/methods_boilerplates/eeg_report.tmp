@@ -1,10 +1,10 @@
-{% include 'task_name.tmp' %} 
+{% include 'task_name.tmp' %}
 
 {% include 'institution.tmp' %}
 
-{% include 'device_info.tmp' %} 
+{% include 'device_info.tmp' %}
 
-{% include 'device_freq_config.tmp' %} 
+{% include 'device_freq_config.tmp' %}
 
 {% include 'device_channels.tmp' %}
 

@@ -10,5 +10,5 @@ The anatomical MRI data were collected with following parameters.
 
 {% include 'mri_timing_parameters.tmp' %}
 
-({{n_slices}} slices acquired in XXXX order; field of view, FOV={{fov}}mm; 
+({{n_slices}} slices acquired in XXXX order; field of view, FOV={{fov}}mm;
 matrix size={{ms}}; voxel size={{vs}}mm).

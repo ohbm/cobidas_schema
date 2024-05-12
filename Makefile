@@ -5,5 +5,5 @@ validate_syntax:
 
 # you will need to install reproschema-py to run this one ( pip install reproschema )
 validate_schema:
-	reproschema -l DEBUG validate response_options	
+	reproschema -l DEBUG validate response_options
 	reproschema -l DEBUG validate schemas

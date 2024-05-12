@@ -1,4 +1,4 @@
-This data was acquired using a {{SequenceVariant}} variant of {{SequenceName}}, 
+This data was acquired using a {{SequenceVariant}} variant of {{SequenceName}},
 a {{ScanningSequence}} {{PulseSequenceType}} with options {{ScanOptions}}.
 
 {% if NonlinearGradientCorrection %}

@@ -81,7 +81,7 @@
     <h2>Want to help?</h2>
     <p>
       We are currently working on trying to expand the number of items used in
-      the checklist. All of this work is done in google spreadsheets: 
+      the checklist. All of this work is done in google spreadsheets:
       the spreadsheet for each section is accessible by clicking on the <b>Source</b>
       at the top of each page.
     </p>
