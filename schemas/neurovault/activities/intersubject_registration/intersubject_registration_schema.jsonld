@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "intersubject_registration_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Intersubject registration"
     },
     "description": "intersubject registration",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": "<p><a href='https://docs.google.com/spreadsheets/d/1arizMF2GnaiXz9txY5tzTU7uoA0_ENE17W5wDeUPpu0/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='https://doi.org/10.3389/fninf.2015.00008' target='_blank' > Reference </a><br><br>Describe your spatial normalization</p>"
     },
@@ -35,6 +35,9 @@
             {
                 "variableName": "used_intersubject_registration",
                 "isAbout": "items/used_intersubject_registration.jsonld",
+                "prefLabel": {
+                    "en": "used intersubject registration"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -44,6 +47,9 @@
             {
                 "variableName": "intersubject_registration_software",
                 "isAbout": "items/intersubject_registration_software.jsonld",
+                "prefLabel": {
+                    "en": "intersubject registration software"
+                },
                 "isVis": "used_intersubject_registration == 1",
                 "requiredValue": false,
                 "allow": [
@@ -53,6 +59,9 @@
             {
                 "variableName": "intersubject_transformation_type",
                 "isAbout": "items/intersubject_transformation_type.jsonld",
+                "prefLabel": {
+                    "en": "intersubject transformation type"
+                },
                 "isVis": "used_intersubject_registration == 1",
                 "requiredValue": false,
                 "allow": [
@@ -62,6 +71,9 @@
             {
                 "variableName": "nonlinear_transform_type",
                 "isAbout": "items/nonlinear_transform_type.jsonld",
+                "prefLabel": {
+                    "en": "nonlinear transform type"
+                },
                 "isVis": "used_intersubject_registration == 1",
                 "requiredValue": false,
                 "allow": [
@@ -71,6 +83,9 @@
             {
                 "variableName": "transform_similarity_metric",
                 "isAbout": "items/transform_similarity_metric.jsonld",
+                "prefLabel": {
+                    "en": "transform similarity metric"
+                },
                 "isVis": "used_intersubject_registration == 1",
                 "requiredValue": false,
                 "allow": [
@@ -80,6 +95,9 @@
             {
                 "variableName": "interpolation_method",
                 "isAbout": "items/interpolation_method.jsonld",
+                "prefLabel": {
+                    "en": "interpolation method"
+                },
                 "isVis": "used_intersubject_registration == 1",
                 "requiredValue": false,
                 "allow": [
@@ -89,6 +107,9 @@
             {
                 "variableName": "object_image_type",
                 "isAbout": "items/object_image_type.jsonld",
+                "prefLabel": {
+                    "en": "object image type"
+                },
                 "isVis": "used_intersubject_registration == 1",
                 "requiredValue": false,
                 "allow": [
@@ -98,6 +119,9 @@
             {
                 "variableName": "functional_coregistered_to_structural",
                 "isAbout": "items/functional_coregistered_to_structural.jsonld",
+                "prefLabel": {
+                    "en": "functional coregistered to structural"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -107,6 +131,9 @@
             {
                 "variableName": "functional_coregistration_method",
                 "isAbout": "items/functional_coregistration_method.jsonld",
+                "prefLabel": {
+                    "en": "functional coregistration method"
+                },
                 "isVis": "functional_coregistered_to_structural == 1",
                 "requiredValue": false,
                 "allow": [
@@ -116,6 +143,9 @@
             {
                 "variableName": "coordinate_space",
                 "isAbout": "items/coordinate_space.jsonld",
+                "prefLabel": {
+                    "en": "coordinate space"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -125,6 +155,9 @@
             {
                 "variableName": "target_template_image",
                 "isAbout": "items/target_template_image.jsonld",
+                "prefLabel": {
+                    "en": "target template image"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -134,6 +167,9 @@
             {
                 "variableName": "target_resolution",
                 "isAbout": "items/target_resolution.jsonld",
+                "prefLabel": {
+                    "en": "target resolution"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -143,6 +179,9 @@
             {
                 "variableName": "used_smoothing",
                 "isAbout": "items/used_smoothing.jsonld",
+                "prefLabel": {
+                    "en": "used smoothing"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -152,6 +191,9 @@
             {
                 "variableName": "smoothing_type",
                 "isAbout": "items/smoothing_type.jsonld",
+                "prefLabel": {
+                    "en": "smoothing type"
+                },
                 "isVis": "used_smoothing == 1",
                 "requiredValue": false,
                 "allow": [
@@ -161,6 +203,9 @@
             {
                 "variableName": "smoothing_fwhm",
                 "isAbout": "items/smoothing_fwhm.jsonld",
+                "prefLabel": {
+                    "en": "smoothing fwhm"
+                },
                 "isVis": "used_smoothing == 1",
                 "requiredValue": false,
                 "allow": [
@@ -170,6 +215,9 @@
             {
                 "variableName": "resampled_voxel_size",
                 "isAbout": "items/resampled_voxel_size.jsonld",
+                "prefLabel": {
+                    "en": "resampled voxel size"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
