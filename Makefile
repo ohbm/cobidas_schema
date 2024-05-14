@@ -1,7 +1,7 @@
 validate: validate_syntax validate_schema
 
 package.json:
-	npm install `cat npm-requirements.txt`
+	npm install jsonlint
 
 # Validate jsonld
 validate_syntax: package.json
