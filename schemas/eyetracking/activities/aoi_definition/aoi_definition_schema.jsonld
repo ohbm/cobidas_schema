@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "aoi_definition_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "AOI definition"
     },
     "description": "aoi definition",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -27,6 +27,9 @@
             {
                 "variableName": "size_of_aois",
                 "isAbout": "items/size_of_aois.jsonld",
+                "prefLabel": {
+                    "en": "size of aois"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -36,6 +39,9 @@
             {
                 "variableName": "overlap_between_the_aois",
                 "isAbout": "items/overlap_between_the_aois.jsonld",
+                "prefLabel": {
+                    "en": "overlap between the aois"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -45,6 +51,9 @@
             {
                 "variableName": "minimal_distance_between_aois",
                 "isAbout": "items/minimal_distance_between_aois.jsonld",
+                "prefLabel": {
+                    "en": "minimal distance between aois"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -54,6 +63,9 @@
             {
                 "variableName": "relative_size_of_aoi_and",
                 "isAbout": "items/relative_size_of_aoi_and.jsonld",
+                "prefLabel": {
+                    "en": "relative size of aoi and"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -63,6 +75,9 @@
             {
                 "variableName": "example_image_included",
                 "isAbout": "items/example_image_included.jsonld",
+                "prefLabel": {
+                    "en": "example image included"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -72,6 +87,9 @@
             {
                 "variableName": "method_for_stimulus_preparation",
                 "isAbout": "items/method_for_stimulus_preparation.jsonld",
+                "prefLabel": {
+                    "en": "method for stimulus preparation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -81,6 +99,9 @@
             {
                 "variableName": "luminance_matched_between_stimuli",
                 "isAbout": "items/luminance_matched_between_stimuli.jsonld",
+                "prefLabel": {
+                    "en": "luminance matched between stimuli"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -90,6 +111,9 @@
             {
                 "variableName": "size_of_stimulus",
                 "isAbout": "items/size_of_stimulus.jsonld",
+                "prefLabel": {
+                    "en": "size of stimulus"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [

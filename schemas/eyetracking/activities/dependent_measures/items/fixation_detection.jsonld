@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "fixation_detection.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "fixation detection"
     },
     "description": "fixation detection",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "select"
     },
     "question": {
-        "en": "Event detection procedure"
+        "en": "10.3 - Event detection procedure<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>I-DT fixation algorithm</details></div>"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 2,
         "choices": [
             {
                 "name": {
@@ -30,14 +28,9 @@
                     "en": "velocity"
                 },
                 "value": 1
-            },
-            {
-                "name": {
-                    "en": "other"
-                },
-                "value": 2
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 1
     }
 }

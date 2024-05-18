@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "setup_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Setup"
     },
     "description": "setup",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -29,6 +29,9 @@
             {
                 "variableName": "length_of_inter_stimulus_interval",
                 "isAbout": "items/length_of_inter_stimulus_interval.jsonld",
+                "prefLabel": {
+                    "en": "length of inter stimulus interval"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -38,6 +41,9 @@
             {
                 "variableName": "length_of_fixation_cross_presentation",
                 "isAbout": "items/length_of_fixation_cross_presentation.jsonld",
+                "prefLabel": {
+                    "en": "length of fixation cross presentation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -47,6 +53,9 @@
             {
                 "variableName": "position_of_fixation_cross",
                 "isAbout": "items/position_of_fixation_cross.jsonld",
+                "prefLabel": {
+                    "en": "position of fixation cross"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -56,6 +65,9 @@
             {
                 "variableName": "length_of_stimulus_presentation",
                 "isAbout": "items/length_of_stimulus_presentation.jsonld",
+                "prefLabel": {
+                    "en": "length of stimulus presentation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -65,6 +77,9 @@
             {
                 "variableName": "order_of_stimulus_presentation",
                 "isAbout": "items/order_of_stimulus_presentation.jsonld",
+                "prefLabel": {
+                    "en": "order of stimulus presentation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -74,6 +89,9 @@
             {
                 "variableName": "counter_balancing_of_positions_in_the_presentation",
                 "isAbout": "items/counter_balancing_of_positions_in_the_presentation.jsonld",
+                "prefLabel": {
+                    "en": "counter balancing of positions in the presentation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -83,6 +101,9 @@
             {
                 "variableName": "number_of_trials",
                 "isAbout": "items/number_of_trials.jsonld",
+                "prefLabel": {
+                    "en": "number of trials"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -92,6 +113,9 @@
             {
                 "variableName": "experimenter",
                 "isAbout": "items/experimenter.jsonld",
+                "prefLabel": {
+                    "en": "experimenter"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -101,6 +125,9 @@
             {
                 "variableName": "setting_and_location_of_data_collection",
                 "isAbout": "items/setting_and_location_of_data_collection.jsonld",
+                "prefLabel": {
+                    "en": "setting and location of data collection"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -110,6 +137,9 @@
             {
                 "variableName": "distance_between_participant_and_screen",
                 "isAbout": "items/distance_between_participant_and_screen.jsonld",
+                "prefLabel": {
+                    "en": "distance between participant and screen"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [

@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "dependent_measures_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Dependent measures"
     },
     "description": "dependent measures",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -23,6 +23,9 @@
             {
                 "variableName": "other_transformations_of_data",
                 "isAbout": "items/other_transformations_of_data.jsonld",
+                "prefLabel": {
+                    "en": "other transformations of data"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -32,6 +35,9 @@
             {
                 "variableName": "blink_detection",
                 "isAbout": "items/blink_detection.jsonld",
+                "prefLabel": {
+                    "en": "blink detection"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -41,6 +47,9 @@
             {
                 "variableName": "fixation_detection",
                 "isAbout": "items/fixation_detection.jsonld",
+                "prefLabel": {
+                    "en": "fixation detection"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -50,6 +59,9 @@
             {
                 "variableName": "aggregation_method_for_fixations_during_data",
                 "isAbout": "items/aggregation_method_for_fixations_during_data.jsonld",
+                "prefLabel": {
+                    "en": "aggregation method for fixations during data"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

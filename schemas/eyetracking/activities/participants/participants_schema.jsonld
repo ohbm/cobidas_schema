@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "participants_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Participants"
     },
     "description": "participants",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -24,6 +24,9 @@
             {
                 "variableName": "vision_of_participants",
                 "isAbout": "items/vision_of_participants.jsonld",
+                "prefLabel": {
+                    "en": "vision of participants"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -33,6 +36,9 @@
             {
                 "variableName": "proportion_of_women",
                 "isAbout": "items/proportion_of_women.jsonld",
+                "prefLabel": {
+                    "en": "proportion of women"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -42,6 +48,9 @@
             {
                 "variableName": "mean_age",
                 "isAbout": "items/mean_age.jsonld",
+                "prefLabel": {
+                    "en": "mean age"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -51,6 +60,9 @@
             {
                 "variableName": "procedure_to_test_vision",
                 "isAbout": "items/procedure_to_test_vision.jsonld",
+                "prefLabel": {
+                    "en": "procedure to test vision"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -60,6 +72,9 @@
             {
                 "variableName": "color_vision",
                 "isAbout": "items/color_vision.jsonld",
+                "prefLabel": {
+                    "en": "color vision"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [

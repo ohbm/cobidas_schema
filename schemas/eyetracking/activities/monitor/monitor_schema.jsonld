@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "monitor_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Monitor"
     },
     "description": "monitor",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -23,6 +23,9 @@
             {
                 "variableName": "type",
                 "isAbout": "items/type.jsonld",
+                "prefLabel": {
+                    "en": "type"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -32,6 +35,9 @@
             {
                 "variableName": "resolution",
                 "isAbout": "items/resolution.jsonld",
+                "prefLabel": {
+                    "en": "resolution"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -41,6 +47,9 @@
             {
                 "variableName": "screen_size",
                 "isAbout": "items/screen_size.jsonld",
+                "prefLabel": {
+                    "en": "screen size"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -50,6 +59,9 @@
             {
                 "variableName": "screen_refresh_rate_software",
                 "isAbout": "items/screen_refresh_rate_software.jsonld",
+                "prefLabel": {
+                    "en": "screen refresh rate software"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [

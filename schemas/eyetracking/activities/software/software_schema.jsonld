@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "software_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Software"
     },
     "description": "software",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -21,6 +21,9 @@
             {
                 "variableName": "pre_processing_program",
                 "isAbout": "items/pre_processing_program.jsonld",
+                "prefLabel": {
+                    "en": "pre processing program"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -30,6 +33,9 @@
             {
                 "variableName": "stimulus_presentation",
                 "isAbout": "items/stimulus_presentation.jsonld",
+                "prefLabel": {
+                    "en": "stimulus presentation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

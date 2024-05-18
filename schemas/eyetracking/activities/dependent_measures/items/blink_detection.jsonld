@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "blink_detection.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "blink detection"
     },
     "description": "blink detection",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "question": {
-        "en": "The algorithm used to identify blinks"
+        "en": "10.2 - The algorithm used to identify blinks"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 1,
         "choices": [
             {
                 "name": {
@@ -32,6 +30,7 @@
                 "value": 1
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 1
     }
 }

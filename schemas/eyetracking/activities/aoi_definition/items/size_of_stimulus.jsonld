@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "size_of_stimulus.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "size of stimulus"
     },
     "description": "size of stimulus",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "question": {
-        "en": "The size of the stimulus"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 3000
+        "en": "5.8 - The size of the stimulus<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br> For example, the picture, the font ; Font size 23</details></div>"
     }
 }

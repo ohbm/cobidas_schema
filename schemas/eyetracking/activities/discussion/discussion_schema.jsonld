@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "discussion_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Discussion"
     },
     "description": "discussion",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -21,6 +21,9 @@
             {
                 "variableName": "importance_of_study_specific_limitations",
                 "isAbout": "items/importance_of_study_specific_limitations.jsonld",
+                "prefLabel": {
+                    "en": "importance of study specific limitations"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -30,6 +33,9 @@
             {
                 "variableName": "importance_of_limitations_in_general",
                 "isAbout": "items/importance_of_limitations_in_general.jsonld",
+                "prefLabel": {
+                    "en": "importance of limitations in general"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

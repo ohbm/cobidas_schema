@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "data_quality_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Data quality"
     },
     "description": "data quality",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -30,6 +30,9 @@
             {
                 "variableName": "handling_of_artefacts",
                 "isAbout": "items/handling_of_artefacts.jsonld",
+                "prefLabel": {
+                    "en": "handling of artefacts"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -39,6 +42,9 @@
             {
                 "variableName": "obtained_accuracy",
                 "isAbout": "items/obtained_accuracy.jsonld",
+                "prefLabel": {
+                    "en": "obtained accuracy"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -48,6 +54,9 @@
             {
                 "variableName": "monitoring_of_data_quality",
                 "isAbout": "items/monitoring_of_data_quality.jsonld",
+                "prefLabel": {
+                    "en": "monitoring of data quality"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -57,6 +66,9 @@
             {
                 "variableName": "proportion_of_excluded_trials",
                 "isAbout": "items/proportion_of_excluded_trials.jsonld",
+                "prefLabel": {
+                    "en": "proportion of excluded trials"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -66,6 +78,9 @@
             {
                 "variableName": "reasons_for_excluding_trials",
                 "isAbout": "items/reasons_for_excluding_trials.jsonld",
+                "prefLabel": {
+                    "en": "reasons for excluding trials"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -75,6 +90,9 @@
             {
                 "variableName": "number_of_participants_excluded",
                 "isAbout": "items/number_of_participants_excluded.jsonld",
+                "prefLabel": {
+                    "en": "number of participants excluded"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -84,6 +102,9 @@
             {
                 "variableName": "quality_threshold",
                 "isAbout": "items/quality_threshold.jsonld",
+                "prefLabel": {
+                    "en": "quality threshold"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -93,6 +114,9 @@
             {
                 "variableName": "percentage_of_lost_data",
                 "isAbout": "items/percentage_of_lost_data.jsonld",
+                "prefLabel": {
+                    "en": "percentage of lost data"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -102,6 +126,9 @@
             {
                 "variableName": "test_of_assumptions_for_missing_data",
                 "isAbout": "items/test_of_assumptions_for_missing_data.jsonld",
+                "prefLabel": {
+                    "en": "test of assumptions for missing data"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -111,6 +138,9 @@
             {
                 "variableName": "methods_addressing_missing_data",
                 "isAbout": "items/methods_addressing_missing_data.jsonld",
+                "prefLabel": {
+                    "en": "methods addressing missing data"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -120,6 +150,9 @@
             {
                 "variableName": "denoising_filtering_or_smoothing_of_raw_data",
                 "isAbout": "items/denoising_filtering_or_smoothing_of_raw_data.jsonld",
+                "prefLabel": {
+                    "en": "denoising, filtering or smoothing of raw data"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [

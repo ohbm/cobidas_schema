@@ -15,6 +15,14 @@
         "en": "2.10 - The temporal precision<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>The standard deviation of eye-tracker latency in s ; 0.05</details></div>"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "second"
+                },
+                "value": "second"
+            }
+        ]
     }
 }

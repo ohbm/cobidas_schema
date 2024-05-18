@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "aggregation_method_for_fixations_during_data.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "aggregation method for fixations during data"
     },
     "description": "aggregation method for fixations during data",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "question": {
-        "en": "The aggregation method for fixations during data preprocessing used"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 3000
+        "en": "10.4 - The aggregation method for fixations during data preprocessing used<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>AOI method or fuzzy AOIs</details></div>"
     }
 }

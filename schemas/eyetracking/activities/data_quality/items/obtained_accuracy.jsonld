@@ -2,19 +2,27 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "obtained_accuracy.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "obtained accuracy"
     },
     "description": "obtained accuracy",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "float"
     },
     "question": {
-        "en": "The obtained accuracy of the data"
+        "en": "9.2 - The obtained accuracy of the data<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>0.5</details></div>"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "visual degrees"
+                },
+                "value": "visual degrees"
+            }
+        ]
     }
 }

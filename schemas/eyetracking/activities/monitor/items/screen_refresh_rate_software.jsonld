@@ -2,19 +2,27 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "screen_refresh_rate_software.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "screen refresh rate software"
     },
     "description": "screen refresh rate software",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "float"
     },
     "question": {
-        "en": "Screen refresh rate of the used monitor"
+        "en": "3.4 - Screen refresh rate of the used monitor<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>60</details></div>"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "hertz"
+                },
+                "value": "hertz"
+            }
+        ]
     }
 }

@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "tracker_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Tracker"
     },
     "description": "tracker",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -33,6 +33,9 @@
             {
                 "variableName": "name",
                 "isAbout": "items/name.jsonld",
+                "prefLabel": {
+                    "en": "name"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -42,6 +45,9 @@
             {
                 "variableName": "producer",
                 "isAbout": "items/producer.jsonld",
+                "prefLabel": {
+                    "en": "producer"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -51,6 +57,9 @@
             {
                 "variableName": "type_remote_device",
                 "isAbout": "items/type_remote_device.jsonld",
+                "prefLabel": {
+                    "en": "type remote device"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -60,6 +69,9 @@
             {
                 "variableName": "type_of_device",
                 "isAbout": "items/type_of_device.jsonld",
+                "prefLabel": {
+                    "en": "type of device"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -69,6 +81,9 @@
             {
                 "variableName": "lens_size",
                 "isAbout": "items/lens_size.jsonld",
+                "prefLabel": {
+                    "en": "lens size"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -78,6 +93,9 @@
             {
                 "variableName": "sampling_procedure",
                 "isAbout": "items/sampling_procedure.jsonld",
+                "prefLabel": {
+                    "en": "sampling procedure"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -87,6 +105,9 @@
             {
                 "variableName": "sampling_rate",
                 "isAbout": "items/sampling_rate.jsonld",
+                "prefLabel": {
+                    "en": "sampling rate"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -96,6 +117,9 @@
             {
                 "variableName": "accuracy",
                 "isAbout": "items/accuracy.jsonld",
+                "prefLabel": {
+                    "en": "accuracy"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -105,6 +129,9 @@
             {
                 "variableName": "precision",
                 "isAbout": "items/precision.jsonld",
+                "prefLabel": {
+                    "en": "precision"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -114,6 +141,9 @@
             {
                 "variableName": "temporal_precision",
                 "isAbout": "items/temporal_precision.jsonld",
+                "prefLabel": {
+                    "en": "temporal precision"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -123,6 +153,9 @@
             {
                 "variableName": "stimulus_synchronization_latency",
                 "isAbout": "items/stimulus_synchronization_latency.jsonld",
+                "prefLabel": {
+                    "en": "stimulus synchronization latency"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -132,6 +165,9 @@
             {
                 "variableName": "latency",
                 "isAbout": "items/latency.jsonld",
+                "prefLabel": {
+                    "en": "latency"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -141,6 +177,9 @@
             {
                 "variableName": "headbox",
                 "isAbout": "items/headbox.jsonld",
+                "prefLabel": {
+                    "en": "headbox"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
@@ -150,6 +189,9 @@
             {
                 "variableName": "chin_rest",
                 "isAbout": "items/chin_rest.jsonld",
+                "prefLabel": {
+                    "en": "chin rest"
+                },
                 "isVis": "long_form == 1",
                 "requiredValue": false,
                 "allow": [
