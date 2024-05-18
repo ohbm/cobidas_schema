@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "preprocessing_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Preprocessing"
     },
     "description": "preprocessing",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": "<p><a href='https://docs.google.com/spreadsheets/d/1PFS6KfDC25fFad9Vf2A1v05vKQt1lHHElT3EW1ZdT9M/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Describe your preprocessing</p>"
     },
@@ -102,6 +102,9 @@
             {
                 "variableName": "modality",
                 "isAbout": "items/modality.jsonld",
+                "prefLabel": {
+                    "en": "modality"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -111,6 +114,9 @@
             {
                 "variableName": "single_preprocessing_software",
                 "isAbout": "items/single_preprocessing_software.jsonld",
+                "prefLabel": {
+                    "en": "single preprocessing software"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -120,6 +126,9 @@
             {
                 "variableName": "preprocessing_software",
                 "isAbout": "items/preprocessing_software.jsonld",
+                "prefLabel": {
+                    "en": "preprocessing software"
+                },
                 "isVis": "single_preprocessing_software == 1",
                 "requiredValue": false,
                 "allow": [
@@ -129,6 +138,9 @@
             {
                 "variableName": "preprocessing_software_version",
                 "isAbout": "items/preprocessing_software_version.jsonld",
+                "prefLabel": {
+                    "en": "preprocessing software version"
+                },
                 "isVis": "single_preprocessing_software == 1",
                 "requiredValue": false,
                 "allow": [
@@ -138,6 +150,9 @@
             {
                 "variableName": "software_citation",
                 "isAbout": "items/software_citation.jsonld",
+                "prefLabel": {
+                    "en": "software citation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -147,6 +162,9 @@
             {
                 "variableName": "operation_performed",
                 "isAbout": "items/operation_performed.jsonld",
+                "prefLabel": {
+                    "en": "operation performed"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -156,6 +174,9 @@
             {
                 "variableName": "order_of_operation",
                 "isAbout": "items/order_of_operation.jsonld",
+                "prefLabel": {
+                    "en": "order of operation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -165,7 +186,10 @@
             {
                 "variableName": "t1_stabilization",
                 "isAbout": "items/t1_stabilization.jsonld",
-                "isVis": true,
+                "prefLabel": {
+                    "en": "t1 stabilization"
+                },
+                "isVis": "modality.includes(1)",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"
@@ -174,6 +198,9 @@
             {
                 "variableName": "bet_software",
                 "isAbout": "items/bet_software.jsonld",
+                "prefLabel": {
+                    "en": "bet software"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -183,6 +210,9 @@
             {
                 "variableName": "bet_version",
                 "isAbout": "items/bet_version.jsonld",
+                "prefLabel": {
+                    "en": "bet version"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -192,6 +222,9 @@
             {
                 "variableName": "bet_method",
                 "isAbout": "items/bet_method.jsonld",
+                "prefLabel": {
+                    "en": "bet method"
+                },
                 "isVis": "operation_performed.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -201,6 +234,9 @@
             {
                 "variableName": "bet_parameters",
                 "isAbout": "items/bet_parameters.jsonld",
+                "prefLabel": {
+                    "en": "bet parameters"
+                },
                 "isVis": "operation_performed.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -210,6 +246,9 @@
             {
                 "variableName": "bet_manual_edit",
                 "isAbout": "items/bet_manual_edit.jsonld",
+                "prefLabel": {
+                    "en": "bet manual edit"
+                },
                 "isVis": "operation_performed.includes(0)",
                 "requiredValue": false,
                 "allow": [
@@ -219,6 +258,9 @@
             {
                 "variableName": "segmentation_software",
                 "isAbout": "items/segmentation_software.jsonld",
+                "prefLabel": {
+                    "en": "segmentation software"
+                },
                 "isVis": "operation_performed.includes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -228,6 +270,9 @@
             {
                 "variableName": "segmentation_version",
                 "isAbout": "items/segmentation_version.jsonld",
+                "prefLabel": {
+                    "en": "segmentation version"
+                },
                 "isVis": "operation_performed.includes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -237,6 +282,9 @@
             {
                 "variableName": "segmentation_method",
                 "isAbout": "items/segmentation_method.jsonld",
+                "prefLabel": {
+                    "en": "segmentation method"
+                },
                 "isVis": "operation_performed.includes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -246,6 +294,9 @@
             {
                 "variableName": "segmentation_parameters",
                 "isAbout": "items/segmentation_parameters.jsonld",
+                "prefLabel": {
+                    "en": "segmentation parameters"
+                },
                 "isVis": "operation_performed.includes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -255,6 +306,9 @@
             {
                 "variableName": "stc_software",
                 "isAbout": "items/stc_software.jsonld",
+                "prefLabel": {
+                    "en": "stc software"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -264,6 +318,9 @@
             {
                 "variableName": "stc_version",
                 "isAbout": "items/stc_version.jsonld",
+                "prefLabel": {
+                    "en": "stc version"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -273,6 +330,9 @@
             {
                 "variableName": "stc_method",
                 "isAbout": "items/stc_method.jsonld",
+                "prefLabel": {
+                    "en": "stc method"
+                },
                 "isVis": "operation_performed.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -282,6 +342,9 @@
             {
                 "variableName": "stc_reference",
                 "isAbout": "items/stc_reference.jsonld",
+                "prefLabel": {
+                    "en": "stc reference"
+                },
                 "isVis": "operation_performed.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -291,6 +354,9 @@
             {
                 "variableName": "stc_interpolation",
                 "isAbout": "items/stc_interpolation.jsonld",
+                "prefLabel": {
+                    "en": "stc interpolation"
+                },
                 "isVis": "operation_performed.includes(3)",
                 "requiredValue": false,
                 "allow": [
@@ -300,6 +366,9 @@
             {
                 "variableName": "moco_software",
                 "isAbout": "items/moco_software.jsonld",
+                "prefLabel": {
+                    "en": "moco software"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -309,6 +378,9 @@
             {
                 "variableName": "moco_version",
                 "isAbout": "items/moco_version.jsonld",
+                "prefLabel": {
+                    "en": "moco version"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -318,6 +390,9 @@
             {
                 "variableName": "non-rigid_registration",
                 "isAbout": "items/non-rigid_registration.jsonld",
+                "prefLabel": {
+                    "en": "non-rigid registration"
+                },
                 "isVis": "operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -327,6 +402,9 @@
             {
                 "variableName": "moco_dof",
                 "isAbout": "items/moco_dof.jsonld",
+                "prefLabel": {
+                    "en": "moco dof"
+                },
                 "isVis": "operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -336,6 +414,9 @@
             {
                 "variableName": "motion-susceptibility_correction_used",
                 "isAbout": "items/motion-susceptibility_correction_used.jsonld",
+                "prefLabel": {
+                    "en": "motion-susceptibility correction used"
+                },
                 "isVis": "operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -345,6 +426,9 @@
             {
                 "variableName": "motion-susceptibility_correction_software",
                 "isAbout": "items/motion-susceptibility_correction_software.jsonld",
+                "prefLabel": {
+                    "en": "motion-susceptibility correction software"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -354,6 +438,9 @@
             {
                 "variableName": "motion-susceptibility_correction_method",
                 "isAbout": "items/motion-susceptibility_correction_method.jsonld",
+                "prefLabel": {
+                    "en": "motion-susceptibility correction method"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -363,6 +450,9 @@
             {
                 "variableName": "moco_reference",
                 "isAbout": "items/moco_reference.jsonld",
+                "prefLabel": {
+                    "en": "moco reference"
+                },
                 "isVis": "operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -372,6 +462,9 @@
             {
                 "variableName": "moco_cost_function",
                 "isAbout": "items/moco_cost_function.jsonld",
+                "prefLabel": {
+                    "en": "moco cost function"
+                },
                 "isVis": "operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -381,6 +474,9 @@
             {
                 "variableName": "moco_interpolation",
                 "isAbout": "items/moco_interpolation.jsonld",
+                "prefLabel": {
+                    "en": "moco interpolation"
+                },
                 "isVis": "operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -390,6 +486,9 @@
             {
                 "variableName": "moco_parameters",
                 "isAbout": "items/moco_parameters.jsonld",
+                "prefLabel": {
+                    "en": "moco parameters"
+                },
                 "isVis": "operation_performed.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -399,6 +498,9 @@
             {
                 "variableName": "dwi_subject_custom_atlas",
                 "isAbout": "items/dwi_subject_custom_atlas.jsonld",
+                "prefLabel": {
+                    "en": "dwi subject custom atlas"
+                },
                 "isVis": "dwi_reference_population == 1",
                 "requiredValue": false,
                 "allow": [
@@ -408,6 +510,9 @@
             {
                 "variableName": "func_anat_coreg_software",
                 "isAbout": "items/func_anat_coreg_software.jsonld",
+                "prefLabel": {
+                    "en": "func anat coreg software"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(4)",
                 "requiredValue": false,
                 "allow": [
@@ -417,6 +522,9 @@
             {
                 "variableName": "func_anat_coreg_version",
                 "isAbout": "items/func_anat_coreg_version.jsonld",
+                "prefLabel": {
+                    "en": "func anat coreg version"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(4)",
                 "requiredValue": false,
                 "allow": [
@@ -426,6 +534,9 @@
             {
                 "variableName": "func_anat_coreg_method",
                 "isAbout": "items/func_anat_coreg_method.jsonld",
+                "prefLabel": {
+                    "en": "func anat coreg method"
+                },
                 "isVis": "operation_performed.includes(4)",
                 "requiredValue": false,
                 "allow": [
@@ -435,6 +546,9 @@
             {
                 "variableName": "func_anat_coreg_target_volume",
                 "isAbout": "items/func_anat_coreg_target_volume.jsonld",
+                "prefLabel": {
+                    "en": "func anat coreg target volume"
+                },
                 "isVis": "operation_performed.includes(4)",
                 "requiredValue": false,
                 "allow": [
@@ -444,6 +558,9 @@
             {
                 "variableName": "func_anat_coreg_source_volume",
                 "isAbout": "items/func_anat_coreg_source_volume.jsonld",
+                "prefLabel": {
+                    "en": "func anat coreg source volume"
+                },
                 "isVis": "operation_performed.includes(4)",
                 "requiredValue": false,
                 "allow": [
@@ -453,6 +570,9 @@
             {
                 "variableName": "func_anat_coreg_dof",
                 "isAbout": "items/func_anat_coreg_dof.jsonld",
+                "prefLabel": {
+                    "en": "func anat coreg dof"
+                },
                 "isVis": "operation_performed.includes(4)",
                 "requiredValue": false,
                 "allow": [
@@ -462,6 +582,9 @@
             {
                 "variableName": "func_anat_coreg_cost_function",
                 "isAbout": "items/func_anat_coreg_cost_function.jsonld",
+                "prefLabel": {
+                    "en": "func anat coreg cost function"
+                },
                 "isVis": "operation_performed.includes(4)",
                 "requiredValue": false,
                 "allow": [
@@ -471,6 +594,9 @@
             {
                 "variableName": "func_anat_coreg_interpolation_method",
                 "isAbout": "items/func_anat_coreg_interpolation_method.jsonld",
+                "prefLabel": {
+                    "en": "func anat coreg interpolation method"
+                },
                 "isVis": "operation_performed.includes(4)",
                 "requiredValue": false,
                 "allow": [
@@ -480,6 +606,9 @@
             {
                 "variableName": "intersubj_reg_software",
                 "isAbout": "items/intersubj_reg_software.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg software"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -489,6 +618,9 @@
             {
                 "variableName": "intersubj_reg_version",
                 "isAbout": "items/intersubj_reg_version.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg version"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -498,6 +630,9 @@
             {
                 "variableName": "intersubj_reg_method",
                 "isAbout": "items/intersubj_reg_method.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg method"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -507,6 +642,9 @@
             {
                 "variableName": "intersubj_reg_volume_surface",
                 "isAbout": "items/intersubj_reg_volume_surface.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg volume surface"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -516,6 +654,9 @@
             {
                 "variableName": "intersubj_reg_source_image_modality",
                 "isAbout": "items/intersubj_reg_source_image_modality.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg source image modality"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -525,6 +666,9 @@
             {
                 "variableName": "intersubj_reg_preprocessing",
                 "isAbout": "items/intersubj_reg_preprocessing.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg preprocessing"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -534,6 +678,9 @@
             {
                 "variableName": "intersubj_reg_template_space",
                 "isAbout": "items/intersubj_reg_template_space.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg template space"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -543,6 +690,9 @@
             {
                 "variableName": "intersubj_reg_target_space_modality",
                 "isAbout": "items/intersubj_reg_target_space_modality.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg target space modality"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -552,6 +702,9 @@
             {
                 "variableName": "intersubj_reg_target_space_resolution",
                 "isAbout": "items/intersubj_reg_target_space_resolution.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg target space resolution"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -561,6 +714,9 @@
             {
                 "variableName": "intersubj_reg_target_image",
                 "isAbout": "items/intersubj_reg_target_image.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg target image"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -570,6 +726,9 @@
             {
                 "variableName": "intersubj_reg_extra",
                 "isAbout": "items/intersubj_reg_extra.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg extra"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -579,6 +738,9 @@
             {
                 "variableName": "intersubj_reg_warp_choice",
                 "isAbout": "items/intersubj_reg_warp_choice.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg warp choice"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -588,6 +750,9 @@
             {
                 "variableName": "intersubj_reg_non_linear_type",
                 "isAbout": "items/intersubj_reg_non_linear_type.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg non linear type"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -597,6 +762,9 @@
             {
                 "variableName": "regularization_used",
                 "isAbout": "items/regularization_used.jsonld",
+                "prefLabel": {
+                    "en": "regularization used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -606,6 +774,9 @@
             {
                 "variableName": "regularization_parameters",
                 "isAbout": "items/regularization_parameters.jsonld",
+                "prefLabel": {
+                    "en": "regularization parameters"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -615,6 +786,9 @@
             {
                 "variableName": "intersubj_reg_interpolation",
                 "isAbout": "items/intersubj_reg_interpolation.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg interpolation"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -624,6 +798,9 @@
             {
                 "variableName": "intersubj_reg_cost_function",
                 "isAbout": "items/intersubj_reg_cost_function.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg cost function"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -633,6 +810,9 @@
             {
                 "variableName": "intersubj_reg_masking",
                 "isAbout": "items/intersubj_reg_masking.jsonld",
+                "prefLabel": {
+                    "en": "intersubj reg masking"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -642,6 +822,9 @@
             {
                 "variableName": "resampled_voxel_size",
                 "isAbout": "items/resampled_voxel_size.jsonld",
+                "prefLabel": {
+                    "en": "resampled voxel size"
+                },
                 "isVis": "operation_performed.includes(5)",
                 "requiredValue": false,
                 "allow": [
@@ -651,6 +834,9 @@
             {
                 "variableName": "anatomical_image_intensity_correction",
                 "isAbout": "items/anatomical_image_intensity_correction.jsonld",
+                "prefLabel": {
+                    "en": "anatomical image intensity correction"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -660,6 +846,9 @@
             {
                 "variableName": "functional_image_intensity_correction",
                 "isAbout": "items/functional_image_intensity_correction.jsonld",
+                "prefLabel": {
+                    "en": "functional image intensity correction"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -669,6 +858,9 @@
             {
                 "variableName": "intensity_normalization",
                 "isAbout": "items/intensity_normalization.jsonld",
+                "prefLabel": {
+                    "en": "intensity normalization"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -678,6 +870,9 @@
             {
                 "variableName": "denoising_used",
                 "isAbout": "items/denoising_used.jsonld",
+                "prefLabel": {
+                    "en": "denoising used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -687,6 +882,9 @@
             {
                 "variableName": "noise_sources_included",
                 "isAbout": "items/noise_sources_included.jsonld",
+                "prefLabel": {
+                    "en": "noise sources included"
+                },
                 "isVis": "denoising_used  == 1",
                 "requiredValue": false,
                 "allow": [
@@ -696,6 +894,9 @@
             {
                 "variableName": "motion_parameters",
                 "isAbout": "items/motion_parameters.jsonld",
+                "prefLabel": {
+                    "en": "motion parameters"
+                },
                 "isVis": "noise_sources_included.includes(1)",
                 "requiredValue": false,
                 "allow": [
@@ -705,6 +906,9 @@
             {
                 "variableName": "tissue_signals",
                 "isAbout": "items/tissue_signals.jsonld",
+                "prefLabel": {
+                    "en": "tissue signals"
+                },
                 "isVis": "noise_sources_included.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -714,6 +918,9 @@
             {
                 "variableName": "tissue_definition",
                 "isAbout": "items/tissue_definition.jsonld",
+                "prefLabel": {
+                    "en": "tissue definition"
+                },
                 "isVis": "noise_sources_included.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -723,6 +930,9 @@
             {
                 "variableName": "tissue_signal_definition",
                 "isAbout": "items/tissue_signal_definition.jsonld",
+                "prefLabel": {
+                    "en": "tissue signal definition"
+                },
                 "isVis": "noise_sources_included.includes(2)",
                 "requiredValue": false,
                 "allow": [
@@ -732,6 +942,9 @@
             {
                 "variableName": "volume_censoring_used",
                 "isAbout": "items/volume_censoring_used.jsonld",
+                "prefLabel": {
+                    "en": "volume censoring used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -741,6 +954,9 @@
             {
                 "variableName": "volume_censoring_software",
                 "isAbout": "items/volume_censoring_software.jsonld",
+                "prefLabel": {
+                    "en": "volume censoring software"
+                },
                 "isVis": "volume_censoring_used  == 1",
                 "requiredValue": false,
                 "allow": [
@@ -750,6 +966,9 @@
             {
                 "variableName": "volume_censoring_version",
                 "isAbout": "items/volume_censoring_version.jsonld",
+                "prefLabel": {
+                    "en": "volume censoring version"
+                },
                 "isVis": "volume_censoring_used  == 1",
                 "requiredValue": false,
                 "allow": [
@@ -759,6 +978,9 @@
             {
                 "variableName": "volume_censoring_method",
                 "isAbout": "items/volume_censoring_method.jsonld",
+                "prefLabel": {
+                    "en": "volume censoring method"
+                },
                 "isVis": "volume_censoring_used  == 1",
                 "requiredValue": false,
                 "allow": [
@@ -768,6 +990,9 @@
             {
                 "variableName": "volume_censoring_criteria",
                 "isAbout": "items/volume_censoring_criteria.jsonld",
+                "prefLabel": {
+                    "en": "volume censoring criteria"
+                },
                 "isVis": "volume_censoring_used  == 1",
                 "requiredValue": false,
                 "allow": [
@@ -777,6 +1002,9 @@
             {
                 "variableName": "interpolation",
                 "isAbout": "items/interpolation.jsonld",
+                "prefLabel": {
+                    "en": "interpolation"
+                },
                 "isVis": "volume_censoring_used  == 1",
                 "requiredValue": false,
                 "allow": [
@@ -786,6 +1014,9 @@
             {
                 "variableName": "smoothing_software",
                 "isAbout": "items/smoothing_software.jsonld",
+                "prefLabel": {
+                    "en": "smoothing software"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(6)",
                 "requiredValue": false,
                 "allow": [
@@ -795,6 +1026,9 @@
             {
                 "variableName": "smoothing_version",
                 "isAbout": "items/smoothing_version.jsonld",
+                "prefLabel": {
+                    "en": "smoothing version"
+                },
                 "isVis": "single_preprocessing_software == 0 && operation_performed.includes(6)",
                 "requiredValue": false,
                 "allow": [
@@ -804,6 +1038,9 @@
             {
                 "variableName": "smoothing_type",
                 "isAbout": "items/smoothing_type.jsonld",
+                "prefLabel": {
+                    "en": "smoothing type"
+                },
                 "isVis": "operation_performed.includes(6)",
                 "requiredValue": false,
                 "allow": [
@@ -813,6 +1050,9 @@
             {
                 "variableName": "smoothing_size",
                 "isAbout": "items/smoothing_size.jsonld",
+                "prefLabel": {
+                    "en": "smoothing size"
+                },
                 "isVis": "operation_performed.includes(6)",
                 "requiredValue": false,
                 "allow": [
@@ -822,6 +1062,9 @@
             {
                 "variableName": "filtering_approach",
                 "isAbout": "items/filtering_approach.jsonld",
+                "prefLabel": {
+                    "en": "filtering approach"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -831,6 +1074,9 @@
             {
                 "variableName": "smoothing_target_space",
                 "isAbout": "items/smoothing_target_space.jsonld",
+                "prefLabel": {
+                    "en": "smoothing target space"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -840,6 +1086,9 @@
             {
                 "variableName": "quality_control_reports",
                 "isAbout": "items/quality_control_reports.jsonld",
+                "prefLabel": {
+                    "en": "quality control reports"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
