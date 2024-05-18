@@ -13,6 +13,23 @@
     },
     "ui": {
         "shuffle": false,
+        "order": [
+            "../activities/multivariate/multivariate_schema.jsonld"
+        ],
+        "addProperties": [
+            {
+                "variableName": "multivariate",
+                "isAbout": "../activities/multivariate/multivariate_schema.jsonld",
+                "prefLabel": {
+                    "en": "Multivariate"
+                },
+                "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            }
+        ],
         "allow": [
             "reproschema:AutoAdvance",
             "reproschema:AllowExport"

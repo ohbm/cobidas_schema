@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "p_value.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "p value"
     },
     "description": "p value",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "textarea"
     },
     "question": {
         "en": "1.36 - When possible use formal test to obtain P\u00advalue to assess whether evaluation metric is \u201csignificant\u201d or consistent with noise."
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
     }
 }

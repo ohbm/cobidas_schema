@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "multivariate_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Multivariate"
     },
     "description": "multivariate",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -55,6 +55,9 @@
             {
                 "variableName": "variable_type",
                 "isAbout": "items/variable_type.jsonld",
+                "prefLabel": {
+                    "en": "variable type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -64,6 +67,9 @@
             {
                 "variableName": "class_proportions",
                 "isAbout": "items/class_proportions.jsonld",
+                "prefLabel": {
+                    "en": "class proportions"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -73,6 +79,9 @@
             {
                 "variableName": "variable_dimension",
                 "isAbout": "items/variable_dimension.jsonld",
+                "prefLabel": {
+                    "en": "variable dimension"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -82,6 +91,9 @@
             {
                 "variableName": "feature_transformation_used",
                 "isAbout": "items/feature_transformation_used.jsonld",
+                "prefLabel": {
+                    "en": "feature transformation used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -91,6 +103,9 @@
             {
                 "variableName": "feature_transformation_methods",
                 "isAbout": "items/feature_transformation_methods.jsonld",
+                "prefLabel": {
+                    "en": "feature transformation methods"
+                },
                 "isVis": "feature_transformation_used ==1",
                 "requiredValue": false,
                 "allow": [
@@ -100,6 +115,9 @@
             {
                 "variableName": "feature_selection_used",
                 "isAbout": "items/feature_selection_used.jsonld",
+                "prefLabel": {
+                    "en": "feature selection used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -109,6 +127,9 @@
             {
                 "variableName": "feature_selection_methods",
                 "isAbout": "items/feature_selection_methods.jsonld",
+                "prefLabel": {
+                    "en": "feature selection methods"
+                },
                 "isVis": "feature_selection_used == 1",
                 "requiredValue": false,
                 "allow": [
@@ -118,6 +139,9 @@
             {
                 "variableName": "dimension_reduction_used",
                 "isAbout": "items/dimension_reduction_used.jsonld",
+                "prefLabel": {
+                    "en": "dimension reduction used"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -127,6 +151,9 @@
             {
                 "variableName": "dimension_reduction_methods",
                 "isAbout": "items/dimension_reduction_methods.jsonld",
+                "prefLabel": {
+                    "en": "dimension reduction methods"
+                },
                 "isVis": "dimension_reduction_used ==1",
                 "requiredValue": false,
                 "allow": [
@@ -136,6 +163,9 @@
             {
                 "variableName": "effective_variable_dimension",
                 "isAbout": "items/effective_variable_dimension.jsonld",
+                "prefLabel": {
+                    "en": "effective variable dimension"
+                },
                 "isVis": "feature_selection_used == 1 || dimension_reduction_used ==1",
                 "requiredValue": false,
                 "allow": [
@@ -145,6 +175,9 @@
             {
                 "variableName": "population_stratification",
                 "isAbout": "items/population_stratification.jsonld",
+                "prefLabel": {
+                    "en": "population stratification"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -154,6 +187,9 @@
             {
                 "variableName": "analysis_type",
                 "isAbout": "items/analysis_type.jsonld",
+                "prefLabel": {
+                    "en": "analysis type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -163,6 +199,9 @@
             {
                 "variableName": "traditional_model_type",
                 "isAbout": "items/traditional_model_type.jsonld",
+                "prefLabel": {
+                    "en": "traditional model type"
+                },
                 "isVis": "analysis_type == 0",
                 "requiredValue": false,
                 "allow": [
@@ -172,6 +211,9 @@
             {
                 "variableName": "covariance_structure",
                 "isAbout": "items/covariance_structure.jsonld",
+                "prefLabel": {
+                    "en": "covariance structure"
+                },
                 "isVis": "analysis_type == 0",
                 "requiredValue": false,
                 "allow": [
@@ -181,6 +223,9 @@
             {
                 "variableName": "statistics",
                 "isAbout": "items/statistics.jsonld",
+                "prefLabel": {
+                    "en": "statistics"
+                },
                 "isVis": "analysis_type == 0",
                 "requiredValue": false,
                 "allow": [
@@ -190,6 +235,9 @@
             {
                 "variableName": "predictive_model_type",
                 "isAbout": "items/predictive_model_type.jsonld",
+                "prefLabel": {
+                    "en": "predictive model type"
+                },
                 "isVis": "analysis_type == 1",
                 "requiredValue": false,
                 "allow": [
@@ -199,6 +247,9 @@
             {
                 "variableName": "kernel_parameters",
                 "isAbout": "items/kernel_parameters.jsonld",
+                "prefLabel": {
+                    "en": "kernel parameters"
+                },
                 "isVis": "analysis_type == 1",
                 "requiredValue": false,
                 "allow": [
@@ -208,6 +259,9 @@
             {
                 "variableName": "figure_of_merit",
                 "isAbout": "items/figure_of_merit.jsonld",
+                "prefLabel": {
+                    "en": "figure of merit"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -217,6 +271,9 @@
             {
                 "variableName": "fitting_method",
                 "isAbout": "items/fitting_method.jsonld",
+                "prefLabel": {
+                    "en": "fitting method"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -226,6 +283,9 @@
             {
                 "variableName": "parameters_setting",
                 "isAbout": "items/parameters_setting.jsonld",
+                "prefLabel": {
+                    "en": "parameters setting"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -235,6 +295,9 @@
             {
                 "variableName": "convergence_method",
                 "isAbout": "items/convergence_method.jsonld",
+                "prefLabel": {
+                    "en": "convergence method"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -244,6 +307,9 @@
             {
                 "variableName": "uniform_pipeline",
                 "isAbout": "items/uniform_pipeline.jsonld",
+                "prefLabel": {
+                    "en": "uniform pipeline"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -253,6 +319,9 @@
             {
                 "variableName": "hyper_parameter_setting",
                 "isAbout": "items/hyper_parameter_setting.jsonld",
+                "prefLabel": {
+                    "en": "hyper parameter setting"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -262,6 +331,9 @@
             {
                 "variableName": "cross_validation",
                 "isAbout": "items/cross_validation.jsonld",
+                "prefLabel": {
+                    "en": "cross validation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -271,6 +343,9 @@
             {
                 "variableName": "response_type",
                 "isAbout": "items/response_type.jsonld",
+                "prefLabel": {
+                    "en": "response type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -280,6 +355,9 @@
             {
                 "variableName": "accuracy",
                 "isAbout": "items/accuracy.jsonld",
+                "prefLabel": {
+                    "en": "accuracy"
+                },
                 "isVis": "number_response_classes == 2",
                 "requiredValue": false,
                 "allow": [
@@ -289,6 +367,9 @@
             {
                 "variableName": "precision",
                 "isAbout": "items/precision.jsonld",
+                "prefLabel": {
+                    "en": "precision"
+                },
                 "isVis": "number_response_classes == 2",
                 "requiredValue": false,
                 "allow": [
@@ -298,6 +379,9 @@
             {
                 "variableName": "recall",
                 "isAbout": "items/recall.jsonld",
+                "prefLabel": {
+                    "en": "recall"
+                },
                 "isVis": "number_response_classes == 2",
                 "requiredValue": false,
                 "allow": [
@@ -307,6 +391,9 @@
             {
                 "variableName": "false_positive_rate",
                 "isAbout": "items/false_positive_rate.jsonld",
+                "prefLabel": {
+                    "en": "false positive rate"
+                },
                 "isVis": "number_response_classes == 2",
                 "requiredValue": false,
                 "allow": [
@@ -316,6 +403,9 @@
             {
                 "variableName": "F1",
                 "isAbout": "items/F1.jsonld",
+                "prefLabel": {
+                    "en": "F1"
+                },
                 "isVis": "number_response_classes == 2",
                 "requiredValue": false,
                 "allow": [
@@ -325,6 +415,9 @@
             {
                 "variableName": "roc_auc",
                 "isAbout": "items/roc_auc.jsonld",
+                "prefLabel": {
+                    "en": "roc auc"
+                },
                 "isVis": "number_response_classes == 2",
                 "requiredValue": false,
                 "allow": [
@@ -334,6 +427,9 @@
             {
                 "variableName": "confusion_matrix",
                 "isAbout": "items/confusion_matrix.jsonld",
+                "prefLabel": {
+                    "en": "confusion matrix"
+                },
                 "isVis": "number_response_classes > 2",
                 "requiredValue": false,
                 "allow": [
@@ -343,6 +439,9 @@
             {
                 "variableName": "r_squared",
                 "isAbout": "items/r_squared.jsonld",
+                "prefLabel": {
+                    "en": "r squared"
+                },
                 "isVis": "response_type == 1",
                 "requiredValue": false,
                 "allow": [
@@ -352,6 +451,9 @@
             {
                 "variableName": "kendal_tau",
                 "isAbout": "items/kendal_tau.jsonld",
+                "prefLabel": {
+                    "en": "kendal tau"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -361,6 +463,9 @@
             {
                 "variableName": "p_value",
                 "isAbout": "items/p_value.jsonld",
+                "prefLabel": {
+                    "en": "p value"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -370,6 +475,9 @@
             {
                 "variableName": "fit_interpretation",
                 "isAbout": "items/fit_interpretation.jsonld",
+                "prefLabel": {
+                    "en": "fit interpretation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

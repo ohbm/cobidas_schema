@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "convergence_method.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "convergence method"
     },
     "description": "convergence method",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "textarea"
     },
     "question": {
         "en": "1.21 - How the convergence of the learning method is monitored"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
     }
 }

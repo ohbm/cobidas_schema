@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "hyper_parameter_setting.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "hyper parameter setting"
     },
     "description": "hyper parameter setting",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "textarea"
     },
     "question": {
         "en": "1.23 - Method for hyper-parameter setting"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
     }
 }

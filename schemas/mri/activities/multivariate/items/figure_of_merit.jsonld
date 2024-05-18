@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "figure_of_merit.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "figure of merit"
     },
     "description": "figure of merit",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "textarea"
     },
     "question": {
         "en": "1.18 - Figure-of-merit optimised"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
     }
 }

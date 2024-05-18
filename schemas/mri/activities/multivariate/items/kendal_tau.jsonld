@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "kendal_tau.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "kendal tau"
     },
     "description": "kendal tau",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "textarea"
     },
     "question": {
         "en": "1.35 - For representational similarity analysis, report the Kendall Tau statistic for each candidate model considered."
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
     }
 }

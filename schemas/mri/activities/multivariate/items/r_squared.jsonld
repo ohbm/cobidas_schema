@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "r_squared.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "r squared"
     },
     "description": "r squared",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "textarea"
     },
     "question": {
         "en": "1.34 - Report Prediction R\u00b2<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>That is the percentage of variance explained by prediction, computed as one minus the ratio of prediction sum\u00ad-of-\u00adsquares to total sum-\u00adof-\u00adsquares. (Note this is not the squared correlation coefficient between true and predicted values)</details></div>"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
     }
 }
