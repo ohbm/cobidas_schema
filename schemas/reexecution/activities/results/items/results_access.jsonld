@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "results_access.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "results access"
     },
     "description": "results access",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "select"
     },
     "question": {
-        "en": "How are the results accessed?"
+        "en": "5.2 - How are the results accessed?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 3,
         "choices": [
             {
                 "name": {
@@ -36,14 +34,9 @@
                     "en": "Repository"
                 },
                 "value": 2
-            },
-            {
-                "name": {
-                    "en": "other"
-                },
-                "value": 3
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 2
     }
 }

@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "results_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "results"
     },
     "description": "results",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -23,6 +23,9 @@
             {
                 "variableName": "results_available",
                 "isAbout": "items/results_available.jsonld",
+                "prefLabel": {
+                    "en": "results available"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -32,6 +35,9 @@
             {
                 "variableName": "results_access",
                 "isAbout": "items/results_access.jsonld",
+                "prefLabel": {
+                    "en": "results access"
+                },
                 "isVis": "results_available == 1",
                 "requiredValue": false,
                 "allow": [
@@ -41,6 +47,9 @@
             {
                 "variableName": "results_repository",
                 "isAbout": "items/results_repository.jsonld",
+                "prefLabel": {
+                    "en": "results repository"
+                },
                 "isVis": "results_available == 1",
                 "requiredValue": false,
                 "allow": [
@@ -50,6 +59,9 @@
             {
                 "variableName": "additional_information",
                 "isAbout": "items/additional_information.jsonld",
+                "prefLabel": {
+                    "en": "additional information"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

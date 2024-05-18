@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "other_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "other"
     },
     "description": "other",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -22,6 +22,9 @@
             {
                 "variableName": "preregistration",
                 "isAbout": "items/preregistration.jsonld",
+                "prefLabel": {
+                    "en": "preregistration"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -31,6 +34,9 @@
             {
                 "variableName": "preregistration_URL",
                 "isAbout": "items/preregistration_URL.jsonld",
+                "prefLabel": {
+                    "en": "preregistration URL"
+                },
                 "isVis": "preregistration == 1",
                 "requiredValue": false,
                 "allow": [
@@ -40,6 +46,9 @@
             {
                 "variableName": "comments",
                 "isAbout": "items/comments.jsonld",
+                "prefLabel": {
+                    "en": "comments"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

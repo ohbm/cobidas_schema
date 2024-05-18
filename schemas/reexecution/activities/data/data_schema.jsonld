@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "data_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "data"
     },
     "description": "data",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -28,6 +28,9 @@
             {
                 "variableName": "data_accessible",
                 "isAbout": "items/data_accessible.jsonld",
+                "prefLabel": {
+                    "en": "data accessible"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -37,6 +40,9 @@
             {
                 "variableName": "data_location",
                 "isAbout": "items/data_location.jsonld",
+                "prefLabel": {
+                    "en": "data location"
+                },
                 "isVis": "data_accessible == 1",
                 "requiredValue": false,
                 "allow": [
@@ -46,6 +52,9 @@
             {
                 "variableName": "data_repository",
                 "isAbout": "items/data_repository.jsonld",
+                "prefLabel": {
+                    "en": "data repository"
+                },
                 "isVis": "data_accessible == 1",
                 "requiredValue": false,
                 "allow": [
@@ -55,6 +64,9 @@
             {
                 "variableName": "data_website",
                 "isAbout": "items/data_website.jsonld",
+                "prefLabel": {
+                    "en": "data website"
+                },
                 "isVis": "data_accessible == 1",
                 "requiredValue": false,
                 "allow": [
@@ -64,6 +76,9 @@
             {
                 "variableName": "data_access_attempt",
                 "isAbout": "items/data_access_attempt.jsonld",
+                "prefLabel": {
+                    "en": "data access attempt"
+                },
                 "isVis": "data_accessible == 1",
                 "requiredValue": false,
                 "allow": [
@@ -73,6 +88,9 @@
             {
                 "variableName": "data_access_success",
                 "isAbout": "items/data_access_success.jsonld",
+                "prefLabel": {
+                    "en": "data access success"
+                },
                 "isVis": "data_accessible == 1",
                 "requiredValue": false,
                 "allow": [
@@ -82,6 +100,9 @@
             {
                 "variableName": "data_subset",
                 "isAbout": "items/data_subset.jsonld",
+                "prefLabel": {
+                    "en": "data subset"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -91,6 +112,9 @@
             {
                 "variableName": "dataset_unique_ID",
                 "isAbout": "items/dataset_unique_ID.jsonld",
+                "prefLabel": {
+                    "en": "dataset unique ID"
+                },
                 "isVis": "data_subset == 1",
                 "requiredValue": false,
                 "allow": [
@@ -100,6 +124,9 @@
             {
                 "variableName": "data_subet_rationale",
                 "isAbout": "items/data_subet_rationale.jsonld",
+                "prefLabel": {
+                    "en": "data subet rationale"
+                },
                 "isVis": "data_subset == 1",
                 "requiredValue": false,
                 "allow": [

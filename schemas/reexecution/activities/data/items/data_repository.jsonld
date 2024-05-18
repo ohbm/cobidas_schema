@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "data_repository.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "data repository"
     },
     "description": "data repository",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "select"
     },
     "question": {
-        "en": "From which repository(s) is this data listed as being available from (i.e. NITRC or OpenNeuro, etc.)?"
+        "en": "2.3 - From which repository(s) is this data listed as being available from (i.e. NITRC or OpenNeuro, etc.)?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 8,
         "choices": [
             {
                 "name": {
@@ -66,14 +64,9 @@
                     "en": "LORIS"
                 },
                 "value": 7
-            },
-            {
-                "name": {
-                    "en": "other"
-                },
-                "value": 8
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 7
     }
 }

@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "analysis_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "analysis"
     },
     "description": "analysis",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -26,6 +26,9 @@
             {
                 "variableName": "analysis_tools_specified",
                 "isAbout": "items/analysis_tools_specified.jsonld",
+                "prefLabel": {
+                    "en": "analysis tools specified"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -35,6 +38,9 @@
             {
                 "variableName": "analysis_tools_and_versions",
                 "isAbout": "items/analysis_tools_and_versions.jsonld",
+                "prefLabel": {
+                    "en": "analysis tools and versions"
+                },
                 "isVis": "analysis_tools_specified == 1",
                 "requiredValue": false,
                 "allow": [
@@ -44,6 +50,9 @@
             {
                 "variableName": "analysis_OS_specified",
                 "isAbout": "items/analysis_OS_specified.jsonld",
+                "prefLabel": {
+                    "en": "analysis OS specified"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -53,6 +62,9 @@
             {
                 "variableName": "analysis_OS_class",
                 "isAbout": "items/analysis_OS_class.jsonld",
+                "prefLabel": {
+                    "en": "analysis OS class"
+                },
                 "isVis": "analysis_OS_specified == 1",
                 "requiredValue": false,
                 "allow": [
@@ -62,6 +74,9 @@
             {
                 "variableName": "analysis_OS_details",
                 "isAbout": "items/analysis_OS_details.jsonld",
+                "prefLabel": {
+                    "en": "analysis OS details"
+                },
                 "isVis": "analysis_OS_specified == 1",
                 "requiredValue": false,
                 "allow": [
@@ -71,6 +86,9 @@
             {
                 "variableName": "preprocessing_parameters_specified",
                 "isAbout": "items/preprocessing_parameters_specified.jsonld",
+                "prefLabel": {
+                    "en": "preprocessing parameters specified"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -80,6 +98,9 @@
             {
                 "variableName": "analysis_reexecutable",
                 "isAbout": "items/analysis_reexecutable.jsonld",
+                "prefLabel": {
+                    "en": "analysis reexecutable"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

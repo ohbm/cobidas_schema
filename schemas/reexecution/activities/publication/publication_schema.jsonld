@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "publication_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "publication"
     },
     "description": "publication",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -23,6 +23,9 @@
             {
                 "variableName": "rater_ID",
                 "isAbout": "items/rater_ID.jsonld",
+                "prefLabel": {
+                    "en": "rater ID"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -32,6 +35,9 @@
             {
                 "variableName": "pubmed_ID",
                 "isAbout": "items/pubmed_ID.jsonld",
+                "prefLabel": {
+                    "en": "pubmed ID"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -41,6 +47,9 @@
             {
                 "variableName": "publication_DOI",
                 "isAbout": "items/publication_DOI.jsonld",
+                "prefLabel": {
+                    "en": "publication DOI"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -50,6 +59,9 @@
             {
                 "variableName": "publiction_URL",
                 "isAbout": "items/publiction_URL.jsonld",
+                "prefLabel": {
+                    "en": "publiction URL"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
