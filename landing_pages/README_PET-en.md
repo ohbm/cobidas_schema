@@ -38,7 +38,7 @@ We are currently working on trying to expand the number of items used in the
 checklist. All of this work is done in google spreadsheets.
 
 For more information on the content and organization of these spreadsheets see
-[HERE](https://remi-gau.github.io/eCobidas/40-spreadsheets/).
+[HERE](https://remi-gau.github.io/eCobidas/spreadsheets/).
 
 ## Want to know more? Have any questions? Something is missing? Let us know.
 

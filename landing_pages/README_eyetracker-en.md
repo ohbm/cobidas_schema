@@ -46,7 +46,7 @@ certain love for working with spreadsheet and wanting them to be super
 organized) :wink:.
 
 For more information on the content and organization of these spreadsheets see
-[HERE](https://remi-gau.github.io/eCobidas/40-spreadsheets/).
+[HERE](https://remi-gau.github.io/eCobidas/spreadsheets/).
 
 ## Want to know more? Have any questions? Something is missing? Want to help? Let us know.
 
