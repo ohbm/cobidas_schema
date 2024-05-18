@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.25 - For connectivty ICA based methods, report the total number of components (especially when estimated from the data and not fixed). Report the number of these analyzed and the reason for their selection"
+        "en": "1.25 - For connectivity ICA based methods, report the total number of components (especially when estimated from the data and not fixed). Report the number of these analyzed and the reason for their selection"
     }
 }

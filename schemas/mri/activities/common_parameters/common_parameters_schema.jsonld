@@ -38,7 +38,7 @@
             "items/interslice_gap.jsonld",
             "items/3d_matrix_size.jsonld",
             "items/slice_orientation.jsonld",
-            "items/slice_alignement.jsonld",
+            "items/slice_alignment.jsonld",
             "items/PhaseEncodingDirection.jsonld",
             "items/3d_phase_encoding.jsonld",
             "items/phase_encoding_reversal.jsonld",
@@ -344,10 +344,10 @@
                 ]
             },
             {
-                "variableName": "slice_alignement",
-                "isAbout": "items/slice_alignement.jsonld",
+                "variableName": "slice_alignment",
+                "isAbout": "items/slice_alignment.jsonld",
                 "prefLabel": {
-                    "en": "slice alignement"
+                    "en": "slice alignment"
                 },
                 "isVis": true,
                 "requiredValue": false,

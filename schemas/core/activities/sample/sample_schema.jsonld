@@ -23,7 +23,7 @@
             "items/reason_for_exclusion.jsonld",
             "items/mean_age.jsonld",
             "items/age_standard_deviation.jsonld",
-            "items/age_mininum.jsonld",
+            "items/age_minimum.jsonld",
             "items/age_maximum.jsonld",
             "items/subjects_scanned.jsonld",
             "items/subjects_scanned_but_rejected.jsonld",
@@ -153,10 +153,10 @@
                 ]
             },
             {
-                "variableName": "age_mininum",
-                "isAbout": "items/age_mininum.jsonld",
+                "variableName": "age_minimum",
+                "isAbout": "items/age_minimum.jsonld",
                 "prefLabel": {
-                    "en": "age mininum"
+                    "en": "age minimum"
                 },
                 "isVis": true,
                 "requiredValue": false,

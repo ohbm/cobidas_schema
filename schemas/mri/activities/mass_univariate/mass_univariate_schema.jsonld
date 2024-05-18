@@ -418,7 +418,7 @@
                 "prefLabel": {
                     "en": "cluster size"
                 },
-                "isVis": "inference_level.inlcudes(1)",
+                "isVis": "inference_level.includes(1)",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"
@@ -430,7 +430,7 @@
                 "prefLabel": {
                     "en": "cluster-forming threshold"
                 },
-                "isVis": "inference_level.inlcudes(1)",
+                "isVis": "inference_level.includes(1)",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"
@@ -442,7 +442,7 @@
                 "prefLabel": {
                     "en": "neighborhood size"
                 },
-                "isVis": "inference_level.inlcudes(1)",
+                "isVis": "inference_level.includes(1)",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"

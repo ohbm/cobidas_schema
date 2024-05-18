@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.26 - For connectivty graph-based methods, carefully state what is the null hypothesis of the test and how the statistic distribution under the null is computed"
+        "en": "1.26 - For connectivity graph-based methods, carefully state what is the null hypothesis of the test and how the statistic distribution under the null is computed"
     }
 }
