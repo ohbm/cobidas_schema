@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "radiotracer-isotope.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "radiotracer isotope"
     },
     "description": "radiotracer isotope",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "select"
     },
     "question": {
-        "en": "Radiotracer-isotope"
+        "en": "7.5 - Radiotracer-isotope"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 4,
         "choices": [
             {
                 "name": {
@@ -33,23 +31,18 @@
             },
             {
                 "name": {
-                    "en": "Nitrogen-13"
+                    "en": "nitrogen-13"
                 },
                 "value": 2
             },
             {
                 "name": {
-                    "en": "Oxygen-15"
+                    "en": "oxygen-15"
                 },
                 "value": 3
-            },
-            {
-                "name": {
-                    "en": "other"
-                },
-                "value": 4
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 3
     }
 }

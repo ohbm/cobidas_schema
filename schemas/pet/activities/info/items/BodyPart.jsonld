@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "BodyPart.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "BodyPart"
     },
     "description": "BodyPart",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "select"
     },
     "question": {
-        "en": "Name of the organ / body region scanned."
+        "en": "1.5 - Name of the organ / body region scanned."
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 12,
         "choices": [
             {
                 "name": {
@@ -87,7 +85,7 @@
             },
             {
                 "name": {
-                    "en": "lung "
+                    "en": "lung"
                 },
                 "value": 11
             },
@@ -98,6 +96,7 @@
                 "value": 12
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 12
     }
 }

@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "metabolite_data_labels.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "metabolite data labels"
     },
     "description": "metabolite data labels",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "select"
     },
     "question": {
-        "en": "Metabolite data labels"
+        "en": "6.13 - Metabolite data labels"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 4,
         "choices": [
             {
                 "name": {
@@ -42,14 +40,9 @@
                     "en": "parentFraction SD"
                 },
                 "value": 3
-            },
-            {
-                "name": {
-                    "en": "other"
-                },
-                "value": 4
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 3
     }
 }

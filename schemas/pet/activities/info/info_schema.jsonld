@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "info_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Info"
     },
     "description": "info",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -28,6 +28,9 @@
             {
                 "variableName": "Modality",
                 "isAbout": "items/Modality.jsonld",
+                "prefLabel": {
+                    "en": "Modality"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -37,6 +40,9 @@
             {
                 "variableName": "Manufacturer",
                 "isAbout": "items/Manufacturer.jsonld",
+                "prefLabel": {
+                    "en": "Manufacturer"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -46,6 +52,9 @@
             {
                 "variableName": "ManufacturersModelName",
                 "isAbout": "items/ManufacturersModelName.jsonld",
+                "prefLabel": {
+                    "en": "ManufacturersModelName"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -55,6 +64,9 @@
             {
                 "variableName": "Anaesthesia",
                 "isAbout": "items/Anaesthesia.jsonld",
+                "prefLabel": {
+                    "en": "Anaesthesia"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -64,6 +76,9 @@
             {
                 "variableName": "BodyPart",
                 "isAbout": "items/BodyPart.jsonld",
+                "prefLabel": {
+                    "en": "BodyPart"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -73,6 +88,9 @@
             {
                 "variableName": "Unit",
                 "isAbout": "items/Unit.jsonld",
+                "prefLabel": {
+                    "en": "Unit"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -82,6 +100,9 @@
             {
                 "variableName": "experiment_date",
                 "isAbout": "items/experiment_date.jsonld",
+                "prefLabel": {
+                    "en": "experiment date"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -91,6 +112,9 @@
             {
                 "variableName": "imaging_center-site",
                 "isAbout": "items/imaging_center-site.jsonld",
+                "prefLabel": {
+                    "en": "imaging center site"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -100,6 +124,9 @@
             {
                 "variableName": "imaging_department",
                 "isAbout": "items/imaging_department.jsonld",
+                "prefLabel": {
+                    "en": "imaging department"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

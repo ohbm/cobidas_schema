@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "multiple_testings_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Multiple Testings"
     },
     "description": "multiple testings",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -28,6 +28,9 @@
             {
                 "variableName": "method",
                 "isAbout": "items/method.jsonld",
+                "prefLabel": {
+                    "en": "method"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -37,6 +40,9 @@
             {
                 "variableName": "threshold",
                 "isAbout": "items/threshold.jsonld",
+                "prefLabel": {
+                    "en": "threshold"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -46,6 +52,9 @@
             {
                 "variableName": "number_of_tests",
                 "isAbout": "items/number_of_tests.jsonld",
+                "prefLabel": {
+                    "en": "number of tests"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -55,6 +64,9 @@
             {
                 "variableName": "alpha_level",
                 "isAbout": "items/alpha_level.jsonld",
+                "prefLabel": {
+                    "en": "alpha level"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -64,6 +76,9 @@
             {
                 "variableName": "power",
                 "isAbout": "items/power.jsonld",
+                "prefLabel": {
+                    "en": "power"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -73,6 +88,9 @@
             {
                 "variableName": "effect_size",
                 "isAbout": "items/effect_size.jsonld",
+                "prefLabel": {
+                    "en": "effect size"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -82,6 +100,9 @@
             {
                 "variableName": "variance_assumption",
                 "isAbout": "items/variance_assumption.jsonld",
+                "prefLabel": {
+                    "en": "variance assumption"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -91,6 +112,9 @@
             {
                 "variableName": "number_of_subjects_needed",
                 "isAbout": "items/number_of_subjects_needed.jsonld",
+                "prefLabel": {
+                    "en": "number of subjects needed"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -100,6 +124,9 @@
             {
                 "variableName": "link",
                 "isAbout": "items/link.jsonld",
+                "prefLabel": {
+                    "en": "link"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

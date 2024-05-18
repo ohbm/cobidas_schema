@@ -2,20 +2,35 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "volumes_of_interest_mask.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "volumes of interest mask"
     },
     "description": "volumes of interest mask",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "radio"
     },
     "question": {
-        "en": "Volumes of interest mask"
+        "en": "9.36 - Volumes of interest mask"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 3000
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": {
+                    "en": "gray matter mask"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 1
+            }
+        ],
+        "minValue": 0,
+        "maxValue": 1
     }
 }

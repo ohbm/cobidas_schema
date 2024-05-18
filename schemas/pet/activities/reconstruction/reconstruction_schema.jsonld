@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "reconstruction_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Reconstruction"
     },
     "description": "reconstruction",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -38,6 +38,9 @@
             {
                 "variableName": "AcquisitionMode",
                 "isAbout": "items/AcquisitionMode.jsonld",
+                "prefLabel": {
+                    "en": "AcquisitionMode"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -47,6 +50,9 @@
             {
                 "variableName": "ImageDecayCorrected",
                 "isAbout": "items/ImageDecayCorrected.jsonld",
+                "prefLabel": {
+                    "en": "ImageDecayCorrected"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -56,6 +62,9 @@
             {
                 "variableName": "ImageDecayCorrectionTime",
                 "isAbout": "items/ImageDecayCorrectionTime.jsonld",
+                "prefLabel": {
+                    "en": "ImageDecayCorrectionTime"
+                },
                 "isVis": "ImageDecayCorrected == 1",
                 "requiredValue": false,
                 "allow": [
@@ -65,6 +74,9 @@
             {
                 "variableName": "ReconMethodName",
                 "isAbout": "items/ReconMethodName.jsonld",
+                "prefLabel": {
+                    "en": "ReconMethodName"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -74,6 +86,9 @@
             {
                 "variableName": "ReconMethodParameterLabels",
                 "isAbout": "items/ReconMethodParameterLabels.jsonld",
+                "prefLabel": {
+                    "en": "ReconMethodParameterLabels"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -83,6 +98,9 @@
             {
                 "variableName": "ReconFilterType",
                 "isAbout": "items/ReconFilterType.jsonld",
+                "prefLabel": {
+                    "en": "ReconFilterType"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -92,6 +110,9 @@
             {
                 "variableName": "AttenuationCorrection",
                 "isAbout": "items/AttenuationCorrection.jsonld",
+                "prefLabel": {
+                    "en": "AttenuationCorrection"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -101,6 +122,9 @@
             {
                 "variableName": "ReconFilterSize",
                 "isAbout": "items/ReconFilterSize.jsonld",
+                "prefLabel": {
+                    "en": "ReconFilterSize"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -110,6 +134,9 @@
             {
                 "variableName": "pet_voxel_size",
                 "isAbout": "items/pet_voxel_size.jsonld",
+                "prefLabel": {
+                    "en": "pet voxel size"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -119,6 +146,9 @@
             {
                 "variableName": "matrix_size",
                 "isAbout": "items/matrix_size.jsonld",
+                "prefLabel": {
+                    "en": "matrix size"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -128,6 +158,9 @@
             {
                 "variableName": "frame-sequence",
                 "isAbout": "items/frame-sequence.jsonld",
+                "prefLabel": {
+                    "en": "frame sequence"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -137,6 +170,9 @@
             {
                 "variableName": "ScaleFactor",
                 "isAbout": "items/ScaleFactor.jsonld",
+                "prefLabel": {
+                    "en": "ScaleFactor"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -146,6 +182,9 @@
             {
                 "variableName": "ScatterFraction",
                 "isAbout": "items/ScatterFraction.jsonld",
+                "prefLabel": {
+                    "en": "ScatterFraction"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -155,6 +194,9 @@
             {
                 "variableName": "DecayCorrectionFactor",
                 "isAbout": "items/DecayCorrectionFactor.jsonld",
+                "prefLabel": {
+                    "en": "DecayCorrectionFactor"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -164,6 +206,9 @@
             {
                 "variableName": "PromptRate",
                 "isAbout": "items/PromptRate.jsonld",
+                "prefLabel": {
+                    "en": "PromptRate"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -173,6 +218,9 @@
             {
                 "variableName": "RandomRate",
                 "isAbout": "items/RandomRate.jsonld",
+                "prefLabel": {
+                    "en": "RandomRate"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -182,6 +230,9 @@
             {
                 "variableName": "SinglesRate",
                 "isAbout": "items/SinglesRate.jsonld",
+                "prefLabel": {
+                    "en": "SinglesRate"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -191,6 +242,9 @@
             {
                 "variableName": "reconstruction_data_labels",
                 "isAbout": "items/reconstruction_data_labels.jsonld",
+                "prefLabel": {
+                    "en": "reconstruction data labels"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -200,6 +254,9 @@
             {
                 "variableName": "AttenuationCorrectionMethodReference",
                 "isAbout": "items/AttenuationCorrectionMethodReference.jsonld",
+                "prefLabel": {
+                    "en": "AttenuationCorrectionMethodReference"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

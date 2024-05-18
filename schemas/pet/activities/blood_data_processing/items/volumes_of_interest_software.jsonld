@@ -2,20 +2,35 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "volumes_of_interest_software.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "volumes of interest software"
     },
     "description": "volumes of interest software",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "radio"
     },
     "question": {
-        "en": "Volumes of interest software"
+        "en": "9.39 - Volumes of interest software"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 3000
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": {
+                    "en": "PVELab (Svarer et al. 2005)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 1
+            }
+        ],
+        "minValue": 0,
+        "maxValue": 1
     }
 }

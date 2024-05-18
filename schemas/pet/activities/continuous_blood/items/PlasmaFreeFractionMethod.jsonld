@@ -2,20 +2,16 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "PlasmaFreeFractionMethod.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "PlasmaFreeFractionMethod"
     },
     "description": "PlasmaFreeFractionMethod",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "question": {
-        "en": "Method used to estimate free fraction."
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 3000
+        "en": "6.24 - Method used to estimate free fraction."
     }
 }

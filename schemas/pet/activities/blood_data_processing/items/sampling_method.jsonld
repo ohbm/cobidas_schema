@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "sampling_method.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "sampling method"
     },
     "description": "sampling method",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "select"
     },
     "question": {
-        "en": "Sampling Method"
+        "en": "9.1 - Sampling Method"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 5,
         "choices": [
             {
                 "name": {
@@ -48,14 +46,9 @@
                     "en": "image derived"
                 },
                 "value": 4
-            },
-            {
-                "name": {
-                    "en": "other"
-                },
-                "value": 5
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 4
     }
 }

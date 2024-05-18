@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "cross-calibration_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Cross-calibration"
     },
     "description": "cross-calibration",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -33,6 +33,9 @@
             {
                 "variableName": "blood_sampling_device_read",
                 "isAbout": "items/blood_sampling_device_read.jsonld",
+                "prefLabel": {
+                    "en": "blood sampling device read"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -42,6 +45,9 @@
             {
                 "variableName": "blood_sampling_device_measurement_time",
                 "isAbout": "items/blood_sampling_device_measurement_time.jsonld",
+                "prefLabel": {
+                    "en": "blood sampling device measurement time"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -51,6 +57,9 @@
             {
                 "variableName": "phantom_type",
                 "isAbout": "items/phantom_type.jsonld",
+                "prefLabel": {
+                    "en": "phantom type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -60,6 +69,9 @@
             {
                 "variableName": "phantom_volume",
                 "isAbout": "items/phantom_volume.jsonld",
+                "prefLabel": {
+                    "en": "phantom volume"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -69,6 +81,9 @@
             {
                 "variableName": "radiotracer-isotope",
                 "isAbout": "items/radiotracer-isotope.jsonld",
+                "prefLabel": {
+                    "en": "radiotracer isotope"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -78,6 +93,9 @@
             {
                 "variableName": "phantom_activity",
                 "isAbout": "items/phantom_activity.jsonld",
+                "prefLabel": {
+                    "en": "phantom activity"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -87,6 +105,9 @@
             {
                 "variableName": "activity_time",
                 "isAbout": "items/activity_time.jsonld",
+                "prefLabel": {
+                    "en": "activity time"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -96,6 +117,9 @@
             {
                 "variableName": "residual_activity",
                 "isAbout": "items/residual_activity.jsonld",
+                "prefLabel": {
+                    "en": "residual activity"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -105,6 +129,9 @@
             {
                 "variableName": "residual_activity_time",
                 "isAbout": "items/residual_activity_time.jsonld",
+                "prefLabel": {
+                    "en": "residual activity time"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -114,6 +141,9 @@
             {
                 "variableName": "phantom_acquisition_time",
                 "isAbout": "items/phantom_acquisition_time.jsonld",
+                "prefLabel": {
+                    "en": "phantom acquisition time"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -123,6 +153,9 @@
             {
                 "variableName": "well_counter_sample_volumes",
                 "isAbout": "items/well_counter_sample_volumes.jsonld",
+                "prefLabel": {
+                    "en": "well counter sample volumes"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -132,6 +165,9 @@
             {
                 "variableName": "well_counter_measurement_time",
                 "isAbout": "items/well_counter_measurement_time.jsonld",
+                "prefLabel": {
+                    "en": "well counter measurement time"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -141,6 +177,9 @@
             {
                 "variableName": "well_counter_read",
                 "isAbout": "items/well_counter_read.jsonld",
+                "prefLabel": {
+                    "en": "well counter read"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -150,6 +189,9 @@
             {
                 "variableName": "phantom_data",
                 "isAbout": "items/phantom_data.jsonld",
+                "prefLabel": {
+                    "en": "phantom data"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

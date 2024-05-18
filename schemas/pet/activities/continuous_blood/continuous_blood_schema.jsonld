@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "continuous_blood_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Continuous blood"
     },
     "description": "continuous blood",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -50,6 +50,9 @@
             {
                 "variableName": "ContinuousBloodAvail",
                 "isAbout": "items/ContinuousBloodAvail.jsonld",
+                "prefLabel": {
+                    "en": "ContinuousBloodAvail"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -59,6 +62,9 @@
             {
                 "variableName": "ContinuousBloodWithdrawalRate",
                 "isAbout": "items/ContinuousBloodWithdrawalRate.jsonld",
+                "prefLabel": {
+                    "en": "ContinuousBloodWithdrawalRate"
+                },
                 "isVis": "ContinuousBloodAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -68,6 +74,9 @@
             {
                 "variableName": "ContinuousBloodTubingType",
                 "isAbout": "items/ContinuousBloodTubingType.jsonld",
+                "prefLabel": {
+                    "en": "ContinuousBloodTubingType"
+                },
                 "isVis": "ContinuousBloodAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -77,6 +86,9 @@
             {
                 "variableName": "ContinuousBloodTubingLength",
                 "isAbout": "items/ContinuousBloodTubingLength.jsonld",
+                "prefLabel": {
+                    "en": "ContinuousBloodTubingLength"
+                },
                 "isVis": "ContinuousBloodAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -86,6 +98,9 @@
             {
                 "variableName": "ContinuousBloodDispersionConstant",
                 "isAbout": "items/ContinuousBloodDispersionConstant.jsonld",
+                "prefLabel": {
+                    "en": "ContinuousBloodDispersionConstant"
+                },
                 "isVis": "ContinuousBloodAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -95,6 +110,9 @@
             {
                 "variableName": "ContinuousBloodDispersionCorrected",
                 "isAbout": "items/ContinuousBloodDispersionCorrected.jsonld",
+                "prefLabel": {
+                    "en": "ContinuousBloodDispersionCorrected"
+                },
                 "isVis": "ContinuousBloodAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -104,6 +122,9 @@
             {
                 "variableName": "DiscreteBloodAvail",
                 "isAbout": "items/DiscreteBloodAvail.jsonld",
+                "prefLabel": {
+                    "en": "DiscreteBloodAvail"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -113,6 +134,9 @@
             {
                 "variableName": "DiscreteBloodHaematocrit",
                 "isAbout": "items/DiscreteBloodHaematocrit.jsonld",
+                "prefLabel": {
+                    "en": "DiscreteBloodHaematocrit"
+                },
                 "isVis": "DiscreteBloodAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -122,6 +146,9 @@
             {
                 "variableName": "DiscreteBloodDensity",
                 "isAbout": "items/DiscreteBloodDensity.jsonld",
+                "prefLabel": {
+                    "en": "DiscreteBloodDensity"
+                },
                 "isVis": "DiscreteBloodAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -131,6 +158,9 @@
             {
                 "variableName": "MetaboliteAvail",
                 "isAbout": "items/MetaboliteAvail.jsonld",
+                "prefLabel": {
+                    "en": "MetaboliteAvail"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -140,6 +170,9 @@
             {
                 "variableName": "MetaboliteMethod",
                 "isAbout": "items/MetaboliteMethod.jsonld",
+                "prefLabel": {
+                    "en": "MetaboliteMethod"
+                },
                 "isVis": "MetaboliteAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -149,6 +182,9 @@
             {
                 "variableName": "radiolabeled_parent_compound_fraction",
                 "isAbout": "items/radiolabeled_parent_compound_fraction.jsonld",
+                "prefLabel": {
+                    "en": "radiolabeled parent compound fraction"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -158,6 +194,9 @@
             {
                 "variableName": "metabolite_data_labels",
                 "isAbout": "items/metabolite_data_labels.jsonld",
+                "prefLabel": {
+                    "en": "metabolite data labels"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -167,6 +206,9 @@
             {
                 "variableName": "parent_fraction_units",
                 "isAbout": "items/parent_fraction_units.jsonld",
+                "prefLabel": {
+                    "en": "parent fraction units"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -176,6 +218,9 @@
             {
                 "variableName": "parent_fraction_measurement_error",
                 "isAbout": "items/parent_fraction_measurement_error.jsonld",
+                "prefLabel": {
+                    "en": "parent fraction measurement error"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -185,6 +230,9 @@
             {
                 "variableName": "metabolite_analysis_timepoints",
                 "isAbout": "items/metabolite_analysis_timepoints.jsonld",
+                "prefLabel": {
+                    "en": "metabolite analysis timepoints"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -194,6 +242,9 @@
             {
                 "variableName": "fraction_of_radiometabolite_needing_quantitation",
                 "isAbout": "items/fraction_of_radiometabolite_needing_quantitation.jsonld",
+                "prefLabel": {
+                    "en": "fraction of radiometabolite needing quantitation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -203,6 +254,9 @@
             {
                 "variableName": "error_on_above_measurement",
                 "isAbout": "items/error_on_above_measurement.jsonld",
+                "prefLabel": {
+                    "en": "error on above measurement"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -212,6 +266,9 @@
             {
                 "variableName": "radiolabeled_metabolite_fractions",
                 "isAbout": "items/radiolabeled_metabolite_fractions.jsonld",
+                "prefLabel": {
+                    "en": "radiolabeled metabolite fractions"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -221,6 +278,9 @@
             {
                 "variableName": "MetaboliteRecoveryCorrectionApplied",
                 "isAbout": "items/MetaboliteRecoveryCorrectionApplied.jsonld",
+                "prefLabel": {
+                    "en": "MetaboliteRecoveryCorrectionApplied"
+                },
                 "isVis": "MetaboliteAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -230,6 +290,9 @@
             {
                 "variableName": "PlasmaAvail",
                 "isAbout": "items/PlasmaAvail.jsonld",
+                "prefLabel": {
+                    "en": "PlasmaAvail"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -239,6 +302,9 @@
             {
                 "variableName": "PlasmaFreeFraction",
                 "isAbout": "items/PlasmaFreeFraction.jsonld",
+                "prefLabel": {
+                    "en": "PlasmaFreeFraction"
+                },
                 "isVis": "PlasmaAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -248,6 +314,9 @@
             {
                 "variableName": "error_of_free_fraction_measurement",
                 "isAbout": "items/error_of_free_fraction_measurement.jsonld",
+                "prefLabel": {
+                    "en": "error of free fraction measurement"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -257,6 +326,9 @@
             {
                 "variableName": "PlasmaFreeFractionMethod",
                 "isAbout": "items/PlasmaFreeFractionMethod.jsonld",
+                "prefLabel": {
+                    "en": "PlasmaFreeFractionMethod"
+                },
                 "isVis": "PlasmaAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -266,6 +338,9 @@
             {
                 "variableName": "decay_corrected",
                 "isAbout": "items/decay_corrected.jsonld",
+                "prefLabel": {
+                    "en": "decay corrected"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -275,6 +350,9 @@
             {
                 "variableName": "decay_correction_time",
                 "isAbout": "items/decay_correction_time.jsonld",
+                "prefLabel": {
+                    "en": "decay correction time"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -284,6 +362,9 @@
             {
                 "variableName": "plasma_data_type",
                 "isAbout": "items/plasma_data_type.jsonld",
+                "prefLabel": {
+                    "en": "plasma data type"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -293,6 +374,9 @@
             {
                 "variableName": "plasma_data_units",
                 "isAbout": "items/plasma_data_units.jsonld",
+                "prefLabel": {
+                    "en": "plasma data units"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -302,6 +386,9 @@
             {
                 "variableName": "hematocrit_value",
                 "isAbout": "items/hematocrit_value.jsonld",
+                "prefLabel": {
+                    "en": "hematocrit value"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -311,6 +398,9 @@
             {
                 "variableName": "whole_blood_radioactivity",
                 "isAbout": "items/whole_blood_radioactivity.jsonld",
+                "prefLabel": {
+                    "en": "whole blood radioactivity"
+                },
                 "isVis": "MetaboliteAvail == 1",
                 "requiredValue": false,
                 "allow": [
@@ -320,6 +410,9 @@
             {
                 "variableName": "plasma_to_whole_blood_ratio",
                 "isAbout": "items/plasma_to_whole_blood_ratio.jsonld",
+                "prefLabel": {
+                    "en": "plasma to whole blood ratio"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

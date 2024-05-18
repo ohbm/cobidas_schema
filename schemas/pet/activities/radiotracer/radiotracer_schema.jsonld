@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "radiotracer_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Radiotracer"
     },
     "description": "radiotracer",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -28,6 +28,9 @@
             {
                 "variableName": "PharmaceuticalDoseRegimen",
                 "isAbout": "items/PharmaceuticalDoseRegimen.jsonld",
+                "prefLabel": {
+                    "en": "PharmaceuticalDoseRegimen"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -37,6 +40,9 @@
             {
                 "variableName": "TracerName",
                 "isAbout": "items/TracerName.jsonld",
+                "prefLabel": {
+                    "en": "TracerName"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -46,6 +52,9 @@
             {
                 "variableName": "TracerRadLex",
                 "isAbout": "items/TracerRadLex.jsonld",
+                "prefLabel": {
+                    "en": "TracerRadLex"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -55,6 +64,9 @@
             {
                 "variableName": "TracerSNOMED",
                 "isAbout": "items/TracerSNOMED.jsonld",
+                "prefLabel": {
+                    "en": "TracerSNOMED"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -64,6 +76,9 @@
             {
                 "variableName": "PharmaceuticalName",
                 "isAbout": "items/PharmaceuticalName.jsonld",
+                "prefLabel": {
+                    "en": "PharmaceuticalName"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -73,6 +88,9 @@
             {
                 "variableName": "TracerRadionuclide",
                 "isAbout": "items/TracerRadionuclide.jsonld",
+                "prefLabel": {
+                    "en": "TracerRadionuclide"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -82,6 +100,9 @@
             {
                 "variableName": "TracerMolecularWeight",
                 "isAbout": "items/TracerMolecularWeight.jsonld",
+                "prefLabel": {
+                    "en": "TracerMolecularWeight"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -91,6 +112,9 @@
             {
                 "variableName": "PharmaceuticalDoseTime",
                 "isAbout": "items/PharmaceuticalDoseTime.jsonld",
+                "prefLabel": {
+                    "en": "PharmaceuticalDoseTime"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -100,6 +124,9 @@
             {
                 "variableName": "PharmaceuticalDoseAmount",
                 "isAbout": "items/PharmaceuticalDoseAmount.jsonld",
+                "prefLabel": {
+                    "en": "PharmaceuticalDoseAmount"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

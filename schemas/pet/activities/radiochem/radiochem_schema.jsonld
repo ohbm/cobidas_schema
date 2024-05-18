@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "radiochem_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "Radiochem"
     },
     "description": "radiochem",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -32,6 +32,9 @@
             {
                 "variableName": "ModeOfAdministration",
                 "isAbout": "items/ModeOfAdministration.jsonld",
+                "prefLabel": {
+                    "en": "ModeOfAdministration"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -41,7 +44,10 @@
             {
                 "variableName": "InfusionSpeed",
                 "isAbout": "items/InfusionSpeed.jsonld",
-                "isVis": true,
+                "prefLabel": {
+                    "en": "InfusionSpeed"
+                },
+                "isVis": "ModeOfAdministration == 2",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"
@@ -50,6 +56,9 @@
             {
                 "variableName": "InjectedRadioactivity",
                 "isAbout": "items/InjectedRadioactivity.jsonld",
+                "prefLabel": {
+                    "en": "InjectedRadioactivity"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -59,6 +68,9 @@
             {
                 "variableName": "InjectedMass",
                 "isAbout": "items/InjectedMass.jsonld",
+                "prefLabel": {
+                    "en": "InjectedMass"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -68,6 +80,9 @@
             {
                 "variableName": "moles_tracer_injected",
                 "isAbout": "items/moles_tracer_injected.jsonld",
+                "prefLabel": {
+                    "en": "moles tracer injected"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -77,6 +92,9 @@
             {
                 "variableName": "bodyweight",
                 "isAbout": "items/bodyweight.jsonld",
+                "prefLabel": {
+                    "en": "bodyweight"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -86,6 +104,9 @@
             {
                 "variableName": "MolarActivity",
                 "isAbout": "items/MolarActivity.jsonld",
+                "prefLabel": {
+                    "en": "MolarActivity"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -95,6 +116,9 @@
             {
                 "variableName": "MolarActivityMeasTime",
                 "isAbout": "items/MolarActivityMeasTime.jsonld",
+                "prefLabel": {
+                    "en": "MolarActivityMeasTime"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -104,6 +128,9 @@
             {
                 "variableName": "SpecificRadioactivity",
                 "isAbout": "items/SpecificRadioactivity.jsonld",
+                "prefLabel": {
+                    "en": "SpecificRadioactivity"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -113,6 +140,9 @@
             {
                 "variableName": "SpecificRadioactivityMeasTime",
                 "isAbout": "items/SpecificRadioactivityMeasTime.jsonld",
+                "prefLabel": {
+                    "en": "SpecificRadioactivityMeasTime"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -122,6 +152,9 @@
             {
                 "variableName": "Purity",
                 "isAbout": "items/Purity.jsonld",
+                "prefLabel": {
+                    "en": "Purity"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -131,6 +164,9 @@
             {
                 "variableName": "InjectedVolume",
                 "isAbout": "items/InjectedVolume.jsonld",
+                "prefLabel": {
+                    "en": "InjectedVolume"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -140,6 +176,9 @@
             {
                 "variableName": "formulation",
                 "isAbout": "items/formulation.jsonld",
+                "prefLabel": {
+                    "en": "formulation"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

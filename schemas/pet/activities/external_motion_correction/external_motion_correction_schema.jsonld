@@ -2,12 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "external_motion_correction_schema.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "External Motion Correction"
     },
     "description": "external motion correction",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "preamble": {
         "en": ""
     },
@@ -15,13 +15,16 @@
         "shuffle": false,
         "order": [
             "items/hardware.jsonld",
-            "items/external_moco_software.jsonld",
-            "items/external_moco_software_version.jsonld"
+            "items/external_motion_correction_software.jsonld",
+            "items/external_motion_correction_software_version.jsonld"
         ],
         "addProperties": [
             {
                 "variableName": "hardware",
                 "isAbout": "items/hardware.jsonld",
+                "prefLabel": {
+                    "en": "hardware"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -29,8 +32,11 @@
                 ]
             },
             {
-                "variableName": "external_moco_software",
-                "isAbout": "items/external_moco_software.jsonld",
+                "variableName": "external_motion_correction_software",
+                "isAbout": "items/external_motion_correction_software.jsonld",
+                "prefLabel": {
+                    "en": "external moco software"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [
@@ -38,8 +44,11 @@
                 ]
             },
             {
-                "variableName": "external_moco_software_version",
-                "isAbout": "items/external_moco_software_version.jsonld",
+                "variableName": "external_motion_correction_software_version",
+                "isAbout": "items/external_motion_correction_software_version.jsonld",
+                "prefLabel": {
+                    "en": "external moco software version"
+                },
                 "isVis": true,
                 "requiredValue": false,
                 "allow": [

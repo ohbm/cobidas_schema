@@ -2,20 +2,35 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "partial_volume_correction_software.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "partial volume correction software"
     },
     "description": "partial volume correction software",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "radio"
     },
     "question": {
-        "en": "Partial volume correction software"
+        "en": "9.42 - Partial volume correction software"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 3000
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": {
+                    "en": "FreeSurfer (function: mri_gtmpvc)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 1
+            }
+        ],
+        "minValue": 0,
+        "maxValue": 1
     }
 }

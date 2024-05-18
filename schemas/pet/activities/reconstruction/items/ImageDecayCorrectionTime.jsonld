@@ -2,17 +2,17 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "ImageDecayCorrectionTime.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "ImageDecayCorrectionTime"
     },
     "description": "ImageDecayCorrectionTime",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "float"
     },
     "question": {
-        "en": "Point in time from which the decay correction was applied wrt TimeZero"
+        "en": "5.3 - Point in time from which the decay correction was applied with respect to TimeZero"
     },
     "responseOptions": {
         "valueType": "xsd:float"

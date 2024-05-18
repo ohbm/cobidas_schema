@@ -2,20 +2,41 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "partial_volume_correction_assumptions.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "partial volume correction assumptions"
     },
     "description": "partial volume correction assumptions",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
-        "inputType": "text"
+        "inputType": "radio"
     },
     "question": {
-        "en": "Partial volume correction assumptions"
+        "en": "9.41 - Partial volume correction assumptions"
     },
     "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 3000
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": {
+                    "en": "80% gray matter threshold"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "PSF of 4 mm"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 2
+            }
+        ],
+        "minValue": 0,
+        "maxValue": 2
     }
 }

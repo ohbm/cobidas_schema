@@ -2,22 +2,20 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "level_of_analysis.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "level of analysis"
     },
     "description": "level of analysis",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
         "inputType": "radio"
     },
     "question": {
-        "en": "Level of analysis"
+        "en": "9.10 - Level of analysis"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 2,
         "choices": [
             {
                 "name": {
@@ -38,6 +36,7 @@
                 "value": 2
             }
         ],
-        "multipleChoice": false
+        "minValue": 0,
+        "maxValue": 2
     }
 }

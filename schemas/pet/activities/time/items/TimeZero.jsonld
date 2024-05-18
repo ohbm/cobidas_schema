@@ -2,19 +2,19 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "TimeZero.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
     "prefLabel": {
         "en": "TimeZero"
     },
     "description": "TimeZero",
-    "schemaVersion": "1.0.0-rc4",
-    "version": "0.0.1",
     "ui": {
-        "inputType": "timeRange"
+        "inputType": "float"
     },
     "question": {
-        "en": "Time zero to which all scan and/or blood measurements have been adjusted to."
+        "en": "4.2 - Time zero to which all scan and/or blood measurements have been adjusted to.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Time zero to which all scan and/or blood measurements have been adjusted to. This should be equal to InjectionStart or ScanStart.</details></div>"
     },
     "responseOptions": {
-        "valueType": "xsd:datetime"
+        "valueType": "xsd:float"
     }
 }
