@@ -39,6 +39,7 @@
             "items/hyper_parameter_setting.jsonld",
             "items/cross_validation.jsonld",
             "items/response_type.jsonld",
+            "items/number_response_classes.jsonld",
             "items/accuracy.jsonld",
             "items/precision.jsonld",
             "items/recall.jsonld",
@@ -347,6 +348,18 @@
                     "en": "response type"
                 },
                 "isVis": true,
+                "requiredValue": false,
+                "allow": [
+                    "reproschema:Skipped"
+                ]
+            },
+            {
+                "variableName": "number_response_classes",
+                "isAbout": "items/number_response_classes.jsonld",
+                "prefLabel": {
+                    "en": "number response classes"
+                },
+                "isVis": "response_type == 0",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"

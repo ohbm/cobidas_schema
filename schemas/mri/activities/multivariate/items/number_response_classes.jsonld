@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "number_response_classes.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "prefLabel": {
+        "en": "number response classes"
+    },
+    "description": "number response classes",
+    "ui": {
+        "inputType": "number"
+    },
+    "question": {
+        "en": "1.26 - Number of possible response classes <div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, are there only 2 classes, and one can be labeled \u201cpositive\u201d or are there are 3 or more classes?</details></div>"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer"
+    }
+}
