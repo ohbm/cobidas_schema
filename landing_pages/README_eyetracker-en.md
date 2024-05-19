@@ -51,7 +51,7 @@ For more information on the content and organization of these spreadsheets see
 ## Want to know more? Have any questions? Something is missing? Want to help? Let us know.
 
 - Most of the information is on this
-  [github repository](https://github.com/Remi-Gau/COBIDAS_chckls). Open an issue
+  [github repository](https://github.com/Remi-Gau/eCobidas). Open an issue
   there if something does not work or if you want a new feature.
 - There is also an [OSF project](https://osf.io/anvqy/) to centralize all the
   information and repos.

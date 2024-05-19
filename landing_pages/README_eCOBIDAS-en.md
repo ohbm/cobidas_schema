@@ -29,7 +29,7 @@
       </li>
       <li>
         open an issue this
-        <a href="https://github.com/Remi-Gau/COBIDAS_chckls"
+        <a href="https://github.com/Remi-Gau/eCobidas"
           >github repository</a
         >.
       </li>
@@ -88,7 +88,7 @@
     <h2>Want to know more?</h2>
     <p>
       Most of the information concerning this project can be found on this
-      <a href="https://github.com/Remi-Gau/COBIDAS_chckls">github repository</a
+      <a href="https://github.com/Remi-Gau/eCobidas">github repository</a
       >.
     </p>
     <p>
