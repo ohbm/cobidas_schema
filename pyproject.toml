@@ -2,7 +2,7 @@
 line-length = 100
 
 [tool.codespell]
-ignore-words-list = "fwe,softwares,te,connectivty,analyisis,alignement,publically,mininum,continous,als,inlcudes,exeprimental,directon"
+ignore-words-list = "fwe,te,als"
 skip = "./.git,*.svg"
 
 [tool.isort]
