@@ -24,11 +24,11 @@ built on the hope that improving methods and results reporting could improve our
 research.
 
 Follow the link if you want to know more about the
-[motivations behind this project](https://ecobidas.readthedocs.io/en/latest/#motivations).
+[motivations behind this project](https://ecobidas.readthedocs.io/en/latest/motivations).
 
 ## Want to help?
 
-We have a [list](https://ecobidas.readthedocs.io/en/latest/#goals) of short, middle,
+We have a [list](https://ecobidas.readthedocs.io/en/latest/goals) of short, middle,
 long term goals: if you are interested by any of those get in touch. Many of
 them do not necessarily require super-advanced technical skills (except maybe a
 certain love for working with spreadsheet and wanting them to be super
@@ -38,7 +38,7 @@ We are currently working on trying to expand the number of items used in the
 checklist. All of this work is done in google spreadsheets.
 
 For more information on the content and organization of these spreadsheets see
-[HERE](https://ecobidas.readthedocs.io/en/latest/spreadsheets/).
+[HERE](https://ecobidas.readthedocs.io/en/latest/contributing/spreadsheets/).
 
 ## Want to know more? Have any questions? Something is missing? Let us know.
 
