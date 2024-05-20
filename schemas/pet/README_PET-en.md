@@ -28,7 +28,7 @@ Follow the link if you want to know more about the
 
 ## Want to help?
 
-We have a [list](https://ecobidas.readthedocs.io/en/latest/goals/goals//goals/) of short, middle,
+We have a [list](https://ecobidas.readthedocs.io/en/latest/goals/goals) of short, middle,
 long term goals: if you are interested by any of those get in touch. Many of
 them do not necessarily require super-advanced technical skills (except maybe a
 certain love for working with spreadsheet and wanting them to be super
