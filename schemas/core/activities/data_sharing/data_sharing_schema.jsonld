@@ -9,7 +9,7 @@
     },
     "description": "data sharing",
     "preamble": {
-        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1yoI37se8nfWKNdKBCd-VgK1zDTdf4JR--m8apZ9iPR8/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>data sharing aspects of your work </p>"
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1yoI37se8nfWKNdKBCd-VgK1zDTdf4JR--m8apZ9iPR8/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > GitHub repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>data sharing aspects of your work </p>"
     },
     "ui": {
         "shuffle": false,

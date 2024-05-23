@@ -9,7 +9,7 @@
     },
     "description": "design",
     "preamble": {
-        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1Llmi8Y-XBiH6WEeFzTefSIJXNP_vRKn_vpXEhtbQEF8/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Describe your design</p>"
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1Llmi8Y-XBiH6WEeFzTefSIJXNP_vRKn_vpXEhtbQEF8/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > GitHub repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Describe your design</p>"
     },
     "ui": {
         "shuffle": false,

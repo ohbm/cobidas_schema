@@ -15,6 +15,14 @@
         "en": "6.4 - The length of the blood tubing, from the subject to the detector."
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "cm"
+                },
+                "value": "cm"
+            }
+        ]
     }
 }

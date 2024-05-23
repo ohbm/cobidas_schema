@@ -15,6 +15,7 @@
         "en": "2.1 - Number of subjects entering into the analysis"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": "xsd:integer",
+        "minValue": 0
     }
 }

@@ -101,7 +101,7 @@
         ]
     },
     "landingPage": {
-        "@id": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/landing_pages/README_reexecute-en.md",
+        "@id": "../README_reexecute-en.md",
         "inLanguage": "en"
     }
 }

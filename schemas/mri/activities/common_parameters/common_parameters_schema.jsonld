@@ -9,7 +9,7 @@
     },
     "description": "common parameters",
     "preamble": {
-        "en": "<p><a href='https://docs.google.com/spreadsheets/d/16LhsvrEKOzkNsXGLGlYZsH9h4aZ1hyt_BORmxkndaiI/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Common MRI acquisition parameters</p>"
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/16LhsvrEKOzkNsXGLGlYZsH9h4aZ1hyt_BORmxkndaiI/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > GitHub repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Common MRI acquisition parameters</p>"
     },
     "ui": {
         "shuffle": false,

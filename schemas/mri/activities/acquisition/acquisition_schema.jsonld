@@ -9,7 +9,7 @@
     },
     "description": "acquisition",
     "preamble": {
-        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1OvDa4c7Eg_zVNTX527j0riljSTY4WAVwXO-th93hRwc/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>use case specific acquisition parameters</p>"
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1OvDa4c7Eg_zVNTX527j0riljSTY4WAVwXO-th93hRwc/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > GitHub repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>use case specific acquisition parameters</p>"
     },
     "ui": {
         "shuffle": false,

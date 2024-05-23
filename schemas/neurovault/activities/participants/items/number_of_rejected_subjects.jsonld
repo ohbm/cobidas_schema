@@ -15,6 +15,7 @@
         "en": "2.8 - Number of subjects scanned but rejected from analysis"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": "xsd:integer",
+        "minValue": 0
     }
 }

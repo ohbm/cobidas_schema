@@ -179,7 +179,7 @@
         ]
     },
     "landingPage": {
-        "@id": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/landing_pages/README_eyetracker-en.md ",
+        "@id": "../README_eyetracker-en.md",
         "inLanguage": "en"
     }
 }

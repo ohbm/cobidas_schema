@@ -15,6 +15,14 @@
         "en": "6.2 - The rate at which the blood was withdrawn from the subject."
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "unitOptions": [
+            {
+                "prefLabel": {
+                    "en": "ml/s"
+                },
+                "value": "ml/s"
+            }
+        ]
     }
 }

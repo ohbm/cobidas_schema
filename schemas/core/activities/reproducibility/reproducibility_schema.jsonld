@@ -9,7 +9,7 @@
     },
     "description": "reproducibility",
     "preamble": {
-        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1aucpZDoav8lb2QI4YlIppNBN0FwSikV-2diQmrJCI-4/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>reproducibility aspects of your work </p>"
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1aucpZDoav8lb2QI4YlIppNBN0FwSikV-2diQmrJCI-4/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > GitHub repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>reproducibility aspects of your work </p>"
     },
     "ui": {
         "shuffle": false,

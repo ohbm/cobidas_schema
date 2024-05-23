@@ -9,7 +9,7 @@
     },
     "description": "preprocessing",
     "preamble": {
-        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1PFS6KfDC25fFad9Vf2A1v05vKQt1lHHElT3EW1ZdT9M/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > Github repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Describe your preprocessing</p>"
+        "en": "<p><a href='https://docs.google.com/spreadsheets/d/1PFS6KfDC25fFad9Vf2A1v05vKQt1lHHElT3EW1ZdT9M/edit?usp=sharing' target='_blank' > Source </a> | <a href='' target='_blank' > GitHub repository </a> | <a href='http://www.humanbrainmapping.org/files/2016/COBIDASreport.pdf' target='_blank' > Reference </a><br><br>Describe your preprocessing</p>"
     },
     "ui": {
         "shuffle": false,

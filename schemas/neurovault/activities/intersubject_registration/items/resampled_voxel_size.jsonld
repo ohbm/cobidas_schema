@@ -15,6 +15,7 @@
         "en": "5.16 - Voxel size in mm of the resampled, atlas-space images"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "minValue": 0
     }
 }

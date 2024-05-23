@@ -15,6 +15,7 @@
         "en": "1.2 - Number of imaging runs acquired"
     },
     "responseOptions": {
-        "valueType": "xsd:integer"
+        "valueType": "xsd:integer",
+        "minValue": 0
     }
 }

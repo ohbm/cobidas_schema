@@ -15,6 +15,7 @@
         "en": "2.2 - Mean age of subjects"
     },
     "responseOptions": {
-        "valueType": "xsd:float"
+        "valueType": "xsd:float",
+        "minValue": 0
     }
 }

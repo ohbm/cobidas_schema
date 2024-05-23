@@ -153,7 +153,7 @@
         ]
     },
     "landingPage": {
-        "@id": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/landing_pages/README_PET-en.md",
+        "@id": "../README_PET-en.md",
         "inLanguage": "en"
     }
 }
