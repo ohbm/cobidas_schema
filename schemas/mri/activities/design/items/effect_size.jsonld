@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.7 - Effect size used for the power calculation (magnitude and standard deviation)"
+        "en": "Effect size used for the power calculation (magnitude and standard deviation)"
     }
 }

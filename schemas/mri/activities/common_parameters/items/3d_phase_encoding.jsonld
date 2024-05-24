@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.27 - Specify the 3D phase encoding direction<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For 3D, specify \u201cpartition encode\u201d (aka slice) direction</details></div>"
+        "en": "Specify the 3D phase encoding direction"
+    },
+    "details": {
+        "en": "For 3D, specify \u201cpartition encode\u201d (aka slice) direction"
     }
 }

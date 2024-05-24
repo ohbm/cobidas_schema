@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "2.2 - The producer of the eye-tracker"
+        "en": "The producer of the eye-tracker"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

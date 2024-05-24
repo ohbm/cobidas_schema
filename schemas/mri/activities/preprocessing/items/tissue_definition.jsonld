@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.103 - Tissue definition to create the nuisance regressor"
+        "en": "Tissue definition to create the nuisance regressor"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

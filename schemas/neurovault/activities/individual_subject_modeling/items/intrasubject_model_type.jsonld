@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "6.1 - Type of group model used"
+        "en": "Type of group model used"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -22,9 +22,15 @@
                     "en": "Regression"
                 },
                 "value": 0
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 1
             }
         ],
         "minValue": 0,
-        "maxValue": 0
+        "maxValue": 1
     }
 }

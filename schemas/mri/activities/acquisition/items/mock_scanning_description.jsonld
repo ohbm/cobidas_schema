@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.3 - Report the type of mock scanner and protocol.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, duration, types of simulated scans, experiments...</details></div>"
+        "en": "Report the type of mock scanner and protocol."
+    },
+    "details": {
+        "en": "For example, duration, types of simulated scans, experiments..."
     }
 }

@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.19 - Type of group model used<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>\u201cMass Univariate\u201d, \u201cMultivariate\u201d (e.g. ICA on whole brain data), \u201cMass Multivariate\u201d (e.g. MANOVA on diffusion or morphometry tensor data), \u201cLocal Multivariate\u201d (e.g. \u201csearchlight\u201d), \u201cMultivariate, inter-subjective predictive\u201d (e.g. classify individual trials in event\u00ad related fMRI), \u201cMultivariate inter-subject predictive\u201d (e.g. classify subjects as patient vs. control), \u201cRepresentational Similarity Analysis\u201d</details></div>"
+        "en": "Type of group model used"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -68,5 +68,8 @@
         ],
         "minValue": 0,
         "maxValue": 7
+    },
+    "details": {
+        "en": "\u201cMass Univariate\u201d, \u201cMultivariate\u201d (e.g. ICA on whole brain data), \u201cMass Multivariate\u201d (e.g. MANOVA on diffusion or morphometry tensor data), \u201cLocal Multivariate\u201d (e.g. \u201csearchlight\u201d), \u201cMultivariate, inter-subjective predictive\u201d (e.g. classify individual trials in event\u00ad related fMRI), \u201cMultivariate inter-subject predictive\u201d (e.g. classify subjects as patient vs. control), \u201cRepresentational Similarity Analysis\u201d"
     }
 }

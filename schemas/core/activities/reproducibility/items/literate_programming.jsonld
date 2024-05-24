@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.11 - Provide a URL linking to the relevant resource.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, a jupyter notebook implementing key analyses.</details></div>"
+        "en": "Provide a URL linking to the relevant resource."
+    },
+    "details": {
+        "en": "For example, a jupyter notebook implementing key analyses."
     }
 }

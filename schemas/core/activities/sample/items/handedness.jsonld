@@ -12,7 +12,7 @@
         "inputType": "slider"
     },
     "question": {
-        "en": "1.23 - Percentage of right handed in the study"
+        "en": "Percentage of right handed in the study"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

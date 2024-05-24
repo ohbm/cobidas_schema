@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "11.3 - The pupil measures used<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Pupil dilation</details></div>"
+        "en": "The pupil measures used"
+    },
+    "details": {
+        "en": "Pupil dilation"
     }
 }

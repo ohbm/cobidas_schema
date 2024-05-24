@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "9.16 - Motion correction: smoothing<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, 10 mm FWHM</details></div>"
+        "en": "Motion correction: smoothing"
+    },
+    "details": {
+        "en": "For example, 10 mm FWHM"
     }
 }

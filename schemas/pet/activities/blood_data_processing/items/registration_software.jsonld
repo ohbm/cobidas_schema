@@ -12,12 +12,15 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "9.27 - Registration software<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>FreeSurfer (function: mri_vol2vol)</details></div>"
+        "en": "Registration software"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "choices": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/response_options/mri_softwares.jsonld",
         "minValue": 0,
         "maxValue": 0
+    },
+    "details": {
+        "en": "FreeSurfer (function: mri_vol2vol)"
     }
 }

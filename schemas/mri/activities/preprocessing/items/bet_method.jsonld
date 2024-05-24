@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.11 - Method used for the brain extraction"
+        "en": "Method used for the brain extraction"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

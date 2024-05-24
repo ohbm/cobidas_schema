@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "6.28 - plasma data units"
+        "en": "plasma data units"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

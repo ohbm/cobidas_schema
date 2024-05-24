@@ -12,7 +12,7 @@
         "inputType": "number"
     },
     "question": {
-        "en": "1.22 - Size of the analysis volume in voxels"
+        "en": "Size of the analysis volume in voxels"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

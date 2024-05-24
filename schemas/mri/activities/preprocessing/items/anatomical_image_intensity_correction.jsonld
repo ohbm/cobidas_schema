@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.96 - Specify the type of intensity correction of the anatomical image<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Bias field corrections for anatomical MRI</details></div>"
+        "en": "Specify the type of intensity correction of the anatomical image"
+    },
+    "details": {
+        "en": "Bias field corrections for anatomical MRI"
     }
 }

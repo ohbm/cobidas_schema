@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "2.2 - From where/how am I instructed to access the data?"
+        "en": "From where/how am I instructed to access the data?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

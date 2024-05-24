@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.48 - Neighborhood size used to form clusters"
+        "en": "Neighborhood size used to form clusters"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

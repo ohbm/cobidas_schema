@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.17 - For kernel-based methods (i.e. SVM) report type of kernel used, type and number of parameters needed to be estimated"
+        "en": "For kernel-based methods (i.e. SVM) report type of kernel used, type and number of parameters needed to be estimated"
     }
 }

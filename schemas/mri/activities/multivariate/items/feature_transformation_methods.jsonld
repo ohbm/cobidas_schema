@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.5 - What type of feature transformation was used?"
+        "en": "What type of feature transformation was used?"
     }
 }

@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.33 - Any specific parameters for the motion correction that should be mentioned"
+        "en": "Any specific parameters for the motion correction that should be mentioned"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

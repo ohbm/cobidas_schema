@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "5.1 - Acquisition mode<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Type of acquisition of the PET data.</details></div>"
+        "en": "Acquisition mode"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -32,5 +32,8 @@
         ],
         "minValue": 0,
         "maxValue": 1
+    },
+    "details": {
+        "en": "Type of acquisition of the PET data."
     }
 }

@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.101 - Expansion basis and order of motion parameters used "
+        "en": "Expansion basis and order of motion parameters used "
     },
     "responseOptions": {
         "valueType": "xsd:integer",

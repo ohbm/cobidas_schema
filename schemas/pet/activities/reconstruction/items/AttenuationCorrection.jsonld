@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "5.7 - Attenuation correction<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Short description of the attenuation correction method used.</details></div>"
+        "en": "Attenuation correction"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -32,5 +32,8 @@
         ],
         "minValue": 0,
         "maxValue": 1
+    },
+    "details": {
+        "en": "Short description of the attenuation correction method used."
     }
 }

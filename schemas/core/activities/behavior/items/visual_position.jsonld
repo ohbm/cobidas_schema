@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.31 - Visual stimuli: Position in the visual field"
+        "en": "Visual stimuli: Position in the visual field"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.6 - What type of receive coil was used?"
+        "en": "What type of receive coil was used?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

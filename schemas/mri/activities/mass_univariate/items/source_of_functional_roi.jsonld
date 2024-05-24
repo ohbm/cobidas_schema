@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.41 - If small-volume correction mask is functionally defined, clearly describe the functional task and identify any risk of circularity"
+        "en": "If small-volume correction mask is functionally defined, clearly describe the functional task and identify any risk of circularity"
     }
 }

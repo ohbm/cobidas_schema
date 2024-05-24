@@ -12,7 +12,7 @@
         "inputType": "slider"
     },
     "question": {
-        "en": "6.22 - Measured free fraction in plasma, i.e. concentration of free compound in plasma divided by total concentration of compound in plasma.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Measured free fraction in plasma, i.e. concentration of free compound in plasma divided by total concentration of compound in plasma.</details></div>"
+        "en": "Measured free fraction in plasma, i.e. concentration of free compound in plasma divided by total concentration of compound in plasma."
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -147,5 +147,8 @@
         "multipleChoice": false,
         "minValue": 0,
         "maxValue": 20
+    },
+    "details": {
+        "en": "Measured free fraction in plasma, i.e. concentration of free compound in plasma divided by total concentration of compound in plasma."
     }
 }

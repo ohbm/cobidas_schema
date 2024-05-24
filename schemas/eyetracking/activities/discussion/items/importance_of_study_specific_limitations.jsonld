@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "12.1 - Limitations mentioned due to the eye-tracking methodology, study specific or general stated?<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Low data quality attenuated effect sizes</details></div>"
+        "en": "Limitations mentioned due to the eye-tracking methodology, study specific or general stated?"
+    },
+    "details": {
+        "en": "Low data quality attenuated effect sizes"
     }
 }

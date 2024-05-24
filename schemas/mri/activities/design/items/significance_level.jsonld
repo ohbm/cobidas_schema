@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.10 - Significance level<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>uncorrected alpha 0.05 for an ROI | FWE\u00adcorrected alpha 0.05</details></div>"
+        "en": "Significance level"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -38,5 +38,8 @@
         ],
         "minValue": 0,
         "maxValue": 2
+    },
+    "details": {
+        "en": "uncorrected alpha 0.05 for an ROI | FWE\u00adcorrected alpha 0.05"
     }
 }

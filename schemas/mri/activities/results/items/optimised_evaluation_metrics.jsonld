@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.27 - For multivariate, report optimised evaluation metrics<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Report the values obtained for the evaluation metrics chosen, as well as any Pp values to justify above\u00ad-chance performance.</details></div>"
+        "en": "For multivariate, report optimised evaluation metrics"
+    },
+    "details": {
+        "en": "Report the values obtained for the evaluation metrics chosen, as well as any Pp values to justify above\u00ad-chance performance."
     }
 }

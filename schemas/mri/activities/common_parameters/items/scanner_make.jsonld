@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.1 - Manufacturer of MRI scanner"
+        "en": "Manufacturer of MRI scanner"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

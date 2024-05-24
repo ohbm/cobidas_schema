@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "6.6 - Counter-balancing of the stimulus in the presentation across positions<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>No counter balancing</details></div>"
+        "en": "Counter-balancing of the stimulus in the presentation across positions"
+    },
+    "details": {
+        "en": "No counter balancing"
     }
 }

@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.29 - Was parallel imaging used?"
+        "en": "Was parallel imaging used?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

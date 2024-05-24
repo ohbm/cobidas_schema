@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.109 - Criteria used for volume censoring"
+        "en": "Criteria used for volume censoring"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

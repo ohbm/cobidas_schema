@@ -12,9 +12,12 @@
         "inputType": "number"
     },
     "question": {
-        "en": "9.6 - Number of participants excluded from the analysis<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Three participants excluded</details></div>"
+        "en": "Number of participants excluded from the analysis"
     },
     "responseOptions": {
         "valueType": "xsd:integer"
+    },
+    "details": {
+        "en": "Three participants excluded"
     }
 }

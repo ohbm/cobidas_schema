@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "3.6 - Bodyweight"
+        "en": "Bodyweight"
     },
     "responseOptions": {
         "valueType": "xsd:float",

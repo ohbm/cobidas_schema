@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "3.13 - Echo time (TE)"
+        "en": "Echo time (TE)"
     },
     "responseOptions": {
         "valueType": "xsd:float",

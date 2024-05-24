@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.5 - Description of the pulse sequence used"
+        "en": "Description of the pulse sequence used"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

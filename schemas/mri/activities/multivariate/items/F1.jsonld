@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.31 - Report F1<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>incorporates both precision and recall.</details></div>"
+        "en": "Report F1"
+    },
+    "details": {
+        "en": "incorporates both precision and recall."
     }
 }

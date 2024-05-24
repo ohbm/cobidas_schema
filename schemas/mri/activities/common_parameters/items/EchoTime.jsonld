@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.11 - Specify the echo time"
+        "en": "Specify the echo time"
     },
     "responseOptions": {
         "valueType": "xsd:float",

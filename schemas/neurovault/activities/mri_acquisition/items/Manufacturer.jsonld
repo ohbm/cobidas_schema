@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "3.1 - Manufacturer of MRI scanner"
+        "en": "Manufacturer of MRI scanner"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -34,9 +34,15 @@
                     "en": "General Electric"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 3
             }
         ],
         "minValue": 0,
-        "maxValue": 2
+        "maxValue": 3
     }
 }

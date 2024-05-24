@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.99 - Was any kind of denoising performed or were any nuisance covariate included in the subject level model?"
+        "en": "Was any kind of denoising performed or were any nuisance covariate included in the subject level model?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

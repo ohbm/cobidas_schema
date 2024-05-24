@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.12 - Functional imaging:<br>Specify the sparse sampling delay if any."
+        "en": "Functional imaging:<br>Specify the sparse sampling delay if any."
     },
     "responseOptions": {
         "valueType": "xsd:float"

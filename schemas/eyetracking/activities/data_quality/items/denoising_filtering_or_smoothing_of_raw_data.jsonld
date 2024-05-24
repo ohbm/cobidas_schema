@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "9.11 - The pre-processing of raw data through denoising, filtering or smoothing<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Lowpass filtering</details></div>"
+        "en": "The pre-processing of raw data through denoising, filtering or smoothing"
+    },
+    "details": {
+        "en": "Lowpass filtering"
     }
 }

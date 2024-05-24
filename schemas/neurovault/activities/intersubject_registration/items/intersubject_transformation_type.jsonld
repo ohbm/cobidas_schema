@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "5.3 - Was linear or nonlinear registration used?"
+        "en": "Was linear or nonlinear registration used?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

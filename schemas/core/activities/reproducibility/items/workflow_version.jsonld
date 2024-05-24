@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.7 - Version of the workflow system used"
+        "en": "Version of the workflow system used"
     }
 }

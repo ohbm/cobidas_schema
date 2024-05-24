@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.20 - Software used for the group level model"
+        "en": "Software used for the group level model"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

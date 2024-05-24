@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "7.3 - Software used for group modeling if different from overall package"
+        "en": "Software used for group modeling if different from overall package"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "10.6 - Effect Size"
+        "en": "Effect Size"
     },
     "responseOptions": {
         "valueType": "xsd:float"

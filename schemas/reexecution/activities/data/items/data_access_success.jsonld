@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "2.6 - Were you successful at accessing the data?"
+        "en": "Were you successful at accessing the data?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

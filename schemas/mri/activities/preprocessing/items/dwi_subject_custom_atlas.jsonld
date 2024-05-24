@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.54 - Diffusion weighted imaging:<br>Specify set of subjects used to create custom atlas"
+        "en": "Diffusion weighted imaging:<br>Specify set of subjects used to create custom atlas"
     }
 }

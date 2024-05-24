@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.50 - ASL imaging:<br>Choice of velocity selection cutoff (\u201cVENC\u201d)"
+        "en": "ASL imaging:<br>Choice of velocity selection cutoff (\u201cVENC\u201d)"
     }
 }

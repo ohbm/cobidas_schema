@@ -12,31 +12,55 @@
         "inputType": "select"
     },
     "question": {
-        "en": "6.4 - Nature of HRF model"
+        "en": "Nature of HRF model"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "choices": [
             {
                 "name": {
-                    "en": "double gamma"
+                    "en": "spm HRF"
                 },
                 "value": 0
             },
             {
                 "name": {
-                    "en": "Fourrier set"
+                    "en": "glover HRF"
                 },
                 "value": 1
             },
             {
                 "name": {
-                    "en": "FIR"
+                    "en": "double gamma"
                 },
                 "value": 2
+            },
+            {
+                "name": {
+                    "en": "Fourrier set"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "Finite Impulse Response"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "FLOBS"
+                },
+                "value": 5
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 6
             }
         ],
         "minValue": 0,
-        "maxValue": 2
+        "maxValue": 6
     }
 }

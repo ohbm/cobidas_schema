@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.95 - Voxel size in mm of the resampled, atlas-space images"
+        "en": "Voxel size in mm of the resampled, atlas-space images"
     }
 }

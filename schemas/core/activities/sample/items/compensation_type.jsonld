@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.36 - How were participants compensated?"
+        "en": "How were participants compensated?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

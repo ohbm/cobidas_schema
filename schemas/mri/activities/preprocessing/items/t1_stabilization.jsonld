@@ -12,7 +12,7 @@
         "inputType": "number"
     },
     "question": {
-        "en": "1.8 - Number of \u201cdummy\u201d scans discarded if any"
+        "en": "Number of \u201cdummy\u201d scans discarded if any"
     },
     "responseOptions": {
         "valueType": "xsd:integer"

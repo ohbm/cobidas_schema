@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.81 - Was any additional preprocessing required?<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Any preprocessing to images\u037e For example for T1, segmentation of gray matter\u037e for T2*, single image (specify image) or mean image</details></div>"
+        "en": "Was any additional preprocessing required?"
+    },
+    "details": {
+        "en": "Any preprocessing to images\u037e For example for T1, segmentation of gray matter\u037e for T2*, single image (specify image) or mean image"
     }
 }

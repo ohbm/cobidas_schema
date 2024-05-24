@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.26 - Specify phase encoding direction"
+        "en": "Specify phase encoding direction"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.10 - Any other nuisance regressors, and whether they were entered as interactions<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>e.g. with a task effect in 1st level fMRI, or with group effect</details></div>"
+        "en": "Any other nuisance regressors, and whether they were entered as interactions"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -51,5 +51,8 @@
         "multipleChoice": true,
         "minValue": 0,
         "maxValue": 4
+    },
+    "details": {
+        "en": "e.g. with a task effect in 1st level fMRI, or with group effect"
     }
 }

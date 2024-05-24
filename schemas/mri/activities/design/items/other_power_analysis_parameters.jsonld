@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.12 - Any other parameters set (e.g. for spatial methods a brain volume and smoothness may be needed to be specified)"
+        "en": "Any other parameters set (e.g. for spatial methods a brain volume and smoothness may be needed to be specified)"
     }
 }

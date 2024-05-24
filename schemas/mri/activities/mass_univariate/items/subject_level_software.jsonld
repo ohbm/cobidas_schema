@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.4 - Software used for the subject level model"
+        "en": "Software used for the subject level model"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

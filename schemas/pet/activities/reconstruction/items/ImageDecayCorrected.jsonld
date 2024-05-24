@@ -12,12 +12,15 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "5.2 - Specify whether the image data have been decay-corrected.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Boolean flag specifying whether the image data have been decay-corrected.</details></div>"
+        "en": "Specify whether the image data have been decay-corrected."
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "choices": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/response_options/boolean.jsonld",
         "minValue": 0,
         "maxValue": 0
+    },
+    "details": {
+        "en": "Boolean flag specifying whether the image data have been decay-corrected."
     }
 }

@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.106 - Software used for volume censoring"
+        "en": "Software used for volume censoring"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

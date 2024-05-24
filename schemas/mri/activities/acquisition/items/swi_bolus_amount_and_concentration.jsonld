@@ -12,9 +12,12 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.54 - Susceptibility weighted imaging:<br>Bolus amount and concentration<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, 0.1 ml/kg and 0.1 mmol/kg</details></div>"
+        "en": "Susceptibility weighted imaging:<br>Bolus amount and concentration"
     },
     "responseOptions": {
         "valueType": "xsd:float"
+    },
+    "details": {
+        "en": "For example, 0.1 ml/kg and 0.1 mmol/kg"
     }
 }

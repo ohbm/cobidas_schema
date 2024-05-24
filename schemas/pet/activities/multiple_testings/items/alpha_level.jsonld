@@ -12,7 +12,7 @@
         "inputType": "slider"
     },
     "question": {
-        "en": "10.4 - Alpha level"
+        "en": "Alpha level"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

@@ -12,9 +12,12 @@
         "inputType": "number"
     },
     "question": {
-        "en": "7.1 - Number of points that appeared in calibration<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>9</details></div>"
+        "en": "Number of points that appeared in calibration"
     },
     "responseOptions": {
         "valueType": "xsd:integer"
+    },
+    "details": {
+        "en": "9"
     }
 }

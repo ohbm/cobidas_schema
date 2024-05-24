@@ -12,9 +12,12 @@
         "inputType": "float"
     },
     "question": {
-        "en": "8.2 - Parameters of the null distribution of the test statisic.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Typically degrees of freedom (should be clear from the test statistic what these are).</details></div>"
+        "en": "Parameters of the null distribution of the test statisic."
     },
     "responseOptions": {
         "valueType": "xsd:float"
+    },
+    "details": {
+        "en": "Typically degrees of freedom (should be clear from the test statistic what these are)."
     }
 }

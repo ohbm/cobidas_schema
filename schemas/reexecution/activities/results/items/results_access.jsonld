@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "5.2 - How are the results accessed?"
+        "en": "How are the results accessed?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

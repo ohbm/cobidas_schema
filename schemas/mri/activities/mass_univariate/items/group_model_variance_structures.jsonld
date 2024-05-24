@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.28 - What was the variance structure at the group level?<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>If un\u00adequal variance between groups (and if globally pooled, as in SPM)</details></div>"
+        "en": "What was the variance structure at the group level?"
+    },
+    "details": {
+        "en": "If un\u00adequal variance between groups (and if globally pooled, as in SPM)"
     }
 }

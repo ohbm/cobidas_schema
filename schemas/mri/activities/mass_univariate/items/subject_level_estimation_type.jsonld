@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.18 - Estimation method used for subject level model<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>using voxel\u00adwise estimate of between subject variance</details></div>"
+        "en": "Estimation method used for subject level model"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -44,5 +44,8 @@
         ],
         "minValue": 0,
         "maxValue": 3
+    },
+    "details": {
+        "en": "using voxel\u00adwise estimate of between subject variance"
     }
 }

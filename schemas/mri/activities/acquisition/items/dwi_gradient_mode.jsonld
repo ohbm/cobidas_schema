@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.22 - Diffusion weighted imaging:<br>gradient mode"
+        "en": "Diffusion weighted imaging:<br>gradient mode"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

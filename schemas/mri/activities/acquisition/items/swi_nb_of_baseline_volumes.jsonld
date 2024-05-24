@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.51 - Susceptibility weighted imaging:<br>Number of baseline volumes"
+        "en": "Susceptibility weighted imaging:<br>Number of baseline volumes"
     },
     "responseOptions": {
         "valueType": "xsd:float"

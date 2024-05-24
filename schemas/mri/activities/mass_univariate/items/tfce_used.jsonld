@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.49 - Was threshold-free Cluster Enhancement (TFCE) used?"
+        "en": "Was threshold-free Cluster Enhancement (TFCE) used?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

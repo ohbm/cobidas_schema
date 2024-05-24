@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.1 - Modality"
+        "en": "Modality"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

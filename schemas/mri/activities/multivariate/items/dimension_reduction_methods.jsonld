@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.9 - What type of dimension reduction was used?"
+        "en": "What type of dimension reduction was used?"
     }
 }

@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.11 - Information on how the target values relate to the population. Specify how this is taken into account in the predictive model<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example: male/female frequency or age distribution by group...</details></div>"
+        "en": "Information on how the target values relate to the population. Specify how this is taken into account in the predictive model"
+    },
+    "details": {
+        "en": "For example: male/female frequency or age distribution by group..."
     }
 }

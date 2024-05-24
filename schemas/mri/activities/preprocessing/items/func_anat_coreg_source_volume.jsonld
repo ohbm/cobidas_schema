@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.71 - Source volume used for the functional - anatomical coregistration"
+        "en": "Source volume used for the functional - anatomical coregistration"
     }
 }

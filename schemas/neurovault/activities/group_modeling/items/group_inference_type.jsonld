@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "7.4 - Type of inference for group model"
+        "en": "Type of inference for group model"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

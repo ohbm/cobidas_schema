@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "4.2 - List the tools and versions indicated (i.e. Stata 5.0).  If more than one tool used, use a new line for each tool."
+        "en": "List the tools and versions indicated (i.e. Stata 5.0).  If more than one tool used, use a new line for each tool."
     }
 }

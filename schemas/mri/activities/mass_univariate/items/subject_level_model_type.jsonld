@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.1 - Type of subject model used<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>\u201cMass Univariate\u201d, \u201cMultivariate\u201d (e.g. ICA on whole brain data), \u201cMass Multivariate\u201d (e.g. MANOVA on diffusion or morphometry tensor data), \u201cLocal Multivariate\u201d (e.g. \u201csearchlight\u201d), \u201cRepresentational Similarity Analysis\u201d</details></div>"
+        "en": "Type of subject model used"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -56,5 +56,8 @@
         ],
         "minValue": 0,
         "maxValue": 5
+    },
+    "details": {
+        "en": "\u201cMass Univariate\u201d, \u201cMultivariate\u201d (e.g. ICA on whole brain data), \u201cMass Multivariate\u201d (e.g. MANOVA on diffusion or morphometry tensor data), \u201cLocal Multivariate\u201d (e.g. \u201csearchlight\u201d), \u201cRepresentational Similarity Analysis\u201d"
     }
 }

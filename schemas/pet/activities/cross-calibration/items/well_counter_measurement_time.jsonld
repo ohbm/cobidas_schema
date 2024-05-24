@@ -12,7 +12,7 @@
         "inputType": "timeRange"
     },
     "question": {
-        "en": "7.12 - Well counter measurement time"
+        "en": "Well counter measurement time"
     },
     "responseOptions": {
         "valueType": "xsd:datetime"

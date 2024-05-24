@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "3.11 - Order of acquisition of slices"
+        "en": "Order of acquisition of slices"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

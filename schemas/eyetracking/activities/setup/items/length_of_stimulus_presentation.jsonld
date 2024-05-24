@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "6.4 - Duration of stimulus presentation<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Self-paced by the participant</details></div>"
+        "en": "Duration of stimulus presentation"
     },
     "responseOptions": {
         "unitOptions": [
@@ -23,5 +23,8 @@
                 "value": "second"
             }
         ]
+    },
+    "details": {
+        "en": "Self-paced by the participant"
     }
 }

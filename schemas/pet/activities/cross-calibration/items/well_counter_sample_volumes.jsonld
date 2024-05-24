@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "7.11 - Well counter sample volumes"
+        "en": "Well counter sample volumes"
     },
     "responseOptions": {
         "valueType": "xsd:float",

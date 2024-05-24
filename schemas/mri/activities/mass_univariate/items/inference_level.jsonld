@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.44 - At what level was the inference made?"
+        "en": "At what level was the inference made?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

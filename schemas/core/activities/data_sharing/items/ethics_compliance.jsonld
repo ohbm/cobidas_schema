@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.6 - Confirm that the ethics board of the host institution generating the data approves the sharing of the data made available"
+        "en": "Confirm that the ethics board of the host institution generating the data approves the sharing of the data made available"
     }
 }

@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "9.3 - Monitoring of data quality during experiment<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Data quality was monitored constantly by the experimenter</details></div>"
+        "en": "Monitoring of data quality during experiment"
+    },
+    "details": {
+        "en": "Data quality was monitored constantly by the experimenter"
     }
 }

@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "3.9 - The size of the skipped area between slices."
+        "en": "The size of the skipped area between slices."
     },
     "responseOptions": {
         "valueType": "xsd:float",

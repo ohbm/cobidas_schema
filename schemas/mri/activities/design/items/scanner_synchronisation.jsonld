@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.5 - How was the equipment was synched to the scanner?"
+        "en": "How was the equipment was synched to the scanner?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

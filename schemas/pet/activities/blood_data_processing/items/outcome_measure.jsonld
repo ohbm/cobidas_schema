@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "9.8 - Outcome measure"
+        "en": "Outcome measure"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "2.7 - The sampling rate used<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>60</details></div>"
+        "en": "The sampling rate used"
     },
     "responseOptions": {
         "valueType": "xsd:float",
@@ -24,5 +24,8 @@
                 "value": "hertz"
             }
         ]
+    },
+    "details": {
+        "en": "60"
     }
 }

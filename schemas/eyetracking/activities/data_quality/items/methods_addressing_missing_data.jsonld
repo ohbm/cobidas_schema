@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "9.10 - Methods for addressing missing data<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Censoring or imputation</details></div>"
+        "en": "Methods for addressing missing data"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -32,5 +32,8 @@
         ],
         "minValue": 0,
         "maxValue": 1
+    },
+    "details": {
+        "en": "Censoring or imputation"
     }
 }

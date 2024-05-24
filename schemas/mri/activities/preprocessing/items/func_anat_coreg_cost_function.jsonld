@@ -12,12 +12,15 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.73 - Similarity metric used for functional - anatomical coregistration<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Image similarity metric</details></div>"
+        "en": "Similarity metric used for functional - anatomical coregistration"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "choices": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/response_options/cost_functions.jsonld",
         "minValue": 0,
         "maxValue": 0
+    },
+    "details": {
+        "en": "Image similarity metric"
     }
 }

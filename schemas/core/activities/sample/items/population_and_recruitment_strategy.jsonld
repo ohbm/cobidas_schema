@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.30 - Population from which subjects were drawn, and how and where recruitment took place.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, schools, clinics, etc. If possible, note if subjects are research\u00ad naive or have participated in other studies before</details></div>"
+        "en": "Population from which subjects were drawn, and how and where recruitment took place."
+    },
+    "details": {
+        "en": "For example, schools, clinics, etc. If possible, note if subjects are research\u00ad naive or have participated in other studies before"
     }
 }

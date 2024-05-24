@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.10 - Provide dimension before and after any feature selection and/or dimension reduction"
+        "en": "Provide dimension before and after any feature selection and/or dimension reduction"
     }
 }

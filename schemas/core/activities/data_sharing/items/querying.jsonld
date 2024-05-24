@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.16 - Mechanisms available for constructing queries on the repository (e.g. SQL, SPARQL)"
+        "en": "Mechanisms available for constructing queries on the repository (e.g. SQL, SPARQL)"
     }
 }

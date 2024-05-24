@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.30 - Report false positive rate<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>(1\u00ad - specificity)</details></div>"
+        "en": "Report false positive rate"
+    },
+    "details": {
+        "en": "(1\u00ad - specificity)"
     }
 }

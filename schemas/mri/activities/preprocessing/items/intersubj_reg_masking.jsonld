@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.94 - Use of cost\u00ad-function masking"
+        "en": "Use of cost\u00ad-function masking"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

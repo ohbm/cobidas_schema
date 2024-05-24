@@ -12,7 +12,7 @@
         "inputType": "number"
     },
     "question": {
-        "en": "1.5 - How many experimenters interacted with the participants?"
+        "en": "How many experimenters interacted with the participants?"
     },
     "responseOptions": {
         "valueType": "xsd:integer"

@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "9.5 - Reasons for exclusion"
+        "en": "Reasons for exclusion"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

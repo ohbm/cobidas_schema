@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.15 - Statistic used to assess significance"
+        "en": "Statistic used to assess significance"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

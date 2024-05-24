@@ -12,7 +12,7 @@
         "inputType": "slider"
     },
     "question": {
-        "en": "9.4 - Percentage of trials excluded for the analysis<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>20% of trials had to be removed due to ...</details></div>"
+        "en": "Percentage of trials excluded for the analysis"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -149,5 +149,8 @@
                 "value": "%"
             }
         ]
+    },
+    "details": {
+        "en": "20% of trials had to be removed due to ..."
     }
 }

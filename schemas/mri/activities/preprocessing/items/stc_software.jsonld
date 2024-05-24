@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.18 - Software used for slice timing"
+        "en": "Software used for slice timing"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

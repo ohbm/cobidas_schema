@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.15 - Software version used for the segmentation"
+        "en": "Software version used for the segmentation"
     }
 }

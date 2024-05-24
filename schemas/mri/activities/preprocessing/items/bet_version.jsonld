@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.10 - Software version used for the brain extraction"
+        "en": "Software version used for the brain extraction"
     }
 }

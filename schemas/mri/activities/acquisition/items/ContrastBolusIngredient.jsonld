@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.53 - Susceptibility weighted imaging:<br>Type, name and manufacturer of intravenous bolus<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, gadobutrol, Gadavist, Bayer</details></div>"
+        "en": "Susceptibility weighted imaging:<br>Type, name and manufacturer of intravenous bolus"
+    },
+    "details": {
+        "en": "For example, gadobutrol, Gadavist, Bayer"
     }
 }

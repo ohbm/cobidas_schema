@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.24 - Specify the slice orientation"
+        "en": "Specify the slice orientation"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

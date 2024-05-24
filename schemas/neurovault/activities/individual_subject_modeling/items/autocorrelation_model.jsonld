@@ -9,9 +9,52 @@
     },
     "description": "autocorrelation model",
     "ui": {
-        "inputType": "textarea"
+        "inputType": "select"
     },
     "question": {
-        "en": "6.13 - What autocorrelation model was used (or 'none' if none was used)"
+        "en": "What autocorrelation model was used ?"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": [
+            {
+                "name": {
+                    "en": "SPM: global approximate AR(1)"
+                },
+                "value": 0
+            },
+            {
+                "name": {
+                    "en": "SPM: FAST"
+                },
+                "value": 1
+            },
+            {
+                "name": {
+                    "en": "FSL: locally regularized autocorrelation function"
+                },
+                "value": 2
+            },
+            {
+                "name": {
+                    "en": "AFNI: ARMA"
+                },
+                "value": 3
+            },
+            {
+                "name": {
+                    "en": "none"
+                },
+                "value": 4
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 5
+            }
+        ],
+        "minValue": 0,
+        "maxValue": 5
     }
 }

@@ -12,7 +12,7 @@
         "inputType": "date"
     },
     "question": {
-        "en": "1.7 - Experiment date"
+        "en": "Experiment date"
     },
     "responseOptions": {
         "valueType": "xsd:date"

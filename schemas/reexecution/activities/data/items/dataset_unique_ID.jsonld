@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "2.8 - Is the subset uniquely/clearly identified?"
+        "en": "Is the subset uniquely/clearly identified?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

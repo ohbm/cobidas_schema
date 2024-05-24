@@ -12,7 +12,7 @@
         "inputType": "slider"
     },
     "question": {
-        "en": "1.19 - Percentage of men in the study"
+        "en": "Percentage of men in the study"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

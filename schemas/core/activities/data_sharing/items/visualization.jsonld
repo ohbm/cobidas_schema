@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.12 - Availability of in-resource visualization of the imaging or non\u00adimaging data"
+        "en": "Availability of in-resource visualization of the imaging or non\u00adimaging data"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

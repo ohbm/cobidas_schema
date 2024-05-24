@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.21 - What slice was used as reference for the slice timing?"
+        "en": "What slice was used as reference for the slice timing?"
     },
     "responseOptions": {
         "valueType": "xsd:float"

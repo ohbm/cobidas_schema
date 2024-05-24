@@ -12,7 +12,7 @@
         "inputType": "slider"
     },
     "question": {
-        "en": "6.8 - Measured haematocrit, i.e. the volume of erythrocytes divided by the volume of whole blood."
+        "en": "Measured haematocrit, i.e. the volume of erythrocytes divided by the volume of whole blood."
     },
     "responseOptions": {
         "valueType": "xsd:integer",

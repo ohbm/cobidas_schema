@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.20 - Was the order of the stimuli counterbalanced (across runs, across participants)?"
+        "en": "Was the order of the stimuli counterbalanced (across runs, across participants)?"
     }
 }

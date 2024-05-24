@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.67 - Software used for the functional - anatomical coregistration"
+        "en": "Software used for the functional - anatomical coregistration"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

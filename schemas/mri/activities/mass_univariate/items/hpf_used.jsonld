@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.14 - Was high pass filtering applied?"
+        "en": "Was high pass filtering applied?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

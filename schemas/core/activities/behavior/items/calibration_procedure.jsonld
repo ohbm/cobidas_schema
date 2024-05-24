@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.23 - Calibration procedure<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Including software (type, version and operating system) and hardware used, should also be described. Where relevant, the rationale for selecting a specific parameter (for example, contrast, harmonic content) should be indicated. If features were determined individually for each participant, the criteria and the psychophysical method used should be detailed.</details></div>"
+        "en": "Calibration procedure"
+    },
+    "details": {
+        "en": "Including software (type, version and operating system) and hardware used, should also be described. Where relevant, the rationale for selecting a specific parameter (for example, contrast, harmonic content) should be indicated. If features were determined individually for each participant, the criteria and the psychophysical method used should be detailed."
     }
 }

@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "4.13 - Interpolation method used for motion correction"
+        "en": "Interpolation method used for motion correction"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

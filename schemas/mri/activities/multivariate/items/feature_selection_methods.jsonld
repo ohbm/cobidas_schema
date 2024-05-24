@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.7 - What type of feature selection was used?"
+        "en": "What type of feature selection was used?"
     }
 }

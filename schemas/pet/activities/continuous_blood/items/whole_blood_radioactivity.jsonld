@@ -12,7 +12,7 @@
         "inputType": "text"
     },
     "question": {
-        "en": "6.30 - Whole blood radioactivity"
+        "en": "Whole blood radioactivity"
     },
     "responseOptions": {
         "valueType": "xsd:string",

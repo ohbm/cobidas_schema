@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.15 - Diffusion weighted imaging:<br>Was direction optimization used?"
+        "en": "Diffusion weighted imaging:<br>Was direction optimization used?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

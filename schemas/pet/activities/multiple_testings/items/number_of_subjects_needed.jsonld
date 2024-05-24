@@ -12,7 +12,7 @@
         "inputType": "number"
     },
     "question": {
-        "en": "10.8 - Number of Subjects Needed"
+        "en": "Number of Subjects Needed"
     },
     "responseOptions": {
         "valueType": "xsd:integer"

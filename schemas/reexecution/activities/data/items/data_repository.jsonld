@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "2.3 - From which repository(s) is this data listed as being available from (i.e. NITRC or OpenNeuro, etc.)?"
+        "en": "From which repository(s) is this data listed as being available from (i.e. NITRC or OpenNeuro, etc.)?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

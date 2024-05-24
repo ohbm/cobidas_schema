@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "6.2 - Estimation method used for model"
+        "en": "Estimation method used for model"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -28,9 +28,15 @@
                     "en": "generalized least squares"
                 },
                 "value": 1
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 2
             }
         ],
         "minValue": 0,
-        "maxValue": 1
+        "maxValue": 2
     }
 }

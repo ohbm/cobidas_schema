@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.29 - Was distortion-correction applied?"
+        "en": "Was distortion-correction applied?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

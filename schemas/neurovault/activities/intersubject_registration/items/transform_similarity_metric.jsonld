@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "5.5 - Similarity metric used for intersubject registration"
+        "en": "Similarity metric used for intersubject registration"
     }
 }

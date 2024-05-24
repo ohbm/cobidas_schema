@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.2 - Provide a complete list of tested and omitted effects"
+        "en": "Provide a complete list of tested and omitted effects"
     }
 }

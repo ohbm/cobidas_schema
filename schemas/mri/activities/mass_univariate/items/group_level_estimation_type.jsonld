@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.27 - Estimation method used for group level model<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Ordinary least squares (OLS, aka unweighted summary statistics approach\u037e SPM default, FSL FEAT\u2019s \u201cSimple OLS\u201d); Weighted least squares (i.e. FSL FEAT\u2019s \u201cFLAME 1\u201d), using voxel\u00adwise estimate of between subject variance; Global weighted least squares (i.e. SPM\u2019s MFX)</details></div>"
+        "en": "Estimation method used for group level model"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -44,5 +44,8 @@
         ],
         "minValue": 0,
         "maxValue": 3
+    },
+    "details": {
+        "en": "Ordinary least squares (OLS, aka unweighted summary statistics approach\u037e SPM default, FSL FEAT\u2019s \u201cSimple OLS\u201d); Weighted least squares (i.e. FSL FEAT\u2019s \u201cFLAME 1\u201d), using voxel\u00adwise estimate of between subject variance; Global weighted least squares (i.e. SPM\u2019s MFX)"
     }
 }

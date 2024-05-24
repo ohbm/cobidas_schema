@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "9.3 - Fitting"
+        "en": "Fitting"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

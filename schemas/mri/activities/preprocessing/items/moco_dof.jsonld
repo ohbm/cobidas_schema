@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.26 - Number of degrees of freedom for the motion correction"
+        "en": "Number of degrees of freedom for the motion correction"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

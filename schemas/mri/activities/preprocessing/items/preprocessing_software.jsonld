@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.3 - If a single software package was used for all analyses, specify that here"
+        "en": "If a single software package was used for all analyses, specify that here"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

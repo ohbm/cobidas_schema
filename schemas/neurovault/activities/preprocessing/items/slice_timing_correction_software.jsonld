@@ -9,9 +9,15 @@
     },
     "description": "slice timing correction software",
     "ui": {
-        "inputType": "textarea"
+        "inputType": "select"
     },
     "question": {
-        "en": "4.8 - Specify software used for slice timing correction if different from the main package"
+        "en": "Specify software used for slice timing correction if different from the main package"
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "choices": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/response_options/mri_softwares.jsonld",
+        "minValue": 0,
+        "maxValue": 0
     }
 }

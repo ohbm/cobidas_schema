@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.70 - Target volume used for the functional - anatomical coregistration"
+        "en": "Target volume used for the functional - anatomical coregistration"
     }
 }

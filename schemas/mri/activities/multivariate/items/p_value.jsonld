@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.36 - When possible use formal test to obtain P\u00advalue to assess whether evaluation metric is \u201csignificant\u201d or consistent with noise."
+        "en": "When possible use formal test to obtain P\u00advalue to assess whether evaluation metric is \u201csignificant\u201d or consistent with noise."
     }
 }

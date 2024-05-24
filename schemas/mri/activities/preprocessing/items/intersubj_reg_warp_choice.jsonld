@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.87 - What type of registration was used?"
+        "en": "What type of registration was used?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

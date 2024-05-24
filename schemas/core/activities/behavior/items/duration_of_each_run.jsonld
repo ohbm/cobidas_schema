@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.10 - What was the duration of each imaging run?"
+        "en": "What was the duration of each imaging run?"
     },
     "responseOptions": {
         "valueType": "xsd:float",

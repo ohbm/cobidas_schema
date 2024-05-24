@@ -12,7 +12,7 @@
         "inputType": "number"
     },
     "question": {
-        "en": "1.5 - Number of subjects consented"
+        "en": "Number of subjects consented"
     },
     "responseOptions": {
         "valueType": "xsd:integer"

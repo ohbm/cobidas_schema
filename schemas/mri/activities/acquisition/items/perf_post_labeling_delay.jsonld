@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.37 - ASL imaging:<br>Post-labeling delay (PLD)"
+        "en": "ASL imaging:<br>Post-labeling delay (PLD)"
     },
     "responseOptions": {
         "valueType": "xsd:float"

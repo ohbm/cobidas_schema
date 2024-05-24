@@ -12,7 +12,7 @@
         "inputType": "slider"
     },
     "question": {
-        "en": "9.8 - Percentage of lost data<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Proportion of samples in which gaze position could not be identified ; An average of 11% lost data</details></div>"
+        "en": "Percentage of lost data"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -149,5 +149,8 @@
                 "value": "%"
             }
         ]
+    },
+    "details": {
+        "en": "Proportion of samples in which gaze position could not be identified ; An average of 11% lost data"
     }
 }

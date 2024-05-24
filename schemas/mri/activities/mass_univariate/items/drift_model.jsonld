@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.13 - Drift model, if not already specified as a dependent variable (e.g. locally linear detrending of data and regressors, as in FSL)"
+        "en": "Drift model, if not already specified as a dependent variable (e.g. locally linear detrending of data and regressors, as in FSL)"
     }
 }

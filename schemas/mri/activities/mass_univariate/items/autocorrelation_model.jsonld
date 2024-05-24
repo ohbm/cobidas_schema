@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.17 - What autocorrelation model was used?"
+        "en": "What autocorrelation model was used?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

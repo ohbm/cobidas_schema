@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "6.6 - Were dispersion derivatives included?"
+        "en": "Were dispersion derivatives included?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

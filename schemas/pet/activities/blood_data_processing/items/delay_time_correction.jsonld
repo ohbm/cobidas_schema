@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "9.2 - Delay time correction"
+        "en": "Delay time correction"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "3.4 - Description of pulse sequence used for fMRI"
+        "en": "Description of pulse sequence used for fMRI"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

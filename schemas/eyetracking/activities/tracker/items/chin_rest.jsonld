@@ -12,12 +12,15 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "2.14 - If a chinrest was used<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Chinrest was used</details></div>"
+        "en": "If a chinrest was used"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "choices": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/response_options/boolean.jsonld",
         "minValue": 0,
         "maxValue": 0
+    },
+    "details": {
+        "en": "Chinrest was used"
     }
 }

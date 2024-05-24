@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.20 - Diffusion weighted imaging:<br>shell type"
+        "en": "Diffusion weighted imaging:<br>shell type"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

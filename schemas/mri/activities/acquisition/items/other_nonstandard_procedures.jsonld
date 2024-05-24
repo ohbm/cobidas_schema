@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.31 - Describe any other non\u00adstandard procedures<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Turning off the cold head(s) (for example during EEG/fMRI or spectroscopy measurements)</details></div>"
+        "en": "Describe any other non\u00adstandard procedures"
+    },
+    "details": {
+        "en": "Turning off the cold head(s) (for example during EEG/fMRI or spectroscopy measurements)"
     }
 }

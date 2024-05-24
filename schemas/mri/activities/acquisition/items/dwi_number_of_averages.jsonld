@@ -12,7 +12,7 @@
         "inputType": "number"
     },
     "question": {
-        "en": "1.19 - Diffusion weighted imaging:<br>number of averages"
+        "en": "Diffusion weighted imaging:<br>number of averages"
     },
     "responseOptions": {
         "valueType": "xsd:integer"

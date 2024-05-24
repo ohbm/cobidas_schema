@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.2 - Was a single software package was used for preprocessing?"
+        "en": "Was a single software package was used for preprocessing?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

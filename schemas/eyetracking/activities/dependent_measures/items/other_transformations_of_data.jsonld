@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "10.1 - Other transformations of data<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Search Index</details></div>"
+        "en": "Other transformations of data"
+    },
+    "details": {
+        "en": "Search Index"
     }
 }

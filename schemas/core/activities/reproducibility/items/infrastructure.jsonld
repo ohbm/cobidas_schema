@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.2 - Machine CPU model, any use of parallelization"
+        "en": "Machine CPU model, any use of parallelization"
     }
 }

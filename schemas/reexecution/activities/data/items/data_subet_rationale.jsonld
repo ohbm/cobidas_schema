@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "2.9 - Is the rationale for the subset clearly identified?"
+        "en": "Is the rationale for the subset clearly identified?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

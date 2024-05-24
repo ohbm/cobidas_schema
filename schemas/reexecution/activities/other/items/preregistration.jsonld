@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "6.1 - Was this study 'pre-registered'?"
+        "en": "Was this study 'pre-registered'?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "3.6 - Imaging field of view"
+        "en": "Imaging field of view"
     },
     "responseOptions": {
         "valueType": "xsd:float",

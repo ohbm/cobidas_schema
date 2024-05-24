@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "3.5 - Describe the operating system details (i.e. specific version) provided (i.e. MacOS 10.12.6)."
+        "en": "Describe the operating system details (i.e. specific version) provided (i.e. MacOS 10.12.6)."
     }
 }

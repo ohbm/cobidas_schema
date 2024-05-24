@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.52 - Susceptibility weighted imaging:<br>Was a contrast agent injected?"
+        "en": "Susceptibility weighted imaging:<br>Was a contrast agent injected?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

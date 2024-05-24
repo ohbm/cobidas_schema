@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.13 - Model type"
+        "en": "Model type"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

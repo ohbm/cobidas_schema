@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "9.9 - Weighting"
+        "en": "Weighting"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

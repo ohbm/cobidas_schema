@@ -12,7 +12,7 @@
         "inputType": "slider"
     },
     "question": {
-        "en": "9.7 - The exact quality threshold for exclusion<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>40% missing observations</details></div>"
+        "en": "The exact quality threshold for exclusion"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -141,5 +141,8 @@
         "multipleChoice": false,
         "minValue": 0,
         "maxValue": 19
+    },
+    "details": {
+        "en": "40% missing observations"
     }
 }

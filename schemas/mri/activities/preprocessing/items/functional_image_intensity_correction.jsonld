@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.97 - Specify the type of intensity correction of the functional images<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Correction of odd versus even slice intensity differences attributable to interleaved EPI acquisition without gaps</details></div>"
+        "en": "Specify the type of intensity correction of the functional images"
+    },
+    "details": {
+        "en": "Correction of odd versus even slice intensity differences attributable to interleaved EPI acquisition without gaps"
     }
 }

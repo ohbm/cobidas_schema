@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.82 - Name of coordinate space for registration target"
+        "en": "Name of coordinate space for registration target"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

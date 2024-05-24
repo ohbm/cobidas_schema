@@ -12,7 +12,7 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "3.2 - The resolution of the used monitor<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>1280 x 1024</details></div>"
+        "en": "The resolution of the used monitor"
     },
     "responseOptions": {
         "unitOptions": [
@@ -23,5 +23,8 @@
                 "value": "pixel"
             }
         ]
+    },
+    "details": {
+        "en": "1280 x 1024"
     }
 }

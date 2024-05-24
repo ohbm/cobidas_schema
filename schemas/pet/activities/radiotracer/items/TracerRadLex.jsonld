@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "2.3 - ID of the tracer compound from the RadLex Ontology.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>ID of the tracer compound from the RadLex Ontology. http://bioportal.bioontology.org/ontologies/RADLEX?p=classes&conceptid=root</details></div>"
+        "en": "ID of the tracer compound from the RadLex Ontology."
+    },
+    "details": {
+        "en": "ID of the tracer compound from the RadLex Ontology. http://bioportal.bioontology.org/ontologies/RADLEX?p=classes&conceptid=root"
     }
 }

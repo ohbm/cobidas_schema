@@ -74,7 +74,7 @@
                 "prefLabel": {
                     "en": "nonlinear transform type"
                 },
-                "isVis": "used_intersubject_registration == 1",
+                "isVis": "used_intersubject_registration == 1 and nonlinear_transform_type == 1",
                 "requiredValue": false,
                 "allow": [
                     "reproschema:Skipped"

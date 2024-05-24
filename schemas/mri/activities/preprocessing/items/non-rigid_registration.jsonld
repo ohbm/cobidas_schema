@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.25 - Was non-rigid registration applied?"
+        "en": "Was non-rigid registration applied?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

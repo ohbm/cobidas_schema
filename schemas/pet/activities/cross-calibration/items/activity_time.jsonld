@@ -12,7 +12,7 @@
         "inputType": "timeRange"
     },
     "question": {
-        "en": "7.7 - Activity time"
+        "en": "Activity time"
     },
     "responseOptions": {
         "valueType": "xsd:datetime"

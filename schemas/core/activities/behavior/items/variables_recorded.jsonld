@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.49 - What variables were recorded?"
+        "en": "What variables were recorded?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

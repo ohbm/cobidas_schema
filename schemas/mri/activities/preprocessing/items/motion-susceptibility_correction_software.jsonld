@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.28 - Software used for the motion-susceptibility correction"
+        "en": "Software used for the motion-susceptibility correction"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

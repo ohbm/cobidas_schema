@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.43 - Type of statistic that is the basis of the inference"
+        "en": "Type of statistic that is the basis of the inference"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

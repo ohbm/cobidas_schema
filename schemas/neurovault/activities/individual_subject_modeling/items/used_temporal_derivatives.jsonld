@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "6.5 - Were temporal derivatives included?"
+        "en": "Were temporal derivatives included?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

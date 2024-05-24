@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.32 - Report receiver operating characteristic curves and area under the curve.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>ROC can be summarised by area under the curve (AUC) and AUC for only high specificity (e.g. false positive rates no greater than 10%) are also useful.</details></div>"
+        "en": "Report receiver operating characteristic curves and area under the curve."
+    },
+    "details": {
+        "en": "ROC can be summarised by area under the curve (AUC) and AUC for only high specificity (e.g. false positive rates no greater than 10%) are also useful."
     }
 }

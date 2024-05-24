@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "1.4 - Length of each imaging run"
+        "en": "Length of each imaging run"
     },
     "responseOptions": {
         "valueType": "xsd:float",

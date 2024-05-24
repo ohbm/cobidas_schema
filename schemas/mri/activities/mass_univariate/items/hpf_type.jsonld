@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.15 - What method was used for high pass filtering?"
+        "en": "What method was used for high pass filtering?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

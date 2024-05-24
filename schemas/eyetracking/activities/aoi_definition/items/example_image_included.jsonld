@@ -12,12 +12,15 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "5.5 - Example image presented in the paper<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Yes</details></div>"
+        "en": "Example image presented in the paper"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
         "choices": "https://raw.githubusercontent.com/ohbm/cobidas_schema/master/response_options/boolean.jsonld",
         "minValue": 0,
         "maxValue": 0
+    },
+    "details": {
+        "en": "Yes"
     }
 }

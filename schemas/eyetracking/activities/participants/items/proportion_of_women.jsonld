@@ -12,7 +12,7 @@
         "inputType": "slider"
     },
     "question": {
-        "en": "8.2 - The percentage of women<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>50</details></div>"
+        "en": "The percentage of women"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -149,5 +149,8 @@
                 "value": "%"
             }
         ]
+    },
+    "details": {
+        "en": "50"
     }
 }

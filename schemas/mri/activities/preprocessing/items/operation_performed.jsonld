@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.6 - Specify which preprocessing steps were performed"
+        "en": "Specify which preprocessing steps were performed"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

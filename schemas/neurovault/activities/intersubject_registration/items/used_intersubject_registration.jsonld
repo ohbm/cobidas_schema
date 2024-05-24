@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "5.1 - Were subjects registered to a common stereotactic space?"
+        "en": "Were subjects registered to a common stereotactic space?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.9 - Source of predicted effect size<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>previous literature with citation\u037e pilot data with description</details></div>"
+        "en": "Source of predicted effect size"
+    },
+    "details": {
+        "en": "previous literature with citation\u037e pilot data with description"
     }
 }

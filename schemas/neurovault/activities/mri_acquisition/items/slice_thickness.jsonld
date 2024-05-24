@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "3.8 - Distance between slices (includes skip or distance factor)."
+        "en": "Distance between slices (includes skip or distance factor)."
     },
     "responseOptions": {
         "valueType": "xsd:float",

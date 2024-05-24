@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.2 - Was an MRI simulator used to acclimate subjects to scanner environment?"
+        "en": "Was an MRI simulator used to acclimate subjects to scanner environment?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

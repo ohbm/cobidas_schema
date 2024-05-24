@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "6.7 - Were motion regressors included?"
+        "en": "Were motion regressors included?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

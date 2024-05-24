@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "5.11 - Frame-Sequence"
+        "en": "Frame-Sequence"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

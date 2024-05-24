@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.30 - If multiple measurements per subject, list method to account for within subject correlation, exact assumptions made about correlation/variance<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>If repeated measures, the specific covariance structure assumed (e.g. compound symmetric, or arbitrary\u037e if globally pooled) </details></div>"
+        "en": "If multiple measurements per subject, list method to account for within subject correlation, exact assumptions made about correlation/variance"
+    },
+    "details": {
+        "en": "If repeated measures, the specific covariance structure assumed (e.g. compound symmetric, or arbitrary\u037e if globally pooled) "
     }
 }

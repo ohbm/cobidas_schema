@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.90 - Parameter(s) used to set degree of regularization"
+        "en": "Parameter(s) used to set degree of regularization"
     }
 }

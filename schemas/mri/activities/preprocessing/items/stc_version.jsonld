@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.19 - Software version used for slice timing"
+        "en": "Software version used for slice timing"
     }
 }

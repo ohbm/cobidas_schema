@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.29 - Software version used for the motion-susceptibility correction"
+        "en": "Software version used for the motion-susceptibility correction"
     }
 }

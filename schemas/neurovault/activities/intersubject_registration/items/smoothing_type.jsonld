@@ -9,13 +9,9 @@
     },
     "description": "smoothing type",
     "ui": {
-        "inputType": "text"
+        "inputType": "textarea"
     },
     "question": {
-        "en": "5.14 - Describe the type of smoothing applied"
-    },
-    "responseOptions": {
-        "valueType": "xsd:string",
-        "maxLength": 300
+        "en": "Describe the type of smoothing applied"
     }
 }

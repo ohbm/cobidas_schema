@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.11 - Were any regressors specifically orthogonalized with respect to others?"
+        "en": "Were any regressors specifically orthogonalized with respect to others?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

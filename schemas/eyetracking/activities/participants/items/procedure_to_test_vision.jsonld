@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "8.4 - Procedure for testing visual acuity or color vision<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, participants were asked or tested before experiment ; Ishihara Color Vision Test</details></div>"
+        "en": "Procedure for testing visual acuity or color vision"
+    },
+    "details": {
+        "en": "For example, participants were asked or tested before experiment ; Ishihara Color Vision Test"
     }
 }

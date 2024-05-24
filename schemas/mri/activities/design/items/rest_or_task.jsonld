@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.1 - Was it task based MRI or resting state MRI?"
+        "en": "Was it task based MRI or resting state MRI?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

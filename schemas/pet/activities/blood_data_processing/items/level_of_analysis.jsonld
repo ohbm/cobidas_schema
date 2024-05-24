@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "9.10 - Level of analysis"
+        "en": "Level of analysis"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

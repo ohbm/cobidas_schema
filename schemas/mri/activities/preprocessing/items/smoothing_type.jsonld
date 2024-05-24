@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.116 - Describe the type of smoothing applied"
+        "en": "Describe the type of smoothing applied"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

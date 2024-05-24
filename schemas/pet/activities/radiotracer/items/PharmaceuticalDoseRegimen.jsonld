@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "2.1 - Details of the pharmaceutical dose regimen.<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Details of the pharmaceutical dose regimen. Either adequate description or short-code relating to regimen documented elsewhere.</details></div>"
+        "en": "Details of the pharmaceutical dose regimen."
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -38,5 +38,8 @@
         ],
         "minValue": 0,
         "maxValue": 2
+    },
+    "details": {
+        "en": "Details of the pharmaceutical dose regimen. Either adequate description or short-code relating to regimen documented elsewhere."
     }
 }

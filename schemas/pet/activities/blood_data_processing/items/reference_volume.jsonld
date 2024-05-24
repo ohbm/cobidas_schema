@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "9.7 - Reference volume<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Cerebellum without vermis.</details></div>"
+        "en": "Reference volume"
+    },
+    "details": {
+        "en": "Cerebellum without vermis."
     }
 }

@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "5.15 - Prompt rate for each frame"
+        "en": "Prompt rate for each frame"
     }
 }

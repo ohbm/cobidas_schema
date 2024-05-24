@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.35 - For representational similarity analysis, report the Kendall Tau statistic for each candidate model considered."
+        "en": "For representational similarity analysis, report the Kendall Tau statistic for each candidate model considered."
     }
 }

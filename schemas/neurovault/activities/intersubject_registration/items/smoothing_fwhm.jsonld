@@ -12,10 +12,11 @@
         "inputType": "float"
     },
     "question": {
-        "en": "5.15 - The full-width at half-maximum of the smoothing kernel"
+        "en": "The full-width at half-maximum of the smoothing kernel"
     },
     "responseOptions": {
         "valueType": "xsd:float",
+        "minValue": 0,
         "unitOptions": [
             {
                 "prefLabel": {

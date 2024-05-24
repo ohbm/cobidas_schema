@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "10.3 - Event detection procedure<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>I-DT fixation algorithm</details></div>"
+        "en": "Event detection procedure"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -32,5 +32,8 @@
         ],
         "minValue": 0,
         "maxValue": 1
+    },
+    "details": {
+        "en": "I-DT fixation algorithm"
     }
 }

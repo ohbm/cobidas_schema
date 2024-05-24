@@ -12,9 +12,12 @@
         "inputType": "number"
     },
     "question": {
-        "en": "6.7 - The number of trials in the experiment<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>One trial</details></div>"
+        "en": "The number of trials in the experiment"
     },
     "responseOptions": {
         "valueType": "xsd:integer"
+    },
+    "details": {
+        "en": "One trial"
     }
 }

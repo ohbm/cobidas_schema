@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "6.9 - Settings and locations where data were collected<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Data were collected in a soundproof room with no direct daylight</details></div>"
+        "en": "Settings and locations where data were collected"
+    },
+    "details": {
+        "en": "Data were collected in a soundproof room with no direct daylight"
     }
 }

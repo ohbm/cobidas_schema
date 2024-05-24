@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.76 - Software used for intersubject registration"
+        "en": "Software used for intersubject registration"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

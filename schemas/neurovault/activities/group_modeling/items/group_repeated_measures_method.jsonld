@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "7.7 - If multiple measurements per subject, list method to account for within subject correlation, exact assumptions made about correlation/variance"
+        "en": "If multiple measurements per subject, list method to account for within subject correlation, exact assumptions made about correlation/variance"
     }
 }

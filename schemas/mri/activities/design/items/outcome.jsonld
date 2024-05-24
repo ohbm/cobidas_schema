@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.8 - The type of outcome used as the basis of power computations"
+        "en": "The type of outcome used as the basis of power computations"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.6 - Was feature selection used?"
+        "en": "Was feature selection used?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

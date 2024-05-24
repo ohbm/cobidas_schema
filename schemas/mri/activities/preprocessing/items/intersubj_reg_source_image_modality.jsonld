@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.80 - What was the modality of the source volume?"
+        "en": "What was the modality of the source volume?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

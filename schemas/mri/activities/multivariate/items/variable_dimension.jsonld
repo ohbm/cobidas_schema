@@ -12,9 +12,12 @@
         "inputType": "number"
     },
     "question": {
-        "en": "1.3 - Variable dimension<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For whole-brain prediction, this is a voxel count. For searchlight analyses, the exact number of voxels in the search region, not just a radius</details></div>"
+        "en": "Variable dimension"
     },
     "responseOptions": {
         "valueType": "xsd:integer"
+    },
+    "details": {
+        "en": "For whole-brain prediction, this is a voxel count. For searchlight analyses, the exact number of voxels in the search region, not just a radius"
     }
 }

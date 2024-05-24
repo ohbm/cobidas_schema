@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "9.32 - Justification for smoothing size<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Chosen to reflect the size of the amygdala.</details></div>"
+        "en": "Justification for smoothing size"
+    },
+    "details": {
+        "en": "Chosen to reflect the size of the amygdala."
     }
 }

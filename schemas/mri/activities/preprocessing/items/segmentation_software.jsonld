@@ -12,7 +12,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "1.14 - Software used for segmentation"
+        "en": "Software used for segmentation"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

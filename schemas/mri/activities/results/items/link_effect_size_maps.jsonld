@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.21 - Link to effect size maps<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example % BOLD change, % GM change...</details></div>"
+        "en": "Link to effect size maps"
+    },
+    "details": {
+        "en": "For example % BOLD change, % GM change..."
     }
 }

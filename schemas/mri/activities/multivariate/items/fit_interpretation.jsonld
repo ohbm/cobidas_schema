@@ -12,6 +12,6 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.37 - Procedure used to interpret the fit of the classifier, identifying the relative importance of the features (e.g. the weight vector in linear discriminant)."
+        "en": "Procedure used to interpret the fit of the classifier, identifying the relative importance of the features (e.g. the weight vector in linear discriminant)."
     }
 }

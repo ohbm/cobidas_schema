@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "10.4 - The aggregation method for fixations during data preprocessing used<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>AOI method or fuzzy AOIs</details></div>"
+        "en": "The aggregation method for fixations during data preprocessing used"
+    },
+    "details": {
+        "en": "AOI method or fuzzy AOIs"
     }
 }

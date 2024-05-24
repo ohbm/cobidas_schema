@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.89 - Was regularization used? "
+        "en": "Was regularization used? "
     },
     "responseOptions": {
         "valueType": "xsd:integer",

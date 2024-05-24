@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.34 - Link to Cognitive Atlas definition of this contrast<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>When possible, define these in terms of the task or stimulus conditions instead of psychological concepts (See Task Specification in Experimental Design Reporting)</details></div>"
+        "en": "Link to Cognitive Atlas definition of this contrast"
+    },
+    "details": {
+        "en": "When possible, define these in terms of the task or stimulus conditions instead of psychological concepts (See Task Specification in Experimental Design Reporting)"
     }
 }

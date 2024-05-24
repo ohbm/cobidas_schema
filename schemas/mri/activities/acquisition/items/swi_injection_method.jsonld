@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "1.57 - Susceptibility weighted imaging:<br>injection method<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>For example, power injector</details></div>"
+        "en": "Susceptibility weighted imaging:<br>injection method"
+    },
+    "details": {
+        "en": "For example, power injector"
     }
 }

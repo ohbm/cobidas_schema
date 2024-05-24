@@ -12,6 +12,9 @@
         "inputType": "textarea"
     },
     "question": {
-        "en": "6.15 - Link to Cognitive Atlas definition of this contrast<div style='font-size: 70%; text-align:left;'><details> <summary> details </summary> <br>Define these in terms of task or stimulus conditions (e.g., 'one-back task with objects versus zero-back task with objects') instead of underlying psychological concepts (e.g., 'working memory').</details></div>"
+        "en": "Link to Cognitive Atlas definition of this contrast"
+    },
+    "details": {
+        "en": "Define these in terms of task or stimulus conditions (e.g., 'one-back task with objects versus zero-back task with objects') instead of underlying psychological concepts (e.g., 'working memory')."
     }
 }

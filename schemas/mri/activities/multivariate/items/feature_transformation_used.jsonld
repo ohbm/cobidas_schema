@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.4 - Was any feature transformation applied?"
+        "en": "Was any feature transformation applied?"
     },
     "responseOptions": {
         "valueType": "xsd:integer",

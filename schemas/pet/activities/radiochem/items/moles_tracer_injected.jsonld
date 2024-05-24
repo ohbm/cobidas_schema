@@ -12,7 +12,7 @@
         "inputType": "float"
     },
     "question": {
-        "en": "3.5 - Moles tracer injected"
+        "en": "Moles tracer injected"
     },
     "responseOptions": {
         "valueType": "xsd:float",

@@ -12,7 +12,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "1.39 - Search region used"
+        "en": "Search region used"
     },
     "responseOptions": {
         "valueType": "xsd:integer",
