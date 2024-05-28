@@ -101,7 +101,7 @@
         ]
     },
     "landingPage": {
-        "@id": "../README_reexecute-en.md",
+        "@id": "../README_reexecute-en.html",
         "inLanguage": "en"
     }
 }

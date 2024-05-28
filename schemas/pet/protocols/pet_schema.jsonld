@@ -153,7 +153,7 @@
         ]
     },
     "landingPage": {
-        "@id": "../README_PET-en.md",
+        "@id": "../README_PET-en.html",
         "inLanguage": "en"
     }
 }

@@ -179,7 +179,7 @@
         ]
     },
     "landingPage": {
-        "@id": "../README_eyetracker-en.md",
+        "@id": "../README_eyetracker-en.html",
         "inLanguage": "en"
     }
 }
