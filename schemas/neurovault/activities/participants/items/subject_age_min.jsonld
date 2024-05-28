@@ -16,6 +16,7 @@
     },
     "responseOptions": {
         "valueType": "xsd:float",
-        "minValue": 0
+        "minValue": 0,
+        "maxValue": 120
     }
 }

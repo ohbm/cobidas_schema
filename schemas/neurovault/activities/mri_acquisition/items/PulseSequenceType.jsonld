@@ -52,9 +52,15 @@
                     "en": "FLASH"
                 },
                 "value": 5
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 6
             }
         ],
         "minValue": 0,
-        "maxValue": 5
+        "maxValue": 6
     }
 }

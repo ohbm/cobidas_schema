@@ -1,0 +1,17 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc4/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "statistical_tools_and_versions.jsonld",
+    "schemaVersion": "1.0.0-rc4",
+    "version": "0.0.1",
+    "prefLabel": {
+        "en": "statistical tools and versions"
+    },
+    "description": "statistical tools and versions",
+    "ui": {
+        "inputType": "textarea"
+    },
+    "question": {
+        "en": "List the tools and versions indicated (i.e. Stata 5.0).  If more than one tool used, use a new line for each tool."
+    }
+}

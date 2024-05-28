@@ -28,9 +28,15 @@
                     "en": "generalized least squares"
                 },
                 "value": 1
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 2
             }
         ],
         "minValue": 0,
-        "maxValue": 1
+        "maxValue": 2
     }
 }

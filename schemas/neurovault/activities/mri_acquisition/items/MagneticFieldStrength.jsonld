@@ -17,6 +17,7 @@
     "responseOptions": {
         "valueType": "xsd:float",
         "minValue": 0,
+        "maxValue": 20,
         "unitOptions": [
             {
                 "prefLabel": {

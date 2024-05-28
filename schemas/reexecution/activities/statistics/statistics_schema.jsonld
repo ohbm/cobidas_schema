@@ -15,7 +15,7 @@
         "shuffle": false,
         "order": [
             "items/statistical_tools_specified.jsonld",
-            "items/statitical_tools_and_versions.jsonld",
+            "items/statistical_tools_and_versions.jsonld",
             "items/statistics_OS_specified.jsonld",
             "items/statistics_OS_class.jsonld",
             "items/statistics_OS_details.jsonld",
@@ -36,10 +36,10 @@
                 ]
             },
             {
-                "variableName": "statitical_tools_and_versions",
-                "isAbout": "items/statitical_tools_and_versions.jsonld",
+                "variableName": "statistical_tools_and_versions",
+                "isAbout": "items/statistical_tools_and_versions.jsonld",
                 "prefLabel": {
-                    "en": "statitical tools and versions"
+                    "en": "statistical tools and versions"
                 },
                 "isVis": "statistical_tools_specified == 1",
                 "requiredValue": false,

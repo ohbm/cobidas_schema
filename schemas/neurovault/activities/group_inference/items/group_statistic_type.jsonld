@@ -58,9 +58,15 @@
                     "en": "Monte Carlo Permutations"
                 },
                 "value": 6
+            },
+            {
+                "name": {
+                    "en": "other"
+                },
+                "value": 7
             }
         ],
         "minValue": 0,
-        "maxValue": 6
+        "maxValue": 7
     }
 }
