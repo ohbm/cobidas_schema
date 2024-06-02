@@ -151,5 +151,15 @@
             "reproschema:AutoAdvance",
             "reproschema:AllowExport"
         ]
-    }
+    },
+    "messages": [
+        {
+            "message": "minimum age must be less than mean age",
+            "jsExpression": "subject_age_min > subject_age_mean"
+        },
+        {
+            "message": "maximum age must be more than mean age",
+            "jsExpression": "subject_age_max < subject_age_mean"
+        }
+    ]
 }
