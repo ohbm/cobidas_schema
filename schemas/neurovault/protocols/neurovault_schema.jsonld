@@ -28,7 +28,8 @@
                 "variableName": "experimental_design",
                 "isAbout": "../activities/experimental_design/experimental_design_schema.jsonld",
                 "prefLabel": {
-                    "en": "Experimental design"
+                    "en": "Experimental design",
+                    "fr": "Design expérimental"
                 },
                 "isVis": true,
                 "requiredValue": false,
@@ -64,7 +65,8 @@
                 "variableName": "preprocessing",
                 "isAbout": "../activities/preprocessing/preprocessing_schema.jsonld",
                 "prefLabel": {
-                    "en": "Preprocessing"
+                    "en": "Preprocessing",
+                    "fr": "Pré-traitement"
                 },
                 "isVis": true,
                 "requiredValue": false,

@@ -5,7 +5,8 @@
     "schemaVersion": "1.0.0-rc4",
     "version": "0.0.1",
     "prefLabel": {
-        "en": "Results"
+        "en": "Results",
+        "fr": "Résultats"
     },
     "description": "results",
     "preamble": {
@@ -34,7 +35,8 @@
                 "variableName": "analysis_type",
                 "isAbout": "items/analysis_type.jsonld",
                 "prefLabel": {
-                    "en": "analysis type"
+                    "en": "analysis type",
+                    "fr": "type d'analyse"
                 },
                 "isVis": true,
                 "requiredValue": false,

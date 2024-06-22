@@ -34,7 +34,8 @@
                 "variableName": "results",
                 "isAbout": "../../mri/activities/results/results_schema.jsonld",
                 "prefLabel": {
-                    "en": "Results"
+                    "en": "Results",
+                    "fr": "Résultats"
                 },
                 "isVis": true,
                 "requiredValue": false,
