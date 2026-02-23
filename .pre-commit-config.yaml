@@ -17,7 +17,7 @@ repos:
 
 # Sorts Python imports alphabetically and by section with `isort`.
 -   repo: https://github.com/pycqa/isort
-    rev: 7.0.0
+    rev: 8.0.0
     hooks:
     -   id: isort
         args: [--profile, black, --settings-path, pyproject.toml]
@@ -32,7 +32,7 @@ repos:
 # Aplly black formatting to python code
 # https://github.com/psf/black
 -   repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 25.12.0
+    rev: 26.1.0
     hooks:
     -   id: black
         args: [--config, pyproject.toml]
@@ -54,7 +54,7 @@ repos:
 
 # Format TOML files
 -   repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-    rev: v2.15.0
+    rev: v2.16.0
     hooks:
     -   id: pretty-format-toml
         args: [--autofix, --indent, '4']
