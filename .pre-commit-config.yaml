@@ -23,7 +23,7 @@ repos:
 
 # Sorts Python imports alphabetically and by section with `isort`.
 -   repo: https://github.com/pycqa/isort
-    rev: 8.0.1
+    rev: 9.0.0a3
     hooks:
     -   id: isort
         args: [--profile, black, --settings-path, pyproject.toml]
@@ -38,14 +38,14 @@ repos:
 # Aplly black formatting to python code
 # https://github.com/psf/black
 -   repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 26.1.0
+    rev: 26.5.1
     hooks:
     -   id: black
         args: [--config, pyproject.toml]
 
 # Checks for spelling errors
 -   repo: https://github.com/codespell-project/codespell
-    rev: v2.4.1
+    rev: v2.4.2
     hooks:
     -   id: codespell
         args: [--toml, pyproject.toml]
